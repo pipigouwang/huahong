@@ -29,7 +29,7 @@ class Index extends Controller
     //公总号入口
     public function index()
     {
-        $publicnumber = \wxlib\wxpublicnumber::getInstence();
+        $publicnumber =\wxlib\wxpublicnumber::getInstence();
         $publicnumber->handle();
     }
     //前端首页信息

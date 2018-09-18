@@ -1137,3 +1137,795 @@
 [ info ] [ PARAM ] array (
 )
 [ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-18T13:12:31+08:00 ] 127.0.0.1 GET /src/favicon.ico
+[ info ] 127.0.0.2/src/favicon.ico [运行时间：0.015001s][吞吐率：66.66req/s] [内存消耗：827.07kb] [文件加载：48]
+[ info ] [ LANG ] E:\PHPTutorial\WWW\read1\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'socketlog' => 'SocketLog(tabid=93&client_id=123456)',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.2/',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.2',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-18T13:32:38+08:00 ] 127.0.0.1 POST /index/member/agent
+[ info ] localhost/index/member/agent [运行时间：0.055004s][吞吐率：18.18req/s] [内存消耗：1,048.09kb] [文件加载：54]
+[ info ] [ LANG ] E:\PHPTutorial\WWW\read1\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'content-length' => '37',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=0qreec7mtd14pkh6udsmifcai9',
+  'host' => 'localhost',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.3.0',
+  'postman-token' => '07e87171-6e2c-4a6e-a2ea-fe7bdc8c0c78',
+  'cache-control' => 'no-cache',
+  'content-type' => 'application/json',
+)
+[ info ] [ PARAM ] array (
+  'tag' => 'member',
+  'op' => 'agent',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-18T13:32:47+08:00 ] 127.0.0.1 POST /admin/test/index
+[ info ] localhost/admin/test/index [运行时间：0.039002s][吞吐率：25.64req/s] [内存消耗：1,788.92kb] [文件加载：61]
+[ info ] [ LANG ] E:\PHPTutorial\WWW\read1\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'content-length' => '6',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=0qreec7mtd14pkh6udsmifcai9',
+  'host' => 'localhost',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.3.0',
+  'postman-token' => '0991817a-0c56-46a3-88cf-02b677444e78',
+  'cache-control' => 'no-cache',
+  'content-type' => 'application/x-www-form-urlencoded',
+)
+[ info ] [ PARAM ] array (
+  'type' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'huahong'@'localhost' (using password: YES)[E:\PHPTutorial\WWW\read1\thinkphp\library\think\db\Connection.php:501]
+---------------------------------------------------------------
+[ 2018-09-18T13:33:10+08:00 ] 127.0.0.1 POST /admin/member/index
+[ info ] localhost/admin/member/index [运行时间：0.025001s][吞吐率：40.00req/s] [内存消耗：1,807.86kb] [文件加载：64]
+[ info ] [ LANG ] E:\PHPTutorial\WWW\read1\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'content-length' => '6',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=0qreec7mtd14pkh6udsmifcai9',
+  'host' => 'localhost',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.3.0',
+  'postman-token' => 'b7cae81f-c7b4-4ca8-8a6b-2342888b724b',
+  'cache-control' => 'no-cache',
+  'content-type' => 'application/x-www-form-urlencoded',
+)
+[ info ] [ PARAM ] array (
+  'type' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'huahong'@'localhost' (using password: YES)[E:\PHPTutorial\WWW\read1\thinkphp\library\think\db\Connection.php:501]
+---------------------------------------------------------------
+[ 2018-09-18T13:34:32+08:00 ] 127.0.0.1 POST /index/index
+[ info ] localhost/index/index [运行时间：0.017001s][吞吐率：58.82req/s] [内存消耗：1,174.09kb] [文件加载：59]
+[ info ] [ LANG ] E:\PHPTutorial\WWW\read1\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'content-length' => '6',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=0qreec7mtd14pkh6udsmifcai9',
+  'host' => 'localhost',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.3.0',
+  'postman-token' => 'b4bc5e90-bd5e-4fc0-bc8e-f67383d90eb1',
+  'cache-control' => 'no-cache',
+  'content-type' => 'application/x-www-form-urlencoded',
+)
+[ info ] [ PARAM ] array (
+  'type' => '1',
+)
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: HTTP_RAW_POST_DATA[E:\PHPTutorial\WWW\read1\extend\wxlib\request.php:17]
+---------------------------------------------------------------
+[ 2018-09-18T13:34:42+08:00 ] 127.0.0.1 POST /index/index
+[ info ] localhost/index/index [运行时间：0.019002s][吞吐率：52.63req/s] [内存消耗：1,174.09kb] [文件加载：59]
+[ info ] [ LANG ] E:\PHPTutorial\WWW\read1\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'content-length' => '6',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=0qreec7mtd14pkh6udsmifcai9',
+  'host' => 'localhost',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.3.0',
+  'postman-token' => '5a197170-a27e-4df1-a7ec-af4561d99b34',
+  'cache-control' => 'no-cache',
+  'content-type' => 'application/x-www-form-urlencoded',
+)
+[ info ] [ PARAM ] array (
+  'type' => '1',
+)
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: HTTP_RAW_POST_DATA[E:\PHPTutorial\WWW\read1\extend\wxlib\request.php:17]
+---------------------------------------------------------------
+[ 2018-09-18T13:37:45+08:00 ] 127.0.0.1 POST /admin/member/index
+[ info ] localhost/admin/member/index [运行时间：0.029001s][吞吐率：34.48req/s] [内存消耗：1,807.86kb] [文件加载：64]
+[ info ] [ LANG ] E:\PHPTutorial\WWW\read1\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'content-length' => '6',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=0qreec7mtd14pkh6udsmifcai9',
+  'host' => 'localhost',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.3.0',
+  'postman-token' => '57e983de-1ab3-429f-a1d9-ec9754f5faee',
+  'cache-control' => 'no-cache',
+  'content-type' => 'application/x-www-form-urlencoded',
+)
+[ info ] [ PARAM ] array (
+  'type' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'huahong'@'localhost' (using password: YES)[E:\PHPTutorial\WWW\read1\thinkphp\library\think\db\Connection.php:501]
+---------------------------------------------------------------
+[ 2018-09-18T13:37:54+08:00 ] 127.0.0.1 POST /admin/
+[ info ] localhost/admin/ [运行时间：0.025002s][吞吐率：40.00req/s] [内存消耗：1,791.01kb] [文件加载：64]
+[ info ] [ LANG ] E:\PHPTutorial\WWW\read1\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'content-length' => '6',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=0qreec7mtd14pkh6udsmifcai9',
+  'host' => 'localhost',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.3.0',
+  'postman-token' => '92557976-077e-4ce1-ada0-b976e9b0bfa1',
+  'cache-control' => 'no-cache',
+  'content-type' => 'application/x-www-form-urlencoded',
+)
+[ info ] [ PARAM ] array (
+  'type' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'huahong'@'localhost' (using password: YES)[E:\PHPTutorial\WWW\read1\thinkphp\library\think\db\Connection.php:501]
+---------------------------------------------------------------
+[ 2018-09-18T13:38:14+08:00 ] 127.0.0.1 POST /index/index
+[ info ] localhost/index/index [运行时间：0.019001s][吞吐率：52.63req/s] [内存消耗：1,174.09kb] [文件加载：59]
+[ info ] [ LANG ] E:\PHPTutorial\WWW\read1\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'content-length' => '6',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=0qreec7mtd14pkh6udsmifcai9',
+  'host' => 'localhost',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.3.0',
+  'postman-token' => '49f9f1be-9a1c-4117-a543-fb4d7a2887ce',
+  'cache-control' => 'no-cache',
+  'content-type' => 'application/x-www-form-urlencoded',
+)
+[ info ] [ PARAM ] array (
+  'type' => '1',
+)
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: HTTP_RAW_POST_DATA[E:\PHPTutorial\WWW\read1\extend\wxlib\request.php:17]
+---------------------------------------------------------------
+[ 2018-09-18T13:39:05+08:00 ] 127.0.0.1 POST /index/index
+[ info ] localhost/index/index [运行时间：0.017001s][吞吐率：58.82req/s] [内存消耗：1,174.09kb] [文件加载：59]
+[ info ] [ LANG ] E:\PHPTutorial\WWW\read1\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'content-length' => '6',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=0qreec7mtd14pkh6udsmifcai9',
+  'host' => 'localhost',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.3.0',
+  'postman-token' => 'c16584e7-2689-4df7-99b7-6a48d614d0cc',
+  'cache-control' => 'no-cache',
+  'content-type' => 'application/x-www-form-urlencoded',
+)
+[ info ] [ PARAM ] array (
+  'type' => '1',
+)
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: HTTP_RAW_POST_DATA[E:\PHPTutorial\WWW\read1\extend\wxlib\request.php:17]
+---------------------------------------------------------------
+[ 2018-09-18T13:39:10+08:00 ] 127.0.0.1 POST /index/index
+[ info ] localhost/index/index [运行时间：0.019001s][吞吐率：52.63req/s] [内存消耗：1,174.09kb] [文件加载：59]
+[ info ] [ LANG ] E:\PHPTutorial\WWW\read1\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'content-length' => '6',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=0qreec7mtd14pkh6udsmifcai9',
+  'host' => 'localhost',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.3.0',
+  'postman-token' => '06427ea7-dbb8-4a78-95e6-81c01ca11fd5',
+  'cache-control' => 'no-cache',
+  'content-type' => 'application/x-www-form-urlencoded',
+)
+[ info ] [ PARAM ] array (
+  'type' => '1',
+)
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: HTTP_RAW_POST_DATA[E:\PHPTutorial\WWW\read1\extend\wxlib\request.php:17]
+---------------------------------------------------------------
+[ 2018-09-18T13:40:01+08:00 ] 127.0.0.1 POST /index/banner
+[ info ] localhost/index/banner [运行时间：0.015001s][吞吐率：66.66req/s] [内存消耗：828.30kb] [文件加载：49]
+[ info ] [ LANG ] E:\PHPTutorial\WWW\read1\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'content-length' => '6',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=0qreec7mtd14pkh6udsmifcai9',
+  'host' => 'localhost',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.3.0',
+  'postman-token' => 'a55d7d20-cf36-4f6a-a9f2-d45a082297f5',
+  'cache-control' => 'no-cache',
+  'content-type' => 'application/x-www-form-urlencoded',
+)
+[ info ] [ PARAM ] array (
+  'type' => '1',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-18T13:40:36+08:00 ] 127.0.0.1 POST /admin/
+[ info ] localhost/admin/ [运行时间：0.026001s][吞吐率：38.46req/s] [内存消耗：1,791.01kb] [文件加载：64]
+[ info ] [ LANG ] E:\PHPTutorial\WWW\read1\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'content-length' => '6',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=0qreec7mtd14pkh6udsmifcai9',
+  'host' => 'localhost',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.3.0',
+  'postman-token' => '15a93edf-13cd-49bd-a1a1-85d5676fc2c6',
+  'cache-control' => 'no-cache',
+  'content-type' => 'application/x-www-form-urlencoded',
+)
+[ info ] [ PARAM ] array (
+  'type' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'huahong'@'localhost' (using password: YES)[E:\PHPTutorial\WWW\read1\thinkphp\library\think\db\Connection.php:501]
+---------------------------------------------------------------
+[ 2018-09-18T13:40:43+08:00 ] 127.0.0.1 POST /admin/test/index
+[ info ] localhost/admin/test/index [运行时间：0.024001s][吞吐率：41.67req/s] [内存消耗：1,788.92kb] [文件加载：61]
+[ info ] [ LANG ] E:\PHPTutorial\WWW\read1\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'content-length' => '6',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=0qreec7mtd14pkh6udsmifcai9',
+  'host' => 'localhost',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.3.0',
+  'postman-token' => '8e69e83e-9783-4626-9801-0a2c7a4bff5e',
+  'cache-control' => 'no-cache',
+  'content-type' => 'application/x-www-form-urlencoded',
+)
+[ info ] [ PARAM ] array (
+  'type' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'huahong'@'localhost' (using password: YES)[E:\PHPTutorial\WWW\read1\thinkphp\library\think\db\Connection.php:501]
+---------------------------------------------------------------
+[ 2018-09-18T13:40:51+08:00 ] 127.0.0.1 POST /index/index
+[ info ] localhost/index/index [运行时间：0.019001s][吞吐率：52.63req/s] [内存消耗：1,174.09kb] [文件加载：59]
+[ info ] [ LANG ] E:\PHPTutorial\WWW\read1\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'content-length' => '6',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=0qreec7mtd14pkh6udsmifcai9',
+  'host' => 'localhost',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.3.0',
+  'postman-token' => 'df86a5a2-d84a-4f24-9c50-f889867f778b',
+  'cache-control' => 'no-cache',
+  'content-type' => 'application/x-www-form-urlencoded',
+)
+[ info ] [ PARAM ] array (
+  'type' => '1',
+)
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: HTTP_RAW_POST_DATA[E:\PHPTutorial\WWW\read1\extend\wxlib\request.php:17]
+---------------------------------------------------------------
+[ 2018-09-18T13:42:50+08:00 ] 127.0.0.1 POST /index
+[ info ] 127.0.0.1/index [运行时间：0.020001s][吞吐率：50.00req/s] [内存消耗：1,173.90kb] [文件加载：59]
+[ info ] [ LANG ] E:\PHPTutorial\WWW\read1\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'content-length' => '6',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => '127.0.0.1',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.3.0',
+  'postman-token' => '9a81d117-8ae9-4279-9db4-a9d7d69fb3fe',
+  'cache-control' => 'no-cache',
+  'content-type' => 'application/x-www-form-urlencoded',
+)
+[ info ] [ PARAM ] array (
+  'type' => '1',
+)
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: HTTP_RAW_POST_DATA[E:\PHPTutorial\WWW\read1\extend\wxlib\request.php:17]
+---------------------------------------------------------------
+[ 2018-09-18T13:42:57+08:00 ] 127.0.0.1 POST /index/
+[ info ] 127.0.0.1/index/ [运行时间：0.017001s][吞吐率：58.82req/s] [内存消耗：1,173.93kb] [文件加载：59]
+[ info ] [ LANG ] E:\PHPTutorial\WWW\read1\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'content-length' => '6',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => '127.0.0.1',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.3.0',
+  'postman-token' => '9d7142ef-d21c-4aab-80d2-5a1fa7601741',
+  'cache-control' => 'no-cache',
+  'content-type' => 'application/x-www-form-urlencoded',
+)
+[ info ] [ PARAM ] array (
+  'type' => '1',
+)
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: HTTP_RAW_POST_DATA[E:\PHPTutorial\WWW\read1\extend\wxlib\request.php:17]
+---------------------------------------------------------------
+[ 2018-09-18T13:46:52+08:00 ] 127.0.0.1 GET /index/index
+[ info ] 127.0.0.1/index/index [运行时间：0.019001s][吞吐率：52.63req/s] [内存消耗：1,174.95kb] [文件加载：59]
+[ info ] [ LANG ] E:\PHPTutorial\WWW\read1\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'socketlog' => 'SocketLog(tabid=71&client_id=123456)',
+  'cookie' => 'PHPSESSID=1f29rok1bh79cn605e14785psh',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: HTTP_RAW_POST_DATA[E:\PHPTutorial\WWW\read1\extend\wxlib\request.php:17]
+---------------------------------------------------------------
+[ 2018-09-18T13:47:09+08:00 ] 127.0.0.1 GET /index/index
+[ info ] 127.0.0.1/index/index [运行时间：0.017001s][吞吐率：58.82req/s] [内存消耗：1,175.13kb] [文件加载：59]
+[ info ] [ LANG ] E:\PHPTutorial\WWW\read1\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'socketlog' => 'SocketLog(tabid=71&client_id=123456)',
+  'cookie' => 'PHPSESSID=1f29rok1bh79cn605e14785psh',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: HTTP_RAW_POST_DATA[E:\PHPTutorial\WWW\read1\extend\wxlib\request.php:17]
+---------------------------------------------------------------
+[ 2018-09-18T13:48:12+08:00 ] 127.0.0.1 GET /index/index
+[ info ] localhost/index/index [运行时间：0.017001s][吞吐率：58.82req/s] [内存消耗：1,175.17kb] [文件加载：59]
+[ info ] [ LANG ] E:\PHPTutorial\WWW\read1\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'socketlog' => 'SocketLog(tabid=71&client_id=123456)',
+  'cookie' => 'Phpstorm-716cfd00=3458c0ef-ed0d-4f78-8181-e89330457253; _ga=GA1.1.1292013810.1535618470; _gid=GA1.1.1226084257.1537240851',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: HTTP_RAW_POST_DATA[E:\PHPTutorial\WWW\read1\extend\wxlib\request.php:17]
+---------------------------------------------------------------
+[ 2018-09-18T13:57:20+08:00 ] 127.0.0.1 GET /index/index
+[ info ] localhost/index/index [运行时间：0.019001s][吞吐率：52.63req/s] [内存消耗：1,175.23kb] [文件加载：59]
+[ info ] [ LANG ] E:\PHPTutorial\WWW\read1\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'socketlog' => 'SocketLog(tabid=71&client_id=123456)',
+  'cookie' => 'Phpstorm-716cfd00=3458c0ef-ed0d-4f78-8181-e89330457253; _ga=GA1.1.1292013810.1535618470; _gid=GA1.1.1226084257.1537240851',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: HTTP_RAW_POST_DATA[E:\PHPTutorial\WWW\read1\extend\wxlib\request.php:17]
+---------------------------------------------------------------
+[ 2018-09-18T16:07:11+08:00 ] 127.0.0.1 POST /admin/users/rulegroup
+[ info ] www.huahong.com/admin/users/rulegroup [运行时间：0.047003s][吞吐率：21.28req/s] [内存消耗：1,367.94kb] [文件加载：63]
+[ info ] [ LANG ] E:\PHPTutorial\WWW\read1\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'content-length' => '84',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.huahong.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.3.0',
+  'postman-token' => '6e376c02-54b6-400b-bd61-1152177a7c85',
+  'cache-control' => 'no-cache',
+  'content-type' => 'application/x-www-form-urlencoded',
+)
+[ info ] [ PARAM ] array (
+  'tag' => ' user',
+  'op' => ' user_login',
+  'data' => 
+  array (
+    'account' => ' admin',
+    'password' => ' 123456',
+  ),
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-18T16:08:29+08:00 ] 127.0.0.1 POST /admin/users/rulegroup
+[ info ] www.huahong.com/admin/users/rulegroup [运行时间：0.020001s][吞吐率：50.00req/s] [内存消耗：1,367.45kb] [文件加载：63]
+[ info ] [ LANG ] E:\PHPTutorial\WWW\read1\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'content-length' => '84',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=3i375qfn09p8lfdducri24i2io',
+  'host' => 'www.huahong.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.3.0',
+  'postman-token' => '258036f4-be55-4672-aad9-f496db47bf0a',
+  'cache-control' => 'no-cache',
+  'content-type' => 'application/x-www-form-urlencoded',
+)
+[ info ] [ PARAM ] array (
+  'tag' => ' user',
+  'op' => ' user_login',
+  'data' => 
+  array (
+    'account' => ' admin',
+    'password' => ' 123456',
+  ),
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-18T16:08:59+08:00 ] 127.0.0.1 POST /admin/users/rulegroup
+[ info ] www.huahong.com/admin/users/rulegroup [运行时间：0.019001s][吞吐率：52.63req/s] [内存消耗：1,368.70kb] [文件加载：63]
+[ info ] [ LANG ] E:\PHPTutorial\WWW\read1\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'content-length' => '513',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=3i375qfn09p8lfdducri24i2io',
+  'host' => 'www.huahong.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.3.0',
+  'postman-token' => '40306534-5693-4e83-a2be-fd004498d299',
+  'cache-control' => 'no-cache',
+  'content-type' => 'multipart/form-data; boundary=--------------------------455579361716991119112645',
+)
+[ info ] [ PARAM ] array (
+  'tag' => ' user',
+  'op' => ' user_login',
+  'data' => 
+  array (
+    'account' => ' admin',
+    'password' => ' 123456',
+  ),
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-18T16:09:55+08:00 ] 127.0.0.1 POST /admin/users/rulegroup
+[ info ] www.huahong.com/admin/users/rulegroup [运行时间：0.027001s][吞吐率：37.04req/s] [内存消耗：1,368.70kb] [文件加载：63]
+[ info ] [ LANG ] E:\PHPTutorial\WWW\read1\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'content-length' => '513',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=3i375qfn09p8lfdducri24i2io',
+  'host' => 'www.huahong.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.3.0',
+  'postman-token' => '2000b8d2-7563-4a37-b32c-8d0e23c7faca',
+  'cache-control' => 'no-cache',
+  'content-type' => 'multipart/form-data; boundary=--------------------------943479856323207625917532',
+)
+[ info ] [ PARAM ] array (
+  'tag' => ' user',
+  'op' => ' user_login',
+  'data' => 
+  array (
+    'account' => ' admin',
+    'password' => ' 123456',
+  ),
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-18T16:10:59+08:00 ] 127.0.0.1 POST /admin/users/rulegroup
+[ info ] www.huahong.com/admin/users/rulegroup [运行时间：0.019002s][吞吐率：52.63req/s] [内存消耗：1,368.70kb] [文件加载：63]
+[ info ] [ LANG ] E:\PHPTutorial\WWW\read1\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'content-length' => '513',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=3i375qfn09p8lfdducri24i2io',
+  'host' => 'www.huahong.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.3.0',
+  'postman-token' => '596923a9-45ec-411c-b7e4-766e9d553e29',
+  'cache-control' => 'no-cache',
+  'content-type' => 'multipart/form-data; boundary=--------------------------659560193964486795353416',
+)
+[ info ] [ PARAM ] array (
+  'tag' => ' user',
+  'op' => ' user_login',
+  'data' => 
+  array (
+    'account' => ' admin',
+    'password' => ' 123456',
+  ),
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-18T16:11:14+08:00 ] 127.0.0.1 POST /admin/users/rulegroup
+[ info ] www.huahong.com/admin/users/rulegroup [运行时间：0.019001s][吞吐率：52.63req/s] [内存消耗：1,367.45kb] [文件加载：63]
+[ info ] [ LANG ] E:\PHPTutorial\WWW\read1\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'content-length' => '513',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=3i375qfn09p8lfdducri24i2io',
+  'host' => 'www.huahong.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.3.0',
+  'postman-token' => 'c0eb6ec0-c90e-4e3a-b911-e0c2b2596f19',
+  'cache-control' => 'no-cache',
+  'content-type' => 'multipart/form-data; boundary=--------------------------238108380157610763513753',
+)
+[ info ] [ PARAM ] array (
+  'tag' => ' user',
+  'op' => ' user_login',
+  'data' => 
+  array (
+    'account' => ' admin',
+    'password' => ' 123456',
+  ),
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-18T16:12:13+08:00 ] 127.0.0.1 POST /admin/users/rulegroup
+[ info ] www.huahong.com/admin/users/rulegroup [运行时间：0.105006s][吞吐率：9.52req/s] [内存消耗：2,146.03kb] [文件加载：70]
+[ info ] [ LANG ] E:\PHPTutorial\WWW\read1\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'content-length' => '509',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=3i375qfn09p8lfdducri24i2io',
+  'host' => 'www.huahong.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.3.0',
+  'postman-token' => '10eb6b32-5ef1-483e-9acc-b862b7f13e2c',
+  'cache-control' => 'no-cache',
+  'content-type' => 'multipart/form-data; boundary=--------------------------270505539244204117025788',
+)
+[ info ] [ PARAM ] array (
+  'tag' => 'user',
+  'op' => 'user_login',
+  'data' => 
+  array (
+    'account' => 'admin',
+    'password' => '123456',
+  ),
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File

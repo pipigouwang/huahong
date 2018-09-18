@@ -19,10 +19,10 @@ class UserBase extends Controller{
         }
         $auth = new \Auth\Auth();
         $request = Request::instance();
-        if (!$auth->check($request->module()
+       /* if (!$auth->check($request->module()
             . '-' . $request->controller() . '-' .
             $request->action(), 1)) {// 第一个参数是规则名称,第二个参数是用户UID
             echo json_encode(['message'=>'没有权限','err'=>-1000]);die;
-        }
+        }*/
     }
 }
