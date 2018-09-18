@@ -1,5 +1,5 @@
 
-const domain = 'http://huahong.yongweisoft.cn'
+const domain = 'www.huahong.com'
 
 export default {
   testUrl: domain
