@@ -1,0 +1,456 @@
+---------------------------------------------------------------
+[2018-08-23T10:59:06+08:00] 171.88.164.212 POST abc.yongweisoft.cn/index.php/wxsmallprogram/interface_api/api
+[运行时间：2.885772s] [吞吐率：0.35req/s] [内存消耗：4,955.43kb] [文件加载：96]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'abc.yongweisoft.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '49',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'origin' => 'http://127.0.0.1:51464',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1808100 MicroMessenger/6.5.7 Language/zh_CN webview/ token/1db2dd2bf99d08b59ee7fa8eddb03567',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx55a78e77456c4f35/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate, br',
+)
+[ info ] [ PARAM ] array (
+  'tag' => 'LOGIN_C',
+  'code' => '033T9HTN095YM32unVUN0qU2UN0T9HTc',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000450s ] mysql:host=127.0.0.1;port=3306;dbname=spa;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_member` [ RunTime:0.025648s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_member` WHERE  `openid` = 'oanaV5FlgDyUa4k1Q_r8jdkiHxH0' LIMIT 1 [ RunTime:0.000638s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'yw_member',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 11,
+  'extra' => 'Using where',
+) ]
+---------------------------------------------------------------
+[2018-08-23T10:59:06+08:00] 171.88.164.212 POST abc.yongweisoft.cn/index.php/wxsmallprogram/interface_api/api
+[运行时间：0.199980s] [吞吐率：5.00req/s] [内存消耗：4,838.13kb] [文件加载：95]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'abc.yongweisoft.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '65',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'origin' => 'http://127.0.0.1:51464',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1808100 MicroMessenger/6.5.7 Language/zh_CN webview/ token/1db2dd2bf99d08b59ee7fa8eddb03567',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx55a78e77456c4f35/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=h08aq2dgd6nthcjijbujm2o3e6; path=/; HttpOnly',
+)
+[ info ] [ PARAM ] array (
+  'time' => '1534993147',
+  'sign' => 'DF58BE7105FBDFF32C054AAC63BBC41D',
+  'tag' => 'INDEX_S',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000366s ] mysql:host=127.0.0.1;port=3306;dbname=spa;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_service_goods` [ RunTime:0.000792s ]
+[ sql ] [ SQL ] SELECT `a`.`id`,imgurl as photo FROM `yw_service_goods` `a` INNER JOIN `yw_goods` `g` ON `a`.`gid`=`g`.`id` WHERE  `type` = '4' [ RunTime:0.000463s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'a',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 1,
+  'extra' => '',
+) ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yw_service_goods` `a` INNER JOIN `yw_goods` `g` ON `a`.`gid`=`g`.`id` WHERE  `type` = '4' LIMIT 1 [ RunTime:0.000349s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'a',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 1,
+  'extra' => '',
+) ]
+---------------------------------------------------------------
+[2018-08-23T13:35:01+08:00] 171.88.164.212 POST abc.yongweisoft.cn/member/scorelist?version=v1&page=1&limit=10
+[运行时间：0.114504s] [吞吐率：8.73req/s] [内存消耗：4,518.45kb] [文件加载：87]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'member/scorelist',
+  'route' => 'member/PointHistory/history_list',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'abc.yongweisoft.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '6',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'https://abc.yongweisoft.cn',
+  'authorization' => 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VySW5mbyI6ImhlbGxvIiwidGltZXMiOjAsImV4cCI6MTUzNTA4ODg4OSwiaXNzIjoieXcuY29tIiwibWVtYmVyaWQiOjF9.lXh5VLYL2denhiCBciwT1s6GwN1k-SwFP1b_t_JGY60',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'https://abc.yongweisoft.cn/web/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=g4ieg7heep08h97clqelkfk0a6; Hm_lvt_dde6ba2851f3db0ddc415ce0f895822e=1534752798,1534833499,1534899690,1535002375; Hm_lpvt_dde6ba2851f3db0ddc415ce0f895822e=1535002375',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+  'page' => '1',
+  'limit' => '10',
+  'phone' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000471s ] mysql:host=127.0.0.1;port=3306;dbname=spa;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_pointhistory` [ RunTime:0.000872s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_pointhistory` INNER JOIN `yw_member` `member` ON `yw_pointhistory`.`mid`=`member`.`id` LIMIT 0,10 [ RunTime:0.000551s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'yw_pointhistory',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 1,
+  'extra' => '',
+) ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yw_pointhistory` INNER JOIN `yw_member` `member` ON `yw_pointhistory`.`mid`=`member`.`id` LIMIT 1 [ RunTime:0.000413s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'yw_pointhistory',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 1,
+  'extra' => '',
+) ]
+---------------------------------------------------------------
+[2018-08-23T14:48:17+08:00] 37.49.231.158 GET 119.29.217.103:443//a2billing/admin/Public/index.php
+[运行时间：0.058571s] [吞吐率：17.07req/s] [内存消耗：2,794.06kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'te' => 'deflate,gzip;q=0.3',
+  'connection' => 'TE, close',
+  'host' => '119.29.217.103:443',
+  'user-agent' => 'libwww-perl/6.35',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2018-08-23T19:11:48+08:00] 171.212.216.42 GET abc.yongweisoft.cn/download/Hi%E5%88%86.apk
+[运行时间：0.029209s] [吞吐率：34.24req/s] [内存消耗：2,795.71kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'abc.yongweisoft.cn',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-cn',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'br, gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_4_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15G77 MicroMessenger/6.7.2 NetType/WIFI Language/zh_CN',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2018-08-23T19:14:41+08:00] 121.51.14.22 GET abc.yongweisoft.cn/download/Hi%E5%88%86.apk?from=singlemessage&isappinstalled=0
+[运行时间：0.027028s] [吞吐率：37.00req/s] [内存消耗：2,795.48kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'abc.yongweisoft.cn',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; zh-cn; vivo Y15T Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 baiduboxapp/042_0.4_diordna_458_084/KBB_71_2.2.4_T51Y+oviv/7300002a/85EF11FB7AD97C9AD2A298CCD3D13E8C%7C052363420715368/1',
+  'accept' => '*/*',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'from' => 'singlemessage',
+  'isappinstalled' => '0',
+)
+---------------------------------------------------------------
+[2018-08-23T19:15:01+08:00] 58.250.137.193 HEAD abc.yongweisoft.cn/download/Hi分.apk?from=singlemessage
+[运行时间：0.043361s] [吞吐率：23.06req/s] [内存消耗：2,793.20kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'abc.yongweisoft.cn',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; zh-cn; HUAWEI MT2-L05 Build/HuaweiMT2-L05) AppleWebKit/533.1 (KHTML, like Gecko)Version/4.0 MQQBrowser/5.6 Mobile Safari/533.1 MicroMessenger/6.0.2.58_r984381.520 NetType/WIFI',
+  'accept' => '*/*',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'from' => 'singlemessage',
+)
+---------------------------------------------------------------
+[2018-08-23T19:15:01+08:00] 58.250.137.193 GET abc.yongweisoft.cn/download/Hi分.apk?from=singlemessage
+[运行时间：0.043391s] [吞吐率：23.05req/s] [内存消耗：2,794.93kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'abc.yongweisoft.cn',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 4.4.2; zh-cn; Coolpad 8297 Build/KOT49H) AppleWebKit/533.1 (KHTML, like Gecko)Version/4.0 MQQBrowser/5.4 TBS/025410 Mobile Safari/533.1 MicroMessenger/6.1.0.66_r1062275.542 NetType/WIFI',
+  'accept' => '*/*',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'from' => 'singlemessage',
+)
+---------------------------------------------------------------
+[2018-08-23T19:15:04+08:00] 171.212.216.42 GET abc.yongweisoft.cn/download/Hi%E5%88%86.apk?from=singlemessage
+[运行时间：0.024512s] [吞吐率：40.80req/s] [内存消耗：2,796.64kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'abc.yongweisoft.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.0.2; vivo Y35A Build/LRX22G; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/6.2 TBS/044205 Mobile Safari/537.36 MicroMessenger/6.6.7.1321(0x26060739) NetType/WIFI Language/zh_CN',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,image/wxpic,image/sharpp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'from' => 'singlemessage',
+)
+---------------------------------------------------------------
+[2018-08-23T20:33:59+08:00] 117.176.228.128 GET abc.yongweisoft.cn/web/images/portfolio/641.gif
+[运行时间：0.140813s] [吞吐率：7.10req/s] [内存消耗：2,795.85kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'abc.yongweisoft.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.1; OPPO A59m Build/LMY47I; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/56.0.2924.87 Mobile Safari/537.36 Html5Plus/1.0',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'x-requested-with' => 'io.dcloud.H5B5D7CCE',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2018-08-23T20:33:59+08:00] 117.176.228.128 GET abc.yongweisoft.cn/web/images/portfolio/640.gif
+[运行时间：0.160730s] [吞吐率：6.22req/s] [内存消耗：2,795.85kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'abc.yongweisoft.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.1; OPPO A59m Build/LMY47I; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/56.0.2924.87 Mobile Safari/537.36 Html5Plus/1.0',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'x-requested-with' => 'io.dcloud.H5B5D7CCE',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2018-08-23T20:33:59+08:00] 117.176.228.128 GET abc.yongweisoft.cn/web/images/portfolio/64001.gif
+[运行时间：0.131668s] [吞吐率：7.59req/s] [内存消耗：2,795.85kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'abc.yongweisoft.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.1; OPPO A59m Build/LMY47I; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/56.0.2924.87 Mobile Safari/537.36 Html5Plus/1.0',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'x-requested-with' => 'io.dcloud.H5B5D7CCE',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2018-08-23T20:33:59+08:00] 117.176.228.128 GET abc.yongweisoft.cn/web/images/portfolio/641.png
+[运行时间：0.166666s] [吞吐率：6.00req/s] [内存消耗：2,795.85kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'abc.yongweisoft.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.1; OPPO A59m Build/LMY47I; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/56.0.2924.87 Mobile Safari/537.36 Html5Plus/1.0',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'x-requested-with' => 'io.dcloud.H5B5D7CCE',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2018-08-23T20:33:59+08:00] 117.176.228.128 GET abc.yongweisoft.cn/web/images/portfolio/6403.jpg
+[运行时间：0.134751s] [吞吐率：7.42req/s] [内存消耗：2,796.30kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'abc.yongweisoft.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.1; OPPO A59m Build/LMY47I; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/56.0.2924.87 Mobile Safari/537.36 Html5Plus/1.0',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=vmrf1vnvnnqlqrus52n44qied6',
+  'x-requested-with' => 'io.dcloud.H5B5D7CCE',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2018-08-23T20:33:59+08:00] 117.176.228.128 GET abc.yongweisoft.cn/web/images/portfolio/643.gif
+[运行时间：0.126193s] [吞吐率：7.92req/s] [内存消耗：2,796.30kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'abc.yongweisoft.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.1; OPPO A59m Build/LMY47I; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/56.0.2924.87 Mobile Safari/537.36 Html5Plus/1.0',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=ocj4aiutcqbjs3t41gk5a8vg77',
+  'x-requested-with' => 'io.dcloud.H5B5D7CCE',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2018-08-23T20:33:59+08:00] 117.176.228.128 GET abc.yongweisoft.cn/web/images/portfolio/6407.png
+[运行时间：0.151207s] [吞吐率：6.61req/s] [内存消耗：2,796.30kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'abc.yongweisoft.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.1; OPPO A59m Build/LMY47I; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/56.0.2924.87 Mobile Safari/537.36 Html5Plus/1.0',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=ocj4aiutcqbjs3t41gk5a8vg77',
+  'x-requested-with' => 'io.dcloud.H5B5D7CCE',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2018-08-23T20:33:59+08:00] 117.176.228.128 GET abc.yongweisoft.cn/web/images/portfolio/6406.jpg
+[运行时间：0.193861s] [吞吐率：5.16req/s] [内存消耗：2,796.30kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'abc.yongweisoft.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.1; OPPO A59m Build/LMY47I; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/56.0.2924.87 Mobile Safari/537.36 Html5Plus/1.0',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=ocj4aiutcqbjs3t41gk5a8vg77',
+  'x-requested-with' => 'io.dcloud.H5B5D7CCE',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2018-08-23T20:34:00+08:00] 117.176.228.128 GET abc.yongweisoft.cn/web/images/portfolio/640(4).jpg
+[运行时间：0.141223s] [吞吐率：7.08req/s] [内存消耗：2,796.59kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'abc.yongweisoft.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.1; OPPO A59m Build/LMY47I; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/56.0.2924.87 Mobile Safari/537.36 Html5Plus/1.0',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=ocj4aiutcqbjs3t41gk5a8vg77',
+  'x-requested-with' => 'io.dcloud.H5B5D7CCE',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2018-08-23T20:34:00+08:00] 117.176.228.128 GET abc.yongweisoft.cn/web/images/portfolio/640x.png
+[运行时间：0.138717s] [吞吐率：7.21req/s] [内存消耗：2,796.30kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'abc.yongweisoft.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.1; OPPO A59m Build/LMY47I; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/56.0.2924.87 Mobile Safari/537.36 Html5Plus/1.0',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=ocj4aiutcqbjs3t41gk5a8vg77',
+  'x-requested-with' => 'io.dcloud.H5B5D7CCE',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)

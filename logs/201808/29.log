@@ -1,0 +1,1264 @@
+---------------------------------------------------------------
+[2018-08-29T05:52:58+08:00] 209.17.97.26 GET map.yongweisoft.cn/
+[运行时间：0.333323s] [吞吐率：3.00req/s] [内存消耗：2,793.11kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'map.yongweisoft.cn',
+  'user-agent' => 'Mozilla/5.0 (compatible; Nimbostratus-Bot/v1.3.2; http://cloudsystemnetworks.com)',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2018-08-29T07:53:50+08:00] 60.191.38.77 GET 119.29.217.103:443/
+[运行时间：0.034764s] [吞吐率：28.77req/s] [内存消耗：2,793.67kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '119.29.217.103:443',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:47.0) Gecko/20100101 Firefox/47.0',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2018-08-29T09:51:58+08:00] 74.124.206.188 GET 119.29.217.103/
+[运行时间：0.032943s] [吞吐率：30.36req/s] [内存消耗：2,792.88kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '119.29.217.103',
+  'user-agent' => 'curl/7.43.0',
+  'accept' => '*/*',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2018-08-29T13:13:54+08:00] 59.36.132.140 GET 119.29.217.103/skins/vector/csshover.htc
+[运行时间：0.408223s] [吞吐率：2.45req/s] [内存消耗：2,878.69kb] [文件加载：78]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '119.29.217.103',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip,deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1700.76 Safari/537.36',
+  'referer' => 'https://119.29.217.103/',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'cookie' => 'xx=xxx',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [0]方法不存在:app\Error\controller\Index->csshover.htc()[/www/wwwroot/default/garbage.yw/server/thinkphp/library/think/route/dispatch/Module.php:120]
+---------------------------------------------------------------
+[2018-08-29T13:13:54+08:00] 59.36.132.140 GET 119.29.217.103/skins/vector/csshover.htc
+[运行时间：0.033616s] [吞吐率：29.75req/s] [内存消耗：2,796.48kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '119.29.217.103',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip,deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1700.76 Safari/537.36',
+  'referer' => 'https://119.29.217.103/',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'cookie' => 'xx=xxx',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2018-08-29T13:13:54+08:00] 59.36.132.140 GET 119.29.217.103/misc/states.js
+[运行时间：0.029459s] [吞吐率：33.95req/s] [内存消耗：2,796.55kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '119.29.217.103',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip,deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1700.76 Safari/537.36',
+  'referer' => 'https://119.29.217.103/',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'cookie' => 'xx=xxx',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2018-08-29T13:13:55+08:00] 59.36.132.140 GET 119.29.217.103/static/js/md5.js
+[运行时间：0.025119s] [吞吐率：39.81req/s] [内存消耗：2,796.47kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '119.29.217.103',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip,deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1700.76 Safari/537.36',
+  'referer' => 'https://119.29.217.103/',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'cookie' => 'xx=xxx',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2018-08-29T13:13:55+08:00] 59.36.132.140 GET 119.29.217.103/include/js/common.js
+[运行时间：0.049309s] [吞吐率：20.28req/s] [内存消耗：2,796.47kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '119.29.217.103',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip,deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1700.76 Safari/537.36',
+  'referer' => 'https://119.29.217.103/',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'cookie' => 'xx=xxx',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2018-08-29T13:13:55+08:00] 59.36.132.140 GET 119.29.217.103/include/js/ajax.js
+[运行时间：0.058863s] [吞吐率：16.99req/s] [内存消耗：2,796.47kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '119.29.217.103',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip,deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1700.76 Safari/537.36',
+  'referer' => 'https://119.29.217.103/',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'cookie' => 'xx=xxx',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2018-08-29T13:13:55+08:00] 59.36.132.140 GET 119.29.217.103/js/wind_editor.js
+[运行时间：0.024845s] [吞吐率：40.25req/s] [内存消耗：2,796.47kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '119.29.217.103',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip,deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1700.76 Safari/537.36',
+  'referer' => 'https://119.29.217.103/',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'cookie' => 'xx=xxx',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2018-08-29T13:13:55+08:00] 59.36.132.140 GET 119.29.217.103/styles/prosilver/template/styleswitcher.js
+[运行时间：0.026593s] [吞吐率：37.60req/s] [内存消耗：2,796.34kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '119.29.217.103',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip,deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1700.76 Safari/537.36',
+  'referer' => 'https://119.29.217.103/',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'cookie' => 'xx=xxx',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2018-08-29T13:13:56+08:00] 59.36.132.140 GET 119.29.217.103/editor/ubb/uploader.js
+[运行时间：0.024825s] [吞吐率：40.28req/s] [内存消耗：2,796.47kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '119.29.217.103',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip,deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1700.76 Safari/537.36',
+  'referer' => 'https://119.29.217.103/',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'cookie' => 'xx=xxx',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2018-08-29T13:13:56+08:00] 59.36.132.140 GET 119.29.217.103/template/default/style.css
+[运行时间：0.045958s] [吞吐率：21.76req/s] [内存消耗：2,796.48kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '119.29.217.103',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip,deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1700.76 Safari/537.36',
+  'referer' => 'https://119.29.217.103/',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'cookie' => 'xx=xxx',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2018-08-29T13:13:56+08:00] 59.36.132.140 GET 119.29.217.103/static/js/reset.js
+[运行时间：0.027632s] [吞吐率：36.19req/s] [内存消耗：2,796.47kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '119.29.217.103',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip,deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1700.76 Safari/537.36',
+  'referer' => 'https://119.29.217.103/',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'cookie' => 'xx=xxx',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2018-08-29T13:13:56+08:00] 59.36.132.140 GET 119.29.217.103/templets/style/dede.css
+[运行时间：0.031945s] [吞吐率：31.30req/s] [内存消耗：2,796.48kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '119.29.217.103',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip,deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1700.76 Safari/537.36',
+  'referer' => 'https://119.29.217.103/',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'cookie' => 'xx=xxx',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2018-08-29T13:13:56+08:00] 59.36.132.140 GET 119.29.217.103/include/dedeajax2.js
+[运行时间：0.025879s] [吞吐率：38.64req/s] [内存消耗：2,796.47kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '119.29.217.103',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip,deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1700.76 Safari/537.36',
+  'referer' => 'https://119.29.217.103/',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'cookie' => 'xx=xxx',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2018-08-29T13:13:56+08:00] 59.36.132.140 GET 119.29.217.103/js/lang/core/zh-cn.js
+[运行时间：0.039180s] [吞吐率：25.52req/s] [内存消耗：2,796.47kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '119.29.217.103',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip,deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1700.76 Safari/537.36',
+  'referer' => 'https://119.29.217.103/',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'cookie' => 'xx=xxx',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2018-08-29T13:13:57+08:00] 59.36.132.140 GET 119.29.217.103/d/js/acmsd/ecms_dialog.js
+[运行时间：0.027303s] [吞吐率：36.63req/s] [内存消耗：2,796.48kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '119.29.217.103',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip,deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1700.76 Safari/537.36',
+  'referer' => 'https://119.29.217.103/',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'cookie' => 'xx=xxx',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2018-08-29T13:13:57+08:00] 59.36.132.140 GET 119.29.217.103/skin/default/js/tabs.js
+[运行时间：0.030662s] [吞吐率：32.61req/s] [内存消耗：2,796.48kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '119.29.217.103',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip,deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1700.76 Safari/537.36',
+  'referer' => 'https://119.29.217.103/',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'cookie' => 'xx=xxx',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2018-08-29T13:13:57+08:00] 59.36.132.140 GET 119.29.217.103/media/system/js/tab.js
+[运行时间：0.025571s] [吞吐率：39.11req/s] [内存消耗：2,796.47kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '119.29.217.103',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip,deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1700.76 Safari/537.36',
+  'referer' => 'https://119.29.217.103/',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'cookie' => 'xx=xxx',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2018-08-29T13:13:57+08:00] 59.36.132.140 GET 119.29.217.103/media/system/css/mootree.css
+[运行时间：0.028980s] [吞吐率：34.51req/s] [内存消耗：2,796.48kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '119.29.217.103',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip,deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1700.76 Safari/537.36',
+  'referer' => 'https://119.29.217.103/',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'cookie' => 'xx=xxx',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2018-08-29T13:13:57+08:00] 59.36.132.140 GET 119.29.217.103/style/default/content.css
+[运行时间：0.027800s] [吞吐率：35.97req/s] [内存消耗：2,796.48kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '119.29.217.103',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip,deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1700.76 Safari/537.36',
+  'referer' => 'https://119.29.217.103/',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'cookie' => 'xx=xxx',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2018-08-29T13:13:57+08:00] 59.36.132.140 GET 119.29.217.103/lang/zh/edit.js
+[运行时间：0.040375s] [吞吐率：24.77req/s] [内存消耗：2,796.47kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '119.29.217.103',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip,deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1700.76 Safari/537.36',
+  'referer' => 'https://119.29.217.103/',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'cookie' => 'xx=xxx',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2018-08-29T13:13:58+08:00] 59.36.132.140 GET 119.29.217.103/server-status
+[运行时间：0.024022s] [吞吐率：41.63req/s] [内存消耗：2,796.54kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '119.29.217.103',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip,deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1700.76 Safari/537.36',
+  'referer' => 'https://119.29.217.103/',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'cookie' => 'xx=xxx',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2018-08-29T13:13:58+08:00] 59.36.132.140 GET 119.29.217.103/wikilib.d/PmWiki.ChangeLog
+[运行时间：0.043053s] [吞吐率：23.23req/s] [内存消耗：2,796.46kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '119.29.217.103',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip,deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1700.76 Safari/537.36',
+  'referer' => 'https://119.29.217.103/',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'cookie' => 'xx=xxx',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2018-08-29T13:13:58+08:00] 59.36.132.140 GET 119.29.217.103/4e5e5d7364f443e28fbf0d3ae744a59a
+[运行时间：0.028679s] [吞吐率：34.87req/s] [内存消耗：2,796.73kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '119.29.217.103',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip,deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1700.76 Safari/537.36',
+  'referer' => 'https://119.29.217.103/',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'cookie' => 'xx=xxx',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2018-08-29T13:13:58+08:00] 59.36.132.140 GET 119.29.217.103/jenkins/
+[运行时间：0.030501s] [吞吐率：32.79req/s] [内存消耗：2,796.55kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '119.29.217.103',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip,deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1700.76 Safari/537.36',
+  'referer' => 'https://119.29.217.103/',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'cookie' => 'xx=xxx',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2018-08-29T13:13:58+08:00] 59.36.132.140 GET 119.29.217.103/console/login/LoginForm.jsp
+[运行时间：0.039644s] [吞吐率：25.22req/s] [内存消耗：2,878.69kb] [文件加载：78]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '119.29.217.103',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip,deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1700.76 Safari/537.36',
+  'referer' => 'https://119.29.217.103/',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'cookie' => 'xx=xxx',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [0]方法不存在:app\Error\controller\Index->LoginForm.jsp()[/www/wwwroot/default/garbage.yw/server/thinkphp/library/think/route/dispatch/Module.php:120]
+---------------------------------------------------------------
+[2018-08-29T13:13:58+08:00] 59.36.132.140 GET 119.29.217.103/solr/
+[运行时间：0.024125s] [吞吐率：41.45req/s] [内存消耗：2,796.26kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '119.29.217.103',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip,deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1700.76 Safari/537.36',
+  'referer' => 'https://119.29.217.103/',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'cookie' => 'xx=xxx',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2018-08-29T13:13:59+08:00] 59.36.132.140 GET 119.29.217.103/
+[运行时间：0.027585s] [吞吐率：36.25req/s] [内存消耗：2,795.84kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '119.29.217.103',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip,deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1700.76 Safari/537.36',
+  'referer' => 'https://119.29.217.103/',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'cookie' => 'xx=xxx',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2018-08-29T17:03:27+08:00] 221.237.112.37 POST abc.yongweisoft.cn/login?version=v1&model=user&method=pc
+[运行时间：1.085825s] [吞吐率：0.92req/s] [内存消耗：5,097.02kb] [文件加载：107]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'login',
+  'route' => 'login/Login/login',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'abc.yongweisoft.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '30',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'https://abc.yongweisoft.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'https://abc.yongweisoft.cn/web/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+  'model' => 'user',
+  'method' => 'pc',
+  'username' => 'admin',
+  'password' => '123456',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000426s ] mysql:host=127.0.0.1;port=3306;dbname=spa;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user` [ RunTime:0.000903s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_user` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.000371s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'yw_user',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 6,
+  'extra' => 'Using where',
+) ]
+---------------------------------------------------------------
+[2018-08-29T17:12:08+08:00] 221.237.112.37 POST abc.yongweisoft.cn/spec/list
+[运行时间：0.354352s] [吞吐率：2.82req/s] [内存消耗：4,606.53kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'spec/list',
+  'route' => 'spec/spec/spec_list',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'abc.yongweisoft.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'https://abc.yongweisoft.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'https://abc.yongweisoft.cn/web/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=src1gtvtt3ki6bkh15l541ni75',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000502s ] mysql:host=127.0.0.1;port=3306;dbname=spa;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_spec` [ RunTime:0.000960s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_spec` ORDER BY `id` DESC [ RunTime:0.000341s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'yw_spec',
+  'type' => 'index',
+  'possible_keys' => NULL,
+  'key' => 'PRIMARY',
+  'key_len' => '4',
+  'ref' => NULL,
+  'rows' => 4,
+  'extra' => '',
+) ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yw_spec` LIMIT 1 [ RunTime:0.000608s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'yw_spec',
+  'type' => 'index',
+  'possible_keys' => NULL,
+  'key' => 'PRIMARY',
+  'key_len' => '4',
+  'ref' => NULL,
+  'rows' => 4,
+  'extra' => 'Using index',
+) ]
+---------------------------------------------------------------
+[2018-08-29T17:12:08+08:00] 221.237.112.37 POST abc.yongweisoft.cn/cardcoupon/list?version=v1&page=1&limit=10
+[运行时间：0.461364s] [吞吐率：2.17req/s] [内存消耗：4,905.54kb] [文件加载：93]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'cardcoupon/list',
+  'route' => 'cardcoupongoods/CardcouponGoods/CardcouponGoods_list',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'abc.yongweisoft.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '13',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'https://abc.yongweisoft.cn',
+  'authorization' => 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VySW5mbyI6ImhlbGxvIiwidGltZXMiOjAsImV4cCI6MTUzNTYxOTgwNywiaXNzIjoieXcuY29tIiwibWVtYmVyaWQiOjF9.9tqll0078-CSrfxjFwceVWsnY_M9jZIt0dlwmquxGC4',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'https://abc.yongweisoft.cn/web/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=src1gtvtt3ki6bkh15l541ni75',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+  'page' => '1',
+  'limit' => '10',
+  'name' => '',
+  'state' => '0',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000331s ] mysql:host=127.0.0.1;port=3306;dbname=spa;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_goodscategory` [ RunTime:0.000830s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_goodscategory` WHERE  `fatherid` = 3 [ RunTime:0.000406s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'yw_goodscategory',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 10,
+  'extra' => 'Using where',
+) ]
+[ sql ] [ SQL ] SELECT * FROM `yw_goodscategory` WHERE  `fatherid` = 7 [ RunTime:0.000284s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'yw_goodscategory',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 10,
+  'extra' => 'Using where',
+) ]
+[ sql ] [ SQL ] SELECT * FROM `yw_goodscategory` WHERE  `fatherid` = 8 [ RunTime:0.000267s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'yw_goodscategory',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 10,
+  'extra' => 'Using where',
+) ]
+[ sql ] [ SQL ] SELECT * FROM `yw_goodscategory` WHERE  `fatherid` = 9 [ RunTime:0.000288s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'yw_goodscategory',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 10,
+  'extra' => 'Using where',
+) ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_cardcoupon_goods` [ RunTime:0.001042s ]
+[ sql ] [ SQL ] SELECT `g`.`name`,`imgurl`,`g`.`state`,`startdate`,`g`.`type`,`sellerid`,`stock`,`enddate`,`shop_price`,`member_price`,`number`,`discount`,`cid`,c.name as cname,`start_money`,`deduction_money`,g.id as goodsid FROM `yw_cardcoupon_goods` `a` FORCE INDEX ( id )  INNER JOIN `yw_goods` `g` ON `a`.`gid`=`g`.`id` INNER JOIN `yw_goodscategory` `c` ON `g`.`cid`=`c`.`id` WHERE  `g`.`name` LIKE '%%'  AND `cid` IN ('3','7','8','9')  AND `g`.`state` IN ('1','2') ORDER BY `a`.`id` DESC LIMIT 0,10 [ RunTime:0.000648s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'a',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 6,
+  'extra' => 'Using filesort',
+) ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yw_cardcoupon_goods` `a` INNER JOIN `yw_goods` `g` ON `a`.`gid`=`g`.`id` INNER JOIN `yw_goodscategory` `c` ON `g`.`cid`=`c`.`id` WHERE  `cid` IN ('3','7','8','9')  AND `g`.`state` IN ('1','2') LIMIT 1 [ RunTime:0.000447s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'a',
+  'type' => 'index',
+  'possible_keys' => 'gid',
+  'key' => 'gid',
+  'key_len' => '4',
+  'ref' => NULL,
+  'rows' => 6,
+  'extra' => 'Using index',
+) ]
+[ warn ] SQL:SELECT `g`.`name`,`imgurl`,`g`.`state`,`startdate`,`g`.`type`,`sellerid`,`stock`,`enddate`,`shop_price`,`member_price`,`number`,`discount`,`cid`,c.name as cname,`start_money`,`deduction_money`,g.id as goodsid FROM `yw_cardcoupon_goods` `a` FORCE INDEX ( id )  INNER JOIN `yw_goods` `g` ON `a`.`gid`=`g`.`id` INNER JOIN `yw_goodscategory` `c` ON `g`.`cid`=`c`.`id` WHERE  `g`.`name` LIKE :where_AND_g_name  AND `cid` IN (:where_AND_cid_in_1,:where_AND_cid_in_2,:where_AND_cid_in_3,:where_AND_cid_in_4)  AND `g`.`state` IN (:where_AND_g_state_in_1,:where_AND_g_state_in_2) ORDER BY `a`.`id` DESC LIMIT 0,10  [Using filesort]
+---------------------------------------------------------------
+[2018-08-29T17:12:08+08:00] 221.237.112.37 POST abc.yongweisoft.cn/catgory/list
+[运行时间：0.476602s] [吞吐率：2.10req/s] [内存消耗：4,721.08kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'catgory/list',
+  'route' => 'goodscategory/Goodscategory/goodscategory_list',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'abc.yongweisoft.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '137',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'https://abc.yongweisoft.cn',
+  'authorization' => 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VySW5mbyI6ImhlbGxvIiwidGltZXMiOjAsImV4cCI6MTUzNTYxOTgwNywiaXNzIjoieXcuY29tIiwibWVtYmVyaWQiOjF9.9tqll0078-CSrfxjFwceVWsnY_M9jZIt0dlwmquxGC4',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryqRS4bvOpvaq8SifG',
+  'referer' => 'https://abc.yongweisoft.cn/web/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=src1gtvtt3ki6bkh15l541ni75',
+)
+[ info ] [ PARAM ] array (
+  'level' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000404s ] mysql:host=127.0.0.1;port=3306;dbname=spa;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_goodscategory` [ RunTime:0.000730s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_goodscategory` WHERE  `state` IN (1,2) [ RunTime:0.000377s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'yw_goodscategory',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 10,
+  'extra' => 'Using where',
+) ]
+---------------------------------------------------------------
+[2018-08-29T17:12:08+08:00] 221.237.112.37 POST abc.yongweisoft.cn/sellerinfo/list?version=v1&page=1&limit=2
+[运行时间：0.783133s] [吞吐率：1.28req/s] [内存消耗：4,715.59kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'sellerinfo/list',
+  'route' => 'sellerinfo/Sellerinfo/Sellerinfo_list',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'abc.yongweisoft.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'https://abc.yongweisoft.cn',
+  'authorization' => 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VySW5mbyI6ImhlbGxvIiwidGltZXMiOjAsImV4cCI6MTUzNTYxOTgwNywiaXNzIjoieXcuY29tIiwibWVtYmVyaWQiOjF9.9tqll0078-CSrfxjFwceVWsnY_M9jZIt0dlwmquxGC4',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'https://abc.yongweisoft.cn/web/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=src1gtvtt3ki6bkh15l541ni75',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+  'page' => '1',
+  'limit' => '2',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000437s ] mysql:host=127.0.0.1;port=3306;dbname=spa;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_sellerinfo` [ RunTime:0.000842s ]
+[ sql ] [ SQL ] SELECT id,name,chargeman,phone,address,
+            longitude,latitude,introduction,imgurl,state FROM `yw_sellerinfo` WHERE  `state` IN (1,2) LIMIT 0,2 [ RunTime:0.000420s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'yw_sellerinfo',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 3,
+  'extra' => 'Using where',
+) ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yw_sellerinfo` WHERE  `state` IN (1,2) LIMIT 1 [ RunTime:0.000327s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'yw_sellerinfo',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 3,
+  'extra' => 'Using where',
+) ]
+---------------------------------------------------------------
+[2018-08-29T17:13:34+08:00] 221.237.112.37 POST abc.yongweisoft.cn/order/list?version=v1&page=1&limit=10
+[运行时间：0.121914s] [吞吐率：8.20req/s] [内存消耗：4,704.24kb] [文件加载：88]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'order/list',
+  'route' => 'order/order/order_list',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'abc.yongweisoft.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '15',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'https://abc.yongweisoft.cn',
+  'authorization' => 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VySW5mbyI6ImhlbGxvIiwidGltZXMiOjAsImV4cCI6MTUzNTYxOTgwNywiaXNzIjoieXcuY29tIiwibWVtYmVyaWQiOjF9.9tqll0078-CSrfxjFwceVWsnY_M9jZIt0dlwmquxGC4',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'https://abc.yongweisoft.cn/web/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=src1gtvtt3ki6bkh15l541ni75',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+  'page' => '1',
+  'limit' => '10',
+  'username' => '',
+  'date' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000438s ] mysql:host=127.0.0.1;port=3306;dbname=spa;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_trade_details` [ RunTime:0.000910s ]
+[ sql ] [ SQL ] SELECT g.name as goodsname,`to`.`tel`,`to`.`sellerid`,`a`.`orderid`,to.money as ordermoney,`to`.`actual_money`,`a`.`logistics`,`a`.`state`,`to`.`remark` FROM `yw_trade_details` `a` INNER JOIN `yw_trade_order` `to` ON `a`.`toid`=`to`.`orderid` INNER JOIN `yw_goods_detail` `gd` ON `gd`.`id`=`a`.`gdid` INNER JOIN `yw_goods` `g` ON `g`.`id`=`gd`.`gid` WHERE  `to`.`state` > '0' LIMIT 0,10 [ RunTime:0.000758s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'a',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 12,
+  'extra' => '',
+) ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_sellerinfo` [ RunTime:0.000643s ]
+[ sql ] [ SQL ] SELECT `name` FROM `yw_sellerinfo` WHERE  `id` IS NULL LIMIT 1 [ RunTime:0.000260s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => NULL,
+  'type' => NULL,
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => NULL,
+  'extra' => 'Impossible WHERE',
+) ]
+[ sql ] [ SQL ] SELECT `name` FROM `yw_sellerinfo` WHERE  `id` IS NULL LIMIT 1 [ RunTime:0.000182s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => NULL,
+  'type' => NULL,
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => NULL,
+  'extra' => 'Impossible WHERE',
+) ]
+[ sql ] [ SQL ] SELECT `name` FROM `yw_sellerinfo` WHERE  `id` IS NULL LIMIT 1 [ RunTime:0.000197s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => NULL,
+  'type' => NULL,
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => NULL,
+  'extra' => 'Impossible WHERE',
+) ]
+[ sql ] [ SQL ] SELECT `name` FROM `yw_sellerinfo` WHERE  `id` IS NULL LIMIT 1 [ RunTime:0.000205s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => NULL,
+  'type' => NULL,
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => NULL,
+  'extra' => 'Impossible WHERE',
+) ]
+[ sql ] [ SQL ] SELECT `name` FROM `yw_sellerinfo` WHERE  `id` IS NULL LIMIT 1 [ RunTime:0.000178s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => NULL,
+  'type' => NULL,
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => NULL,
+  'extra' => 'Impossible WHERE',
+) ]
+[ sql ] [ SQL ] SELECT `name` FROM `yw_sellerinfo` WHERE  `id` IS NULL LIMIT 1 [ RunTime:0.000181s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => NULL,
+  'type' => NULL,
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => NULL,
+  'extra' => 'Impossible WHERE',
+) ]
+[ sql ] [ SQL ] SELECT `name` FROM `yw_sellerinfo` WHERE  `id` IS NULL LIMIT 1 [ RunTime:0.000186s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => NULL,
+  'type' => NULL,
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => NULL,
+  'extra' => 'Impossible WHERE',
+) ]
+[ sql ] [ SQL ] SELECT `name` FROM `yw_sellerinfo` WHERE  `id` IS NULL LIMIT 1 [ RunTime:0.000197s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => NULL,
+  'type' => NULL,
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => NULL,
+  'extra' => 'Impossible WHERE',
+) ]
+[ sql ] [ SQL ] SELECT `name` FROM `yw_sellerinfo` WHERE  `id` IS NULL LIMIT 1 [ RunTime:0.000179s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => NULL,
+  'type' => NULL,
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => NULL,
+  'extra' => 'Impossible WHERE',
+) ]
+[ sql ] [ SQL ] SELECT `name` FROM `yw_sellerinfo` WHERE  `id` IS NULL LIMIT 1 [ RunTime:0.000177s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => NULL,
+  'type' => NULL,
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => NULL,
+  'extra' => 'Impossible WHERE',
+) ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yw_trade_details` `a` INNER JOIN `yw_trade_order` `to` ON `a`.`toid`=`to`.`orderid` INNER JOIN `yw_goods_detail` `gd` ON `gd`.`id`=`a`.`gdid` INNER JOIN `yw_goods` `g` ON `g`.`id`=`gd`.`gid` WHERE  `to`.`state` > '0' LIMIT 1 [ RunTime:0.017449s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'a',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 12,
+  'extra' => '',
+) ]
+---------------------------------------------------------------
+[2018-08-29T17:13:41+08:00] 221.237.112.37 POST abc.yongweisoft.cn/operationlog/list?version=v1&page=1&limit=10
+[运行时间：0.208207s] [吞吐率：4.80req/s] [内存消耗：4,525.62kb] [文件加载：86]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'operationlog/list',
+  'route' => 'operationLog/operationLog/operationLogList',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'abc.yongweisoft.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'https://abc.yongweisoft.cn',
+  'authorization' => 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VySW5mbyI6ImhlbGxvIiwidGltZXMiOjAsImV4cCI6MTUzNTYxOTgwNywiaXNzIjoieXcuY29tIiwibWVtYmVyaWQiOjF9.9tqll0078-CSrfxjFwceVWsnY_M9jZIt0dlwmquxGC4',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'https://abc.yongweisoft.cn/web/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=src1gtvtt3ki6bkh15l541ni75',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+  'page' => '1',
+  'limit' => '10',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000354s ] mysql:host=127.0.0.1;port=3306;dbname=spa;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_operation_log` [ RunTime:0.000803s ]
+[ sql ] [ SQL ] SELECT `username`,`time`,`ip`,`op` FROM `yw_operation_log` INNER JOIN `yw_user` `user` ON `user`.`id`=`yw_operation_log`.`user` WHERE  `time` BETWEEN '2018-08-27 00:00:00' AND '2018-09-03 00:00:00' LIMIT 0,10 [ RunTime:0.015451s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => NULL,
+  'type' => NULL,
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => NULL,
+  'extra' => 'Impossible WHERE noticed after reading const tables',
+) ]
+---------------------------------------------------------------
+[2018-08-29T17:13:41+08:00] 221.237.112.37 POST abc.yongweisoft.cn/sellerinfo/list?version=v1&page=1&limit=2
+[运行时间：0.239132s] [吞吐率：4.18req/s] [内存消耗：4,715.59kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'sellerinfo/list',
+  'route' => 'sellerinfo/Sellerinfo/Sellerinfo_list',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'abc.yongweisoft.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'https://abc.yongweisoft.cn',
+  'authorization' => 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VySW5mbyI6ImhlbGxvIiwidGltZXMiOjAsImV4cCI6MTUzNTYxOTgwNywiaXNzIjoieXcuY29tIiwibWVtYmVyaWQiOjF9.9tqll0078-CSrfxjFwceVWsnY_M9jZIt0dlwmquxGC4',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'https://abc.yongweisoft.cn/web/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=src1gtvtt3ki6bkh15l541ni75',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+  'page' => '1',
+  'limit' => '2',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000416s ] mysql:host=127.0.0.1;port=3306;dbname=spa;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_sellerinfo` [ RunTime:0.000889s ]
+[ sql ] [ SQL ] SELECT id,name,chargeman,phone,address,
+            longitude,latitude,introduction,imgurl,state FROM `yw_sellerinfo` WHERE  `state` IN (1,2) LIMIT 0,2 [ RunTime:0.000297s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'yw_sellerinfo',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 3,
+  'extra' => 'Using where',
+) ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yw_sellerinfo` WHERE  `state` IN (1,2) LIMIT 1 [ RunTime:0.000230s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'yw_sellerinfo',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 3,
+  'extra' => 'Using where',
+) ]

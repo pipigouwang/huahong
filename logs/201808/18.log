@@ -1,0 +1,246 @@
+---------------------------------------------------------------
+[2018-08-18T08:06:25+08:00] 169.54.244.82 GET abc.yongweisoft.cn/
+[运行时间：0.025202s] [吞吐率：39.68req/s] [内存消耗：2,793.17kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'abc.yongweisoft.cn',
+  'user-agent' => 'Mozilla/5.0 (compatible; nsrbot/1.0; http://netsystemsresearch.com)',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2018-08-18T11:54:06+08:00] 59.36.132.140 GET 119.29.217.103/wp-includes/js/comment-reply.min.js
+[运行时间：0.024612s] [吞吐率：40.63req/s] [内存消耗：2,796.48kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '119.29.217.103',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip,deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1700.76 Safari/537.36',
+  'referer' => 'https://119.29.217.103/',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'cookie' => 'xx=xxx',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2018-08-18T11:54:07+08:00] 59.36.132.140 GET 119.29.217.103/skins/vector/csshover.htc
+[运行时间：0.098379s] [吞吐率：10.16req/s] [内存消耗：2,878.69kb] [文件加载：78]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '119.29.217.103',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip,deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1700.76 Safari/537.36',
+  'referer' => 'https://119.29.217.103/',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'cookie' => 'xx=xxx',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [0]方法不存在:app\Error\controller\Index->csshover.htc()[/www/wwwroot/default/garbage.yw/server/thinkphp/library/think/route/dispatch/Module.php:120]
+---------------------------------------------------------------
+[2018-08-18T11:54:08+08:00] 59.36.132.140 GET 119.29.217.103/js/wind_editor.js
+[运行时间：0.027117s] [吞吐率：36.88req/s] [内存消耗：2,796.47kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '119.29.217.103',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip,deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1700.76 Safari/537.36',
+  'referer' => 'https://119.29.217.103/',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'cookie' => 'xx=xxx',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2018-08-18T11:54:08+08:00] 59.36.132.140 GET 119.29.217.103/styles/prosilver/template/forum_fn.js
+[运行时间：0.029312s] [吞吐率：34.12req/s] [内存消耗：2,796.48kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '119.29.217.103',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip,deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1700.76 Safari/537.36',
+  'referer' => 'https://119.29.217.103/',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'cookie' => 'xx=xxx',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2018-08-18T11:54:08+08:00] 59.36.132.140 GET 119.29.217.103/styles/prosilver/template/styleswitcher.js
+[运行时间：0.028083s] [吞吐率：35.61req/s] [内存消耗：2,796.34kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '119.29.217.103',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip,deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1700.76 Safari/537.36',
+  'referer' => 'https://119.29.217.103/',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'cookie' => 'xx=xxx',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2018-08-18T11:54:09+08:00] 59.36.132.140 GET 119.29.217.103/js/lang/core/zh-cn.js
+[运行时间：0.025687s] [吞吐率：38.93req/s] [内存消耗：2,796.47kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '119.29.217.103',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip,deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1700.76 Safari/537.36',
+  'referer' => 'https://119.29.217.103/',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'cookie' => 'xx=xxx',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2018-08-18T11:54:09+08:00] 59.36.132.140 GET 119.29.217.103/js/lang/cms/zh-cn.js
+[运行时间：0.024727s] [吞吐率：40.44req/s] [内存消耗：2,796.47kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '119.29.217.103',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip,deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1700.76 Safari/537.36',
+  'referer' => 'https://119.29.217.103/',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'cookie' => 'xx=xxx',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2018-08-18T11:54:09+08:00] 59.36.132.140 GET 119.29.217.103/d/js/acmsd/ecms_dialog.js
+[运行时间：0.025072s] [吞吐率：39.89req/s] [内存消耗：2,796.48kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '119.29.217.103',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip,deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1700.76 Safari/537.36',
+  'referer' => 'https://119.29.217.103/',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'cookie' => 'xx=xxx',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2018-08-18T11:54:10+08:00] 59.36.132.140 GET 119.29.217.103/server-status
+[运行时间：0.027151s] [吞吐率：36.83req/s] [内存消耗：2,796.54kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '119.29.217.103',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip,deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1700.76 Safari/537.36',
+  'referer' => 'https://119.29.217.103/',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'cookie' => 'xx=xxx',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2018-08-18T11:54:10+08:00] 59.36.132.140 GET 119.29.217.103/ueditor.all.js
+[运行时间：0.025561s] [吞吐率：39.12req/s] [内存消耗：2,796.55kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '119.29.217.103',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip,deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1700.76 Safari/537.36',
+  'referer' => 'https://119.29.217.103/',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'cookie' => 'xx=xxx',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2018-08-18T11:54:10+08:00] 59.36.132.140 GET 119.29.217.103/wikilib.d/PmWiki.ChangeLog
+[运行时间：0.025833s] [吞吐率：38.71req/s] [内存消耗：2,796.46kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '119.29.217.103',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip,deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1700.76 Safari/537.36',
+  'referer' => 'https://119.29.217.103/',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'cookie' => 'xx=xxx',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)

@@ -1,0 +1,176 @@
+---------------------------------------------------------------
+[2018-09-02T04:56:56+08:00] 115.144.122.193 GET 119.29.217.103/
+[运行时间：0.029280s] [吞吐率：34.15req/s] [内存消耗：2,794.23kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'accept-language' => 'zh-cn',
+  'referer' => 'https://119.29.217.103',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 9.0; Windows NT 6.1)',
+  'host' => '119.29.217.103',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2018-09-02T05:24:14+08:00] 5.189.226.102 GET 119.29.217.103/admin/assets/js/views/login.js
+[运行时间：0.029515s] [吞吐率：33.88req/s] [内存消耗：2,794.01kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '119.29.217.103',
+  'user-agent' => 'python-requests/2.19.1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2018-09-02T06:02:12+08:00] 203.208.60.104 GET abc.yongweisoft.cn/Application/Public
+[运行时间：0.025931s] [吞吐率：38.56req/s] [内存消耗：2,795.45kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'abc.yongweisoft.cn',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'from' => 'googlebot(at)googlebot.com',
+  'user-agent' => 'Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)',
+  'accept-encoding' => 'gzip,deflate,br',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2018-09-02T09:37:33+08:00] 183.60.210.52 GET 119.29.217.103/
+[运行时间：0.040076s] [吞吐率：24.95req/s] [内存消耗：2,794.23kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'accept-language' => 'zh-cn',
+  'referer' => 'https://119.29.217.103',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 9.0; Windows NT 6.1)',
+  'host' => '119.29.217.103',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2018-09-02T11:29:46+08:00] 98.118.172.184 GET 119.29.217.103/
+[运行时间：0.031280s] [吞吐率：31.97req/s] [内存消耗：2,792.88kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '119.29.217.103',
+  'user-agent' => 'curl/7.43.0',
+  'accept' => '*/*',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2018-09-02T14:23:17+08:00] 222.186.31.27 GET 119.29.217.103/
+[运行时间：0.026945s] [吞吐率：37.11req/s] [内存消耗：2,794.23kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'accept-language' => 'zh-cn',
+  'referer' => 'https://119.29.217.103',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 9.0; Windows NT 6.1)',
+  'host' => '119.29.217.103',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2018-09-02T17:14:06+08:00] 106.75.92.187 GET 119.29.217.103:443/
+[运行时间：0.034843s] [吞吐率：28.70req/s] [内存消耗：2,794.87kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '119.29.217.103:443',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-charset' => 'GBK,utf-8;q=0.7,*;q=0.3',
+  'accept' => 'application/json, text/plain, */*',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2018-09-02T23:18:01+08:00] 183.60.210.62 GET 119.29.217.103/
+[运行时间：0.033639s] [吞吐率：29.73req/s] [内存消耗：2,794.23kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'accept-language' => 'zh-cn',
+  'referer' => 'https://119.29.217.103',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 9.0; Windows NT 6.1)',
+  'host' => '119.29.217.103',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2018-09-02T23:18:02+08:00] 183.60.210.52 GET 119.29.217.103/
+[运行时间：0.037509s] [吞吐率：26.66req/s] [内存消耗：2,794.23kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'accept-language' => 'zh-cn',
+  'referer' => 'https://119.29.217.103',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 9.0; Windows NT 6.1)',
+  'host' => '119.29.217.103',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2018-09-02T23:18:03+08:00] 222.186.31.27 GET 119.29.217.103/
+[运行时间：0.032874s] [吞吐率：30.42req/s] [内存消耗：2,794.23kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'accept-language' => 'zh-cn',
+  'referer' => 'https://119.29.217.103',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 9.0; Windows NT 6.1)',
+  'host' => '119.29.217.103',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)

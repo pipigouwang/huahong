@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<title>登录</title>
+		<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+		<meta content="yes" name="apple-mobile-web-app-capable">
+		<meta content="black" name="apple-mobile-web-app-status-bar-style">
+		<meta content="telephone=no" name="format-detection">
+		<link rel="stylesheet" href="../css/weui.css">
+		<link rel="stylesheet" href="../css/jquery-weui.css">
+		<link rel="stylesheet" href="../font/iconfont.css">
+		<link rel="stylesheet" href="../css/base.css">
+		<link rel="stylesheet" href="../css/style.css">
+		<style>
+			body {
+				width: 100%;
+				height: 100%;
+				background-color: #32ad38;
+				background-size: cover;
+				position: relative;
+			}
+			
+			.icon-cuowu {
+				font-size: 16px !important;
+				color: #ff0000 !important;
+			}
+			
+			.bottom {
+				position: fixed;
+				left: 50%;
+				bottom: 2%;
+				font-size: 14px;
+				color: #333333;
+				-webkit-transform: translate(-50%, 0);
+				transform: translate(-50%, 0);
+			}
+		</style>
+	</head>
+
+	<body style="position: relative;">
+		<div class="logo">
+			<img class="logoImg" src="../img/logo.png" alt="" title="">
+		</div>
+		<div class="title">
+			<img class="titleImg" src="../img/title.png" alt="" title="">
+		</div>
+		<div class="loginPage bs">
+			<div class="input-container df">
+				<label for="userphone">
+				<i class="icon iconfont icon-yonghu"></i>
+			</label>
+				<div class="flex">
+					<input type="number" id="userphone" class="weui-input" value="" maxlength="11" placeholder="请输入手机号">
+					<div class="error errorphone">
+						<i class="icon iconfont icon-cuowu"></i>
+					</div>
+				</div>
+
+			</div>
+			<div class="input-container df">
+				<label for="usercode">
+				<i class="icon iconfont icon-shouji"></i>
+			</label>
+				<div class="flex">
+					<input type="number" id="usercode" class="weui-input" value="" maxlength="6" placeholder="请输入验证码">
+					<div class="error errorcode">
+						<i class="icon iconfont icon-cuowu"></i>
+					</div>
+				</div>
+				<div class="yanzhengma">
+					<button class="weui-btn weui-btn_mini weui-btn_primary getcode" disabled="disabled">获取验证码</button>
+				</div>
+			</div>
+			<div class="login" id="login">
+				<button class="weui-btn weui-btn_primary">登 录</button>
+			</div>
+		</div>
+		<div class="bottom">成都勇维软件技术支持</div>
+		<script src="../js/jquery.min.js"></script>
+		<script src="../js/jquery-weui.min.js"></script>
+		<script src="../js/redirct.js"></script>
+		<script src="../js/weixin.js"></script>
+<!--		<script src="../js/vconsole.min.js"></script>-->
+		<script>
+//			var vConsole = new VConsole();
+			var regphone = /^1[345789]\d{9}$/;
+			var userphone = '',
+				usercode = '',
+				openid = '';
+			//超链接取值
+			(function($) {
+				$.getUrlParam = function(name) {
+					var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)");
+					var r = window.location.search.substr(1).match(reg);
+					if(r != null) return unescape(r[2]);
+					return null;
+				}
+			})(jQuery);
+			//超链接取值
+			openid = $.getUrlParam('openid');
+			console.log(openid);
+			$('#userphone').bind('input', function() {
+				var _this = $(this);
+				userphone = $(this).val();
+				if(userphone.length > 11) {
+					_this.val(userphone.substr(0, 11));
+				}
+				if(regphone.test(userphone) && userphone.length == 11) {
+					$('.getcode').removeAttr('disabled');
+				}
+				if(!regphone.test(userphone)) {
+					$('.errorphone').show();
+					return false;
+				} else {
+					$('.errorphone').hide();
+				}
+			});
+			$('#userphone,#usercode').bind('focus', function() {
+				$('.bottom').css('position', 'static');
+			}).bind('blur', function() {
+				$('.bottom').css({
+					'position': 'fixed',
+					'bottom': '2%'
+				});
+			});
+
+			$('#userphone').bind('focus', function() {
+				$('.errorphone').hide();
+			})
+			$('.getcode').on('click', function() {
+				userphone = $('#userphone').val();
+				if(!userphone) {
+					$('.errorphone').show();
+					return false;
+				} else {
+					//发送验证码
+					var da = {
+						"phone": userphone
+					}
+					$.ajax({
+						type: 'POST',
+						url: AJAXURL + '/index/SendSms/code',
+						contentType: "application/x-www-form-urlencoded",
+						data: da,
+						dataType: 'json',
+						success: function(success) {
+							console.log('验证码' + JSON.stringify(success))
+							if(success.err > 0) {
+								var a = 119;
+								var interval = setInterval(function() {
+									if(a > 0) {
+										$(".getcode").text("等待" + a + "s").attr("disabled", "disabled");
+										a--;
+									} else {
+										$(".getcode").text("获取验证码").removeAttr("disabled");
+										a = 119;
+										clearInterval(interval);
+									}
+								}, 1000)
+							} else {
+								$.toast("数据错误 ！", "cancel");
+							}
+						}
+					});
+				}
+			})
+			$('#usercode').bind('input', function() {
+				var _this = $(this);
+				usercode = $(this).val();
+				if(usercode.length > 6) {
+					_this.val(usercode.substr(0, 6))
+				}
+				if(_this.val().length != '6') {
+					$('.errorcode').show();
+					return false;
+				} else {
+					$('.errorcode').hide();
+				}
+			})
+			$('#usercode').bind('focus', function() {
+				$('.errorcode').hide();
+			})
+			// 登录
+			$('#login').on('click', function() {
+				userphone = $('#userphone').val();
+				usercode = $('#usercode').val();
+				if(!userphone || !regphone.test(userphone)) {
+					$('.errorphone').show();
+					return false;
+				}
+				if(!usercode) {
+					$('.errorcode').show();
+					return false;
+				}
+				var da = {
+					"phone": userphone,
+					"code": usercode
+				}
+				$.ajax({
+					type: 'POST',
+					url: AJAXURL + '/index/index/bandphone?openid=' + openid,
+					contentType: "application/x-www-form-urlencoded",
+					data: da,
+					dataType: 'json',
+					success: function(success) {
+						console.log('登录成功' + JSON.stringify(success))
+						if(success.err > 0) {
+							var otype = success.data;
+							if(otype === 1) {
+								window.location.href = 'userindex.html';
+							} else if(otype === 2) {
+								window.location.href = 'pharindex.html';
+							} else if(otype === 3) {
+								window.location.href = 'salesindex.html';
+							} else if(otype == 4) {
+								window.location.href = 'agentindex.html';
+							}
+						} else {
+							$.toast(success.message, "cancel");
+						}
+					}
+				});
+			})
+		</script>
+	</body>
+
+</html>

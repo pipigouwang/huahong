@@ -1,0 +1,26 @@
+---------------------------------------------------------------
+[2018-08-26T21:49:06+08:00] 216.218.206.66 GET 119.29.217.103/
+[运行时间：0.113764s] [吞吐率：8.79req/s] [内存消耗：2,792.48kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '119.29.217.103',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2018-08-26T21:52:38+08:00] 216.218.206.66 GET 119.29.217.103/
+[运行时间：0.027098s] [吞吐率：36.90req/s] [内存消耗：2,792.48kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '119.29.217.103',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)

@@ -1,0 +1,538 @@
+---------------------------------------------------------------
+[2018-09-03T00:11:02+08:00] 183.60.210.52 GET 119.29.217.103/
+[运行时间：0.048119s] [吞吐率：20.78req/s] [内存消耗：2,794.23kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'accept-language' => 'zh-cn',
+  'referer' => 'https://119.29.217.103',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 9.0; Windows NT 6.1)',
+  'host' => '119.29.217.103',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2018-09-03T00:11:03+08:00] 183.60.210.46 GET 119.29.217.103/
+[运行时间：0.041389s] [吞吐率：24.16req/s] [内存消耗：2,794.23kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'accept-language' => 'zh-cn',
+  'referer' => 'https://119.29.217.103',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 9.0; Windows NT 6.1)',
+  'host' => '119.29.217.103',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2018-09-03T00:11:04+08:00] 222.186.31.27 GET 119.29.217.103/
+[运行时间：0.029090s] [吞吐率：34.38req/s] [内存消耗：2,794.23kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'accept-language' => 'zh-cn',
+  'referer' => 'https://119.29.217.103',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 9.0; Windows NT 6.1)',
+  'host' => '119.29.217.103',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2018-09-03T00:36:33+08:00] 216.218.206.69 GET 119.29.217.103/
+[运行时间：0.026978s] [吞吐率：37.07req/s] [内存消耗：2,792.48kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '119.29.217.103',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2018-09-03T04:57:16+08:00] 183.60.210.62 GET 119.29.217.103/
+[运行时间：0.025749s] [吞吐率：38.84req/s] [内存消耗：2,794.23kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'accept-language' => 'zh-cn',
+  'referer' => 'https://119.29.217.103',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 9.0; Windows NT 6.1)',
+  'host' => '119.29.217.103',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2018-09-03T04:57:16+08:00] 183.60.210.52 GET 119.29.217.103/
+[运行时间：0.027107s] [吞吐率：36.89req/s] [内存消耗：2,794.23kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'accept-language' => 'zh-cn',
+  'referer' => 'https://119.29.217.103',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 9.0; Windows NT 6.1)',
+  'host' => '119.29.217.103',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2018-09-03T04:57:17+08:00] 222.186.31.27 GET 119.29.217.103/
+[运行时间：0.026223s] [吞吐率：38.13req/s] [内存消耗：2,794.23kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'accept-language' => 'zh-cn',
+  'referer' => 'https://119.29.217.103',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 9.0; Windows NT 6.1)',
+  'host' => '119.29.217.103',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2018-09-03T06:43:10+08:00] 121.41.39.20 GET mobile.12306.cn/otsmobile/app/mgs/mgw.htm?operationType=com.cars.otsmobile.queryLeftTicketA&requestData=%5B%7B%22train_date%22%3A%2220180913%22%2C%22purpose_codes%22%3A%2200%22%2C%22from_station%22%3A%22PIJ%22%2C%22to_station%22%3A%22POJ%22%2C%22station_train_code%22%3A%22%22%2C%22start_time_begin%22%3A%220000%22%2C%22start_time_end%22%3A%222400%22%2C%22train_headers%22%3A%22QB%23%22%2C%22train_flag%22%3A%22%22%2C%22seat_type%22%3A%22%22%2C%22seatBack_Type%22%3A%22%22%2C%22ticket_num%22%3A%22%22%2C%22dfpStr%22%3A%22%22%2C%22baseDTO%22%3A%7B%22check_code%22%3A%229974c351e995cb4c32585e84c403f8d9%22%2C%22device_no%22%3A%22b87fffcb016c48a7%22%2C%22mobile_no%22%3A%22%22%2C%22os_type%22%3A%22a%22%2C%22time_str%22%3A%2220180903064310%22%2C%22user_name%22%3A%22%22%2C%22version_no%22%3A%224.0.0.07121250%22%7D%7D%5D&ts=1535928190562&sign=
+[运行时间：0.391236s] [吞吐率：2.56req/s] [内存消耗：2,882.15kb] [文件加载：78]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mobile.12306.cn',
+  'user-agent' => 'Go-http-client/1.1',
+  'appid' => '9101430221728',
+  'did' => 'b87fffcb016c48a7',
+  'platform' => 'ANDROID',
+  'signtype' => '0',
+  'trackerid' => '',
+  'workspaceid' => 'product',
+  'accept-encoding' => 'gzip',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'operationType' => 'com.cars.otsmobile.queryLeftTicketA',
+  'requestData' => '[{"train_date":"20180913","purpose_codes":"00","from_station":"PIJ","to_station":"POJ","station_train_code":"","start_time_begin":"0000","start_time_end":"2400","train_headers":"QB#","train_flag":"","seat_type":"","seatBack_Type":"","ticket_num":"","dfpStr":"","baseDTO":{"check_code":"9974c351e995cb4c32585e84c403f8d9","device_no":"b87fffcb016c48a7","mobile_no":"","os_type":"a","time_str":"20180903064310","user_name":"","version_no":"4.0.0.07121250"}}]',
+  'ts' => '1535928190562',
+  'sign' => '',
+)
+[ error ] [0]方法不存在:app\Error\controller\Index->mgs()[/www/wwwroot/default/garbage.yw/server/thinkphp/library/think/route/dispatch/Module.php:120]
+---------------------------------------------------------------
+[2018-09-03T06:43:10+08:00] 121.41.39.20 GET mobile.12306.cn/otsmobile/app/mgs/mgw.htm?operationType=com.cars.otsmobile.queryLeftTicketA&requestData=%5B%7B%22train_date%22%3A%2220180913%22%2C%22purpose_codes%22%3A%2200%22%2C%22from_station%22%3A%22PIJ%22%2C%22to_station%22%3A%22POJ%22%2C%22station_train_code%22%3A%22%22%2C%22start_time_begin%22%3A%220000%22%2C%22start_time_end%22%3A%222400%22%2C%22train_headers%22%3A%22QB%23%22%2C%22train_flag%22%3A%22%22%2C%22seat_type%22%3A%22%22%2C%22seatBack_Type%22%3A%22%22%2C%22ticket_num%22%3A%22%22%2C%22dfpStr%22%3A%22%22%2C%22baseDTO%22%3A%7B%22check_code%22%3A%229974c351e995cb4c32585e84c403f8d9%22%2C%22device_no%22%3A%22b87fffcb016c48a7%22%2C%22mobile_no%22%3A%22%22%2C%22os_type%22%3A%22a%22%2C%22time_str%22%3A%2220180903064310%22%2C%22user_name%22%3A%22%22%2C%22version_no%22%3A%224.0.0.07121250%22%7D%7D%5D&ts=1535928190562&sign=
+[运行时间：0.031454s] [吞吐率：31.79req/s] [内存消耗：2,796.52kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mobile.12306.cn',
+  'user-agent' => 'Go-http-client/1.1',
+  'appid' => '9101430221728',
+  'did' => 'b87fffcb016c48a7',
+  'platform' => 'ANDROID',
+  'signtype' => '0',
+  'trackerid' => '',
+  'workspaceid' => 'product',
+  'accept-encoding' => 'gzip',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2018-09-03T09:44:57+08:00] 222.186.31.27 GET 119.29.217.103/
+[运行时间：0.024904s] [吞吐率：40.15req/s] [内存消耗：2,794.23kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'accept-language' => 'zh-cn',
+  'referer' => 'https://119.29.217.103',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 9.0; Windows NT 6.1)',
+  'host' => '119.29.217.103',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2018-09-03T14:24:09+08:00] 183.60.210.62 GET 119.29.217.103/
+[运行时间：0.025141s] [吞吐率：39.78req/s] [内存消耗：2,794.23kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'accept-language' => 'zh-cn',
+  'referer' => 'https://119.29.217.103',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 9.0; Windows NT 6.1)',
+  'host' => '119.29.217.103',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2018-09-03T15:32:33+08:00] 139.162.116.133 GET 119.29.217.103/
+[运行时间：0.024393s] [吞吐率：41.00req/s] [内存消耗：2,793.16kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '119.29.217.103',
+  'user-agent' => 'Go-http-client/1.1',
+  'connection' => 'close',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2018-09-03T19:34:37+08:00] 183.221.104.226 GET abc.yongweisoft.cn/web/images/portfolio/64003.png
+[运行时间：0.106495s] [吞吐率：9.39req/s] [内存消耗：2,795.37kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'abc.yongweisoft.cn',
+  'accept' => 'image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5',
+  'accept-language' => 'zh-cn',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'br, gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_2_6 like Mac OS X) AppleWebKit/604.5.6 (KHTML, like Gecko) Mobile/15D100 Html5Plus/1.0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2018-09-03T19:34:38+08:00] 183.221.104.226 GET abc.yongweisoft.cn/web/images/portfolio/641.png
+[运行时间：0.114819s] [吞吐率：8.71req/s] [内存消耗：2,795.37kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'abc.yongweisoft.cn',
+  'accept' => 'image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5',
+  'accept-language' => 'zh-cn',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'br, gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_2_6 like Mac OS X) AppleWebKit/604.5.6 (KHTML, like Gecko) Mobile/15D100 Html5Plus/1.0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2018-09-03T19:34:38+08:00] 183.221.104.226 GET abc.yongweisoft.cn/web/images/portfolio/641.gif
+[运行时间：0.143254s] [吞吐率：6.98req/s] [内存消耗：2,795.37kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'abc.yongweisoft.cn',
+  'accept' => 'image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5',
+  'accept-language' => 'zh-cn',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'br, gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_2_6 like Mac OS X) AppleWebKit/604.5.6 (KHTML, like Gecko) Mobile/15D100 Html5Plus/1.0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2018-09-03T19:34:38+08:00] 183.221.104.226 GET abc.yongweisoft.cn/web/images/portfolio/640.png
+[运行时间：0.075005s] [吞吐率：13.33req/s] [内存消耗：2,795.37kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'abc.yongweisoft.cn',
+  'accept' => 'image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5',
+  'accept-language' => 'zh-cn',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'br, gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_2_6 like Mac OS X) AppleWebKit/604.5.6 (KHTML, like Gecko) Mobile/15D100 Html5Plus/1.0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2018-09-03T19:34:38+08:00] 183.221.104.226 GET abc.yongweisoft.cn/web/images/portfolio/6401.jpg
+[运行时间：0.035783s] [吞吐率：27.95req/s] [内存消耗：2,795.37kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'abc.yongweisoft.cn',
+  'accept' => 'image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5',
+  'accept-language' => 'zh-cn',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'br, gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_2_6 like Mac OS X) AppleWebKit/604.5.6 (KHTML, like Gecko) Mobile/15D100 Html5Plus/1.0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2018-09-03T19:34:38+08:00] 183.221.104.226 GET abc.yongweisoft.cn/web/images/portfolio/6402.jpg
+[运行时间：0.037322s] [吞吐率：26.79req/s] [内存消耗：2,795.37kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'abc.yongweisoft.cn',
+  'accept' => 'image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5',
+  'accept-language' => 'zh-cn',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'br, gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_2_6 like Mac OS X) AppleWebKit/604.5.6 (KHTML, like Gecko) Mobile/15D100 Html5Plus/1.0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2018-09-03T19:34:38+08:00] 183.221.104.226 GET abc.yongweisoft.cn/web/images/portfolio/6403.jpg
+[运行时间：0.093296s] [吞吐率：10.72req/s] [内存消耗：2,795.37kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'abc.yongweisoft.cn',
+  'accept' => 'image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5',
+  'accept-language' => 'zh-cn',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'br, gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_2_6 like Mac OS X) AppleWebKit/604.5.6 (KHTML, like Gecko) Mobile/15D100 Html5Plus/1.0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2018-09-03T19:34:38+08:00] 183.221.104.226 GET abc.yongweisoft.cn/web/images/portfolio/6405.jpg
+[运行时间：0.072194s] [吞吐率：13.85req/s] [内存消耗：2,795.37kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'abc.yongweisoft.cn',
+  'accept' => 'image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5',
+  'accept-language' => 'zh-cn',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'br, gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_2_6 like Mac OS X) AppleWebKit/604.5.6 (KHTML, like Gecko) Mobile/15D100 Html5Plus/1.0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2018-09-03T19:34:38+08:00] 183.221.104.226 GET abc.yongweisoft.cn/web/images/portfolio/6411.jpg
+[运行时间：0.125182s] [吞吐率：7.99req/s] [内存消耗：2,795.37kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'abc.yongweisoft.cn',
+  'accept' => 'image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5',
+  'accept-language' => 'zh-cn',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'br, gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_2_6 like Mac OS X) AppleWebKit/604.5.6 (KHTML, like Gecko) Mobile/15D100 Html5Plus/1.0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2018-09-03T19:34:38+08:00] 183.221.104.226 GET abc.yongweisoft.cn/web/images/portfolio/6407.png
+[运行时间：0.148743s] [吞吐率：6.72req/s] [内存消耗：2,795.37kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'abc.yongweisoft.cn',
+  'accept' => 'image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5',
+  'accept-language' => 'zh-cn',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'br, gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_2_6 like Mac OS X) AppleWebKit/604.5.6 (KHTML, like Gecko) Mobile/15D100 Html5Plus/1.0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2018-09-03T19:34:38+08:00] 183.221.104.226 GET abc.yongweisoft.cn/web/images/portfolio/6408.png
+[运行时间：0.153598s] [吞吐率：6.51req/s] [内存消耗：2,795.37kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'abc.yongweisoft.cn',
+  'accept' => 'image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5',
+  'accept-language' => 'zh-cn',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'br, gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_2_6 like Mac OS X) AppleWebKit/604.5.6 (KHTML, like Gecko) Mobile/15D100 Html5Plus/1.0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2018-09-03T19:34:38+08:00] 183.221.104.226 GET abc.yongweisoft.cn/web/images/portfolio/640(3).jpg
+[运行时间：0.091099s] [吞吐率：10.98req/s] [内存消耗：2,795.43kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'abc.yongweisoft.cn',
+  'accept' => 'image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5',
+  'accept-language' => 'zh-cn',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'br, gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_2_6 like Mac OS X) AppleWebKit/604.5.6 (KHTML, like Gecko) Mobile/15D100 Html5Plus/1.0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2018-09-03T19:34:38+08:00] 183.221.104.226 GET abc.yongweisoft.cn/web/images/portfolio/640(4).jpg
+[运行时间：0.080368s] [吞吐率：12.44req/s] [内存消耗：2,795.43kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'abc.yongweisoft.cn',
+  'accept' => 'image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5',
+  'accept-language' => 'zh-cn',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'br, gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_2_6 like Mac OS X) AppleWebKit/604.5.6 (KHTML, like Gecko) Mobile/15D100 Html5Plus/1.0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2018-09-03T19:34:38+08:00] 183.221.104.226 GET abc.yongweisoft.cn/web/images/portfolio/640(5).jpg
+[运行时间：0.068956s] [吞吐率：14.50req/s] [内存消耗：2,795.43kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'abc.yongweisoft.cn',
+  'accept' => 'image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5',
+  'accept-language' => 'zh-cn',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'br, gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_2_6 like Mac OS X) AppleWebKit/604.5.6 (KHTML, like Gecko) Mobile/15D100 Html5Plus/1.0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2018-09-03T19:34:38+08:00] 183.221.104.226 GET abc.yongweisoft.cn/web/images/portfolio/640(1).png
+[运行时间：0.063561s] [吞吐率：15.73req/s] [内存消耗：2,795.43kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'abc.yongweisoft.cn',
+  'accept' => 'image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5',
+  'accept-language' => 'zh-cn',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'br, gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_2_6 like Mac OS X) AppleWebKit/604.5.6 (KHTML, like Gecko) Mobile/15D100 Html5Plus/1.0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2018-09-03T19:34:38+08:00] 183.221.104.226 GET abc.yongweisoft.cn/web/images/portfolio/640(6).jpg
+[运行时间：0.046615s] [吞吐率：21.45req/s] [内存消耗：2,795.43kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'abc.yongweisoft.cn',
+  'accept' => 'image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5',
+  'accept-language' => 'zh-cn',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'br, gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_2_6 like Mac OS X) AppleWebKit/604.5.6 (KHTML, like Gecko) Mobile/15D100 Html5Plus/1.0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2018-09-03T23:12:51+08:00] 74.82.47.5 GET 119.29.217.103/
+[运行时间：0.024634s] [吞吐率：40.59req/s] [内存消耗：2,792.48kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '119.29.217.103',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2018-09-03T23:55:57+08:00] 222.186.31.240 GET 119.29.217.103/
+[运行时间：0.026322s] [吞吐率：37.99req/s] [内存消耗：2,794.23kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'accept-language' => 'zh-cn',
+  'referer' => 'https://119.29.217.103',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 9.0; Windows NT 6.1)',
+  'host' => '119.29.217.103',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)

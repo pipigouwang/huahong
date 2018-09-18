@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<title>首页</title>
+		<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+		<meta content="yes" name="apple-mobile-web-app-capable">
+		<meta content="black" name="apple-mobile-web-app-status-bar-style">
+		<meta content="telephone=no" name="format-detection">
+		<meta name="full-screen" content="yes">
+		<meta name="x5-fullscreen" content="true">
+		<link rel="stylesheet" href="../css/weui.css">
+		<link rel="stylesheet" href="../css/jquery-weui.css">
+		<link rel="stylesheet" href="../font/iconfont.css">
+		<link rel="stylesheet" href="../css/dropload.css">
+		<link rel="stylesheet" href="../css/base.css">
+		<link rel="stylesheet" href="../css/style.css">
+	</head>
+
+	<body>
+		<div class="weui-tab">
+			<div class="weui-tab__bd">
+				<div id="tab1" class="weui-tab__bd-item weui-tab__bd-item--active">
+					<div class="page userindex">
+						<!--搜索-->
+						<div class="weui-search-bar">
+							<form class="weui-search-bar__form" id="search" action="">
+								<div class="weui-search-bar__box">
+									<i class="weui-icon-search"></i>
+									<input type="search" class="weui-search-bar__input" id="searchInput" placeholder="请输入药品名称">
+									<a href="javascript:" class="weui-icon-clear" id="searchClear"></a>
+								</div>
+							</form>
+						</div>
+						<!--end搜索-->
+						<!-- 轮播图 -->
+						<div class="swiper-container">
+							<div class="swiper-wrapper indexbanner">
+								<script type="text/template" id="indexbanner">
+									{{each data as value}}
+									<div class="swiper-slide bg" data-idx="{{value.id}}" data-title="{{value.title}}" data-url="{{value.url}}" style="background-image: url({{value.img}});"></div>
+									{{/each}}
+								</script>
+							</div>
+							<div class="swiper-pagination"></div>
+						</div>
+						<!-- end轮播图 -->
+						<div class="zuijinBox" style="display: none;">
+							<!-- 最近搜索 -->
+							<div class="conTit recentlyTit df bs">
+								<img src="../img/png01.png" alt="" title="" />
+								<span id="aa">最近搜索</span>
+							</div>
+							<div class="conBox recentlyBox">
+								<div class="swiper-container2">
+									<div class="swiper-wrapper recentsearch">
+										<script type="text/template" id="recentsearch">
+											{{each data as value}}
+											<div class="swiper-slide recentlySwipter" data-idx="{{value.id}}">
+												<div class="conItem bs">
+													<div class="conImg bg" style="background-image: url({{href}}{{value.imgurl}});"></div>
+													<div class="conTitle text2">{{value.name}}{{value.id}}</div>
+													<div class="conPrice df">
+														<span>￥{{value.trueprice}}</span>
+														<span class="preprice">￥{{value.price}}</span>
+													</div>
+													<div class="conInfo df {{if value.list.length == '0'}}noshop{{/if}}">
+														<img src="../img/png03.png" class="conInfoImg" alt="" title="" />
+														<span>{{value.list.length}}家药店在售</span>
+													</div>
+												</div>
+											</div>
+											{{/each}}
+										</script>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- end最近搜索 -->
+						<!-- 家庭常备 -->
+						<div class="conTit conTitBlue df bs">
+							<img src="../img/png02.png" alt="" title="" />
+							<span>推荐药品</span>
+						</div>
+						<div class="conBox conBox2 permanent df">
+							<script type="text/template" id="permanent">
+								{{each permanentmedicine as value}}
+								<div class="conItem conItem2 familyItem bs" data-idx="{{value.id}}">
+									<div class="conImg bg bs" style="width:88%;height:1.8rem;margin: 0 6% 8px;background-image: url({{href}}{{value.imgurl}});"></div>
+									<div class="conTitle text">{{value.name}}</div>
+									<div class="conPrice df">
+										<span>￥{{value.trueprice}}</span>
+										<span class="preprice">￥{{value.price}}</span>
+									</div>
+									<div class="conInfo df {{if value.list.length == '0'}}noshop{{/if}}">
+										<img src="../img/png03.png" class="conInfoImg" alt="" title="" />
+										<span>{{value.list.length}}家药店在售</span>
+									</div>
+								</div>
+								{{/each}}
+							</script>
+						</div>
+						<!-- end家庭常备 -->
+					</div>
+					<!--广告框-->
+					<div class="weui-mask weui-mask-ad"></div>
+					<div class="weui-custom-pop weui-custom-ad">
+						<div class="weui-custom-hd weui-custom-hd-ad">
+							<div class="activeImg bg bs"></div>
+							<div class="activeIcon"><i class="icon iconfont icon-shanchuguanbicha"></i></div>
+						</div>
+					</div>
+					<!--end广告框-->
+					<!--签到-->
+					<div class="qiandao">
+						<div class="qiandaoImg">
+							<img src="../img/png11.png" alt="" title="" />
+						</div>
+					</div>
+					<div class="weui-mask weui-mask-qiandao"></div>
+					<div class="weui-custom-pop weui-custom-qiandao">
+						<div class="weui-custom-hd">
+							<div class="qiandao-popImg">
+								<img src="../img/png10.png" alt="" title="" />
+							</div>
+							<div class="qiandaoCon">
+								<span class="qiandaoCon1"></span>
+								<span class="qiandaoCon2"></span>
+							</div>
+						</div>
+					</div>
+					<!--end签到-->
+				</div>
+				<div id="tab2" class="weui-tab__bd-item">
+					<div class="page casehistory">
+						<!--病历-->
+						<script type="text/template" id="casehistory">
+							{{each list as value}}
+							<div class="mediaclItem bs">
+								<div class="mediaclTop df bs">
+									<span>
+								<i class="icon iconfont icon-shijian-tianchong"></i>{{value.otime}}</span>
+									<span>
+								<i class="icon iconfont icon-dianpu-copy"></i>{{value.shopname}}</span>
+
+								</div>
+								<div class="mediaclMiddle df bs">
+									<span class="mediaclTit">诊断信息</span>
+									<span>{{value.remarks}}</span>
+								</div>
+								<div class="mediaclBottom">
+									<div class="mediaclTit">药品清单</div>
+									{{each value.goods as res}}
+									<div class="mediaclItemCon df" data-idx="{{res.gid}}">
+										<div class="mediaclItemL">
+											<img src="{{href}}{{res.imgurl}}" alt="" title="" />
+										</div>
+										<div class="mediaclItemM">
+											<div class="mediaclItemName">{{res.product_name}}</div>
+											<div class="conPrice">
+												<span>￥{{res.price}}</span>
+												<span class="preprice">￥{{res.trueprice}}</span>
+											</div>
+										</div>
+										<div class="mediaclItemR">x{{res.product_sum}}</div>
+									</div>
+									{{/each}}
+								</div>
+							</div>
+							{{/each}}
+						</script>
+						<!--end病历-->
+					</div>
+				</div>
+				<div id="tab3" class="weui-tab__bd-item">
+					<div class="page">
+						<div class="scoreTop">
+							<div class="scoreImg">
+								<img src="../img/bg01.png" alt="" title="" />
+							</div>
+							<div class="scoreInfo df bs clearfix">
+								<div class="scoreInfoL">
+									<span class="scoreInfoL1">当前积分</span>
+									<span class="scoreInfoL2"></span>
+									<span class="scoreInfoL3">查看积分规则>></span>
+								</div>
+								<div class="scoreInfoR">
+									<div>
+										<i class="icon iconfont icon-weibiaoti-"></i>
+										<span>可兑换礼品</span>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="scoreItemBox pointhistory">
+							<!--积分记录 -->
+
+							<!-- end积分记录 -->
+						</div>
+					</div>
+				</div>
+				<div id="tab4" class="weui-tab__bd-item">
+					<div class="page">
+						<div class="userTop bs">
+							<div class="userTopImg bs">
+								<img src="../img/bg.png" alt="" title="" />
+							</div>
+							<div class="userTopCon bs">
+								<div class="userphoto_dengji">
+									<div class="userTopPhoto indextouxiang bg"></div>
+									<span class="userTopdengji indexdengji">金牌用户</span>
+									<div class="userTopPhone indexdianhua"></div>
+								</div>
+							</div>
+						</div>
+						<div class="mycenter">
+							<div class="mycenterBox bs">
+								<a href="news.html">
+									<div class="mycenterItem df bs">
+										<div class="mycenterItemL df">
+											<div class="mycenterItemImg">
+												<img src="../img/png06.png" alt="" title="" />
+											</div>
+											<span>消息中心</span>
+										</div>
+										<div class="mycenterItemR">
+											<span class="hint-val notreadnews"></span>
+											<i class="icon iconfont icon-xiangyou"></i>
+										</div>
+									</div>
+								</a>
+								<a href="userinformation.html">
+									<div class="mycenterItem df bs">
+										<div class="mycenterItemL df">
+											<div class="mycenterItemImg">
+												<img src="../img/png07.png" alt="" title="" />
+											</div>
+											<span>文章资讯</span>
+										</div>
+										<div class="mycenterItemR">
+											<i class="icon iconfont icon-xiangyou"></i>
+										</div>
+									</div>
+								</a>
+								<!--<a href="usermeans.html">
+									<div class="mycenterItem noboder df bs">
+										<div class="mycenterItemL df">
+											<div class="mycenterItemImg">
+												<img src="../img/png08.png" alt="" title="" />
+											</div>
+											<span>完善资料</span>
+										</div>
+										<div class="mycenterItemR">
+											<i class="icon iconfont icon-xiangyou"></i>
+										</div>
+									</div>
+								</a>-->
+							</div>
+							<div class="mycenterBox bs">
+								<a href="aboutme.html">
+									<div class="mycenterItem noboder df bs">
+										<div class="mycenterItemL df">
+											<div class="mycenterItemImg">
+												<img src="../img/png09.png" alt="" title="" />
+											</div>
+											<span>关于我们</span>
+										</div>
+										<div class="mycenterItemR">
+											<i class="icon iconfont icon-xiangyou"></i>
+										</div>
+									</div>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--底部导航-->
+			<div class="weui-tabbar tabbarBox">
+				<a href="#tab1" class="weui-tabbar__item weui-bar__item_on" data-index="0">
+					<span style="display: inline-block;position: relative;">
+					<i class="icon iconfont icon-shouye1 weui-tabbar__icon"></i>
+				</span>
+					<p class="weui-tabbar__label">首页</p>
+				</a>
+				<a href="#tab2" class="weui-tabbar__item" data-index="1">
+					<i class="icon iconfont icon-dingdan weui-tabbar__icon"></i>
+					<p class="weui-tabbar__label">病历</p>
+				</a>
+				<a href="#tab3" class="weui-tabbar__item" data-index="2">
+					<span style="display: inline-block;position: relative;">
+					<i class="icon iconfont icon-jifen weui-tabbar__icon"></i>
+				</span>
+					<p class="weui-tabbar__label">积分</p>
+				</a>
+				<a href="#tab4" class="weui-tabbar__item" data-index="3">
+					<i class="icon iconfont icon-wode weui-tabbar__icon"></i>
+					<p class="weui-tabbar__label">我的</p>
+				</a>
+			</div>
+		</div>
+		<!--end底部导航-->
+		<script src="../js/jquery.min.js"></script>
+		<script src="../js/jquery-weui.min.js"></script>
+		<script src="../js/redirct.js"></script>
+		<script src="../js/template.js"></script>
+		<script src="../js/weixin.js"></script>
+		<script src="../js/rem.js"></script>
+		<script src="../js/swiper.min.js"></script>
+<!--		<script src="../js/vconsole.min.js"></script>-->
+		<script src="http://res.wx.qq.com/open/js/jweixin-1.2.0.js"></script>
+	</body>
+	<script>
+//				var vConsole = new VConsole();
+		var openid = '';
+		var aaa = sessionStorage.getItem('aaa');
+		var h = document.documentElement.clientHeight || document.body.clientHeight;
+		(function($) {
+			$.getUrlParam = function(name) {
+				var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)");
+				var r = window.location.search.substr(1).match(reg);
+				if(r != null) return unescape(r[2]);
+				return null;
+			}
+		})(jQuery);
+		//超链接取值
+		openid = $.getUrlParam('openid');
+		console.log(openid)
+		$(function() {
+			indexBaenr(); //首页轮播图
+			recentsearch(); //最近搜索商品
+			permanent(); //家庭常备
+			if(!aaa) {
+				propAd(); //弹框广告
+			}
+			var url = AJAXURL + '/aiyihui/www/userindex.html?openid=' + openid;
+			geography(url);
+			$('.weui-tabbar__item').on('click', function() {
+				$(this).addClass('weui-bar__item_on').siblings('.weui-bar__item_on').removeClass('weui-bar__item_on');
+				var index = $(this).data('index');
+				if(index == 0) {
+					$(document).attr("title", "首页");
+				} else if(index == 1) {
+					$(document).attr("title", "病历");
+					caseHistory();
+				} else if(index == 2) {
+					$(document).attr("title", "积分");
+					pointhistory();
+				} else if(index == 3) {
+					$(document).attr("title", "我的");
+					indexMy();
+				}
+			});
+			//广告框
+			$('.activeIcon').on('click', function() {
+				$('.weui-mask-ad').removeClass('weui-mask--visible');
+				$('.weui-custom-ad').removeClass('weui-dialog--visible');
+			})
+			//end广告框
+			//签到
+			$('.qiandao').on('click', function() {
+				var da = {
+					"tag": "member",
+					"op": "sign"
+				}
+				$.ajax({
+					type: 'POST',
+					url: AJAXURL + '/index/member/index',
+					contentType: "application/x-www-form-urlencoded",
+					data: da,
+					dataType: 'json',
+					success: function(success) {
+						console.log('签到数据' + JSON.stringify(success))
+						$('.weui-mask-qiandao').addClass('weui-mask--visible');
+						$('.weui-custom-qiandao').addClass('weui-dialog--visible');
+						if(success.err > 0) {
+							$('.qiandaoCon1').text('恭喜您今日签到成功！');
+							$('.qiandaoCon2').text('+' + success.data + '积分');
+						} else if(success.err == '-100') {
+							window.location.href = 'login.html?openid=' + success.data.openid;
+						} else {
+							$('.qiandaoCon1').text('今日已签到！');
+							$('.qiandaoCon2').text('');
+						}
+					}
+				});
+			})
+			$('.weui-mask-qiandao').on('click', function() {
+				$('.weui-mask-qiandao').removeClass('weui-mask--visible');
+				$('.weui-custom-qiandao').removeClass('weui-dialog--visible');
+			})
+			//end签到
+			//病历
+			function caseHistory() {
+				var da = {
+					"tag": "patient",
+					"op": "getlist"
+				}
+				$.ajax({
+					type: 'POST',
+					url: AJAXURL + '/index/patient/casehistory?page=1&limit=20',
+					contentType: "application/x-www-form-urlencoded",
+					data: da,
+					dataType: 'json',
+					success: function(success) {
+						console.log('病历数据' + JSON.stringify(success))
+						if(success.err > 0) {
+							for(var i = 0; i < success.data.list.length; i++) {
+								var otime = success.data.list[i].created_time;
+								otime = otime.split(' ')[0].replace(/-/g, '/');
+								success.data.list[i].otime = otime;
+							}
+							success.data.href = IMGURL;
+							$(".casehistory").html(template("casehistory", success.data));
+						} else if(success.err == '-100') {
+							window.location.href = 'login.html?openid=' + success.data.openid;
+						} else {
+							$(".casehistory").html("<div class='noData'><img src='../img/noCon.png' alt='' title='' /></div>");
+						}
+					}
+				});
+			}
+			//end病历
+			//积分
+			function pointhistory() {
+				var da = {
+					"tag": "pointhistory",
+					"op": "getlist"
+				}
+				$.ajax({
+					type: 'POST',
+					url: AJAXURL + '/index/patient/pointhistory?page=1&limit=20',
+					contentType: "application/x-www-form-urlencoded",
+					data: da,
+					dataType: 'json',
+					success: function(success) {
+						console.log('积分数据' + JSON.stringify(success))
+						if(success.err > 0) {
+							for(var i = 0; i < success.data.list.length; i++) {
+								var otime = success.data.list[i].time;
+								otime = otime.split('-');
+								otime = otime[0] + '年' + otime[1] + '月';
+								success.data.list[i].otime = otime;
+							}
+							$('.scoreInfoL2').text(success.data.point);
+							$(".scoreItemBox").html(template("pointhistory", success.data));
+						} else if(success.err == '-100') {
+							window.location.href = 'login.html?openid=' + success.data.openid;
+						} else {
+							$('.scoreInfoL2').text('0');
+							$(".pointhistory").html("<div class='noData'><img src='../img/noCon.png' alt='' title='' /></div>");
+						}
+					}
+				});
+			}
+			//end积分
+			//个人中心
+			function indexMy() {
+				var da = {
+					"tag": "member",
+					"op": "getone"
+				}
+				$.ajax({
+					type: 'POST',
+					url: AJAXURL + '/index/member/index',
+					contentType: "application/x-www-form-urlencoded",
+					data: da,
+					dataType: 'json',
+					success: function(success) {
+						console.log('个人中心数据' + JSON.stringify(success))
+						if(success.err > 0) {
+							var notreadmsg = success.data.notreadmsg;
+							$('.indextouxiang').css('background-image', 'url(' + success.data.avator + ')');
+							$('.indexdengji').text('等级' + success.data.level);
+							$('.indexdianhua').text(success.data.phone);
+							console.log(notreadmsg)
+							if(notreadmsg == '0') {
+								$('.notreadnews').hide();
+							} else {
+								$('.notreadnews').text(notreadmsg);
+								$('.notreadnews').show();
+							}
+						} else if(success.err == '-100') {
+							window.location.href = 'login.html?openid=' + success.data.openid;
+						} else {
+							$.toast(success.message, "cancel");
+						}
+					}
+				});
+			}
+			//end个人中心
+			//商品详情
+			//常见搜索
+			$('.recentlyBox').on('click', '.recentlySwipter', function() {
+				var idx = $(this).data('idx');
+				window.location.href = 'shopdetails.html?idx=' + idx + '&lat=' + lat + '&lng=' + lng;
+			})
+			//推荐药品
+			$('.permanent').on('click', '.familyItem', function() {
+				var idx = $(this).data('idx');
+				var lat = $('body').data('lng');
+				var lng = $('body').data('lat');
+				window.location.href = 'shopdetails.html?idx=' + idx + '&lat=' + lat + '&lng=' + lng;
+			})
+			//病例药品
+			$('.casehistory').on('click', '.mediaclItemCon', function() {
+				var idx = $(this).data('idx');
+				var lat = $('body').data('lng');
+				var lng = $('body').data('lat');
+				window.location.href = 'shopdetails.html?idx=' + idx + '&lat=' + lat + '&lng=' + lng;
+			})
+			//常见搜索
+			$('#searchInput').on('click', function() {
+				var lat = $('body').data('lng');
+				var lng = $('body').data('lat');
+				window.location.href = 'shopsearch.html?lat=' + lat + '&lng=' + lng;
+			})
+			$('.hint-val').hide();
+		});
+
+		function indexBaenr() {
+			$.ajax({
+				type: 'POST',
+				url: AJAXURL + '/index/index/banner',
+				contentType: "application/x-www-form-urlencoded",
+				dataType: 'json',
+				success: function(success) {
+					console.log('首页轮播图数据' + JSON.stringify(success))
+					if(success.err > 0) {
+						success.href = IMGURL;
+						$(".indexbanner").html(template("indexbanner", success));
+						var mySwiper = new Swiper('.swiper-container', {
+							autoplay: 3000,
+							speed: 500,
+							pagination: '.swiper-pagination',
+							paginationType: 'bullets',
+							loop: true,
+							autoplayDisableOnInteraction: false,
+							autoHeight: false,
+						})
+					} else if(success.err == '-100') {
+						window.location.href = 'login.html?openid=' + success.data.openid;
+					} else {
+						$.toast(success.message, "cancel");
+					}
+				}
+			});
+		}
+		$('.indexbanner').on('click', '.swiper-slide', function() {
+			var ourl = $(this).data('url');
+			window.location.href = ourl;
+		})
+		//end首页轮播图
+		//最近搜索
+		function recentsearch() {
+			$.ajax({
+				type: 'POST',
+				url: AJAXURL + '/index/index/recentsearch',
+				contentType: "application/x-www-form-urlencoded",
+				dataType: 'json',
+				success: function(success) {
+					console.log('最近搜索数据' + JSON.stringify(success))
+					if(success.err > 0) {
+						success.href = IMGURL;
+						if(success.data.length != '0') {
+							$('.zuijinBox').show();
+							$(".recentsearch").html(template("recentsearch", success));
+						} else {
+							$('.zuijinBox').hide();
+						}
+					} else if(success.err == '-100') {
+						window.location.href = 'login.html?openid=' + success.data.openid;
+					} else {
+						console.log(success.message)
+					}
+				}
+			});
+		}
+		//end最近搜索
+		//家庭常备
+		function permanent() {
+			$.ajax({
+				type: 'POST',
+				url: AJAXURL + '/index/index/permanent',
+				contentType: "application/x-www-form-urlencoded",
+				dataType: 'json',
+				success: function(success) {
+					console.log('最近搜索数据' + JSON.stringify(success))
+					if(success.err > 0) {
+						success.href = IMGURL;
+						$(".permanent").html(template("permanent", success.data));
+					} else if(success.err == '-100') {
+						window.location.href = 'login.html?openid=' + success.data.openid;
+					} else {
+						console.log(success.message)
+					}
+				}
+			});
+		}
+		//end家庭常备
+		//广告弹框
+		function propAd() {
+			$.ajax({
+				type: 'POST',
+				url: AJAXURL + '/index/index/advertisement',
+				contentType: "application/x-www-form-urlencoded",
+				dataType: 'json',
+				success: function(success) {
+					console.log('弹框广告数据' + JSON.stringify(success))
+					if(success.err > 0) {
+						$('.weui-mask-ad').addClass('weui-mask--visible');
+						$('.weui-custom-ad').addClass('weui-dialog--visible');
+						$('.activeImg').css({
+							"background-image": 'url(' + success.data.img + ')',
+							'height': h / 2 + 'px'
+						}).attr('data-url', success.data.url);
+						//存入缓存
+						if(window.localStorage) {
+							sessionStorage.setItem('aaa', '1');
+						}
+					} else if(success.err == '-100') {
+						window.location.href = 'login.html?openid=' + success.data.openid;
+					} else {
+						$('.weui-mask-ad').removeClass('weui-mask--visible');
+						$('.weui-custom-ad').removeClass('weui-dialog--visible');
+					}
+				}
+			});
+		}
+		//end广告弹框
+		//点击弹框
+		$('.activeImg').on('click', function() {
+			var a = $(this).data('url');
+			window.location.href = a;
+		})
+		//end点击弹框
+		//积分规则
+		$('.scoreInfoL').on('click', function() {
+			window.location.href = 'jifenrule.html';
+		})
+		//end积分规则
+		//积分商城
+		$('.scoreInfoR').on('click', function() {
+			window.location.href = 'jifenshop.html';
+		})
+		//end积分商城
+	</script>
+	<!--积分记录-->
+	<script type="text/template" id="pointhistory">
+		{{each list as value}}
+		<div class="scoreItem">
+			<div class="scoreTit bs">
+				<i class="icon iconfont icon-shijian-tianchong"></i>
+				<span>{{value.otime}}</span>
+			</div>
+			<div class="conBox">
+				<ul>
+					{{each value.content as res}}
+					<li>
+						<span>
+							<span class="scoreli1">{{res.day}}日</span>
+						<span class="scoreli2">{{res.tip}}</span>
+						</span>
+						<span class="scoreli3 {{res.pointsum < 0 ?'':'scoreli3_red'}}">{{res.pointsum < 0 ?res.pointsum:'+'+res.pointsum}}</span>
+					</li>
+					{{/each}}
+				</ul>
+			</div>
+		</div>
+		{{/each}}
+	</script>
+	<!--end积分记录-->
+
+</html>

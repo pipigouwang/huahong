@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<title>代理药品</title>
+		<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+		<meta content="yes" name="apple-mobile-web-app-capable">
+		<meta content="black" name="apple-mobile-web-app-status-bar-style">
+		<meta content="telephone=no" name="format-detection">
+		<link rel="stylesheet" href="../css/weui.css">
+		<link rel="stylesheet" href="../css/jquery-weui.css">
+		<link rel="stylesheet" href="../font/iconfont.css">
+		<link rel="stylesheet" href="../css/base.css">
+		<link rel="stylesheet" href="../css/style.css">
+	</head>
+
+	<body>
+		<div class="page">
+			<!--药品进货-->
+			<div class="agentYaopin">
+				<script type="text/template" id="agentYaopin">
+					{{each list as value key}}
+					<div class="detailBox yaopinBox bs">
+						<div class="detailInfo df bs">
+							<div class="detailInfoImg bg" style="background-image: url({{href}}{{value.imgurl}})"></div>
+							<div class="detailInfoR">
+								<div class="detailShopName">{{value.name}}</div>
+								<div class="yaopinkc">库存总数：{{value.stock}}件</div>
+							</div>
+						</div>
+						<div class="searchHandle yaopinHandle yaopinHandle{{value.id}}" data-idx="{{value.id}}">
+							<div class="showMore">
+								<span>查看详情</span>
+								<i class="icon iconfont icon-xiangxia"></i>
+							</div>
+						</div>
+						<div class="yaopinListBox bs">
+							<div class="detailTit">进货记录</div>
+							<div class="yaopinCon{{value.id}}">
+
+							</div>
+						</div>
+					</div>
+					{{/each}}
+				</script>
+			</div>
+			<!--end药品进货-->
+		</div>
+		<!--end底部导航-->
+		<script src="../js/jquery.min.js"></script>
+		<script src="../js/jquery-weui.min.js"></script>
+		<script src="../js/redirct.js"></script>
+		<script src="../js/template.js"></script>
+		<script src="../js/weixin.js"></script>
+		<script src="../js/rem.js"></script>
+<!--		<script src="../js/vconsole.min.js"></script>-->
+	</body>
+	<script>
+//		var vConsole = new VConsole();
+		$(function() {
+			agentYaopin();
+			$('.agentYaopin').on('click','.yaopinHandle',function() {
+				var ii = $(this).attr('res');
+				var idx = $(this).data('idx');
+				console.log(idx);
+				agentDetail(idx);
+				if(!ii) {
+					$(this).attr('res', '1');
+					$(this).next().show('slow');
+					$(this).children().html('向上收起<i class="icon iconfont icon-xiangshang"></i>');
+				} else {
+					$(this).attr('res', '');
+					$(this).next().hide('normal');
+					$(this).children().html('查看详情<i class="icon iconfont icon-xiangxia"></i>');
+				}
+			})
+		});
+		//代理药品
+		function agentYaopin() {
+			var da = {
+				"tag": "member",
+				"op": "memberproduct"
+			}
+			$.ajax({
+				type: 'POST',
+				url: AJAXURL + '/index/member/memberproduct',
+				contentType: "application/x-www-form-urlencoded",
+				data: da,
+				dataType: 'json',
+				success: function(success) {
+					console.log('代理药品数据' + JSON.stringify(success))
+					if(success.err > 0) {
+						success.data.href = IMGURL;
+						$(".agentYaopin").html(template("agentYaopin", success.data));
+					} else if(success.err == '-100') {
+						window.location.href = 'login.html';
+					} else {
+						$(".agentYaopin").html("<div class='noData'><img src='../img/noCon.png' alt='' title='' /></div>");
+					}
+				}
+			});
+		}
+		//end代理药品
+		//代理药品进货记录
+		//代理药品详情
+		function agentDetail(idx) {
+			var da = {
+				"tag": "member",
+				"op": "purchasehistory",
+				"condition": {
+					"pid": idx
+				}
+			}
+			$.ajax({
+				type: 'POST',
+				url: AJAXURL + '/index/member/purchasehistory',
+				contentType: "application/x-www-form-urlencoded",
+				data: da,
+				dataType: 'json',
+				success: function(success) {
+					console.log('代理药品详情数据' + JSON.stringify(success))
+					var html = '';
+					if(success.err > 0) {
+						for(var i = 0; i < success.data.list.length; i++) {					
+							html += "<div class='yaopinList df bs'>" +
+								"<span>" + success.data.list[i].create_date + "</span>" +
+								"<span>批次号：" + success.data.list[i].sn + "</span>" +
+								"<span>数量：" + success.data.list[i].num + "</span>" +
+								"</div>";
+						}		
+					$('.yaopinCon' + idx).html(html);
+					} else if(success.err == '-100') {
+						window.location.href = 'login.html';
+					} else {
+						$('.yaopinCon' + idx).html("<div class='yaopinList df bs'>暂无进货记录！</div>");
+					}
+				}
+			});
+		}
+		//end代理药品详情
+		//end代理药品进货记录
+	</script>
+
+</html>

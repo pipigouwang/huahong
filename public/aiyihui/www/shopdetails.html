@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<title>商品详情</title>
+		<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+		<meta content="yes" name="apple-mobile-web-app-capable">
+		<meta content="black" name="apple-mobile-web-app-status-bar-style">
+		<meta content="telephone=no" name="format-detection">
+		<link rel="stylesheet" href="../css/weui.css">
+		<link rel="stylesheet" href="../css/jquery-weui.css">
+		<link rel="stylesheet" href="../font/iconfont.css">
+		<link rel="stylesheet" href="../css/base.css">
+		<link rel="stylesheet" href="../css/style.css">
+		<style>
+			.searchItemBox {
+				padding: 0 2%;
+			}
+			
+			.sharebox {
+				width: 28%;
+				height: 40px;
+				position: fixed;
+				right: 2%;
+				top: 2%;
+				justify-content: center;
+				align-items: center;
+				border-radius: 4px;
+				box-shadow: 0 0 1px lightgray;
+			}
+			
+			.shareImg {
+				width: 24px;
+				height: 24px;
+			}
+			
+			.sharebox span {
+				font-size: 12px;
+				margin-left: 4%;
+				color: #666666;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div class="detailBox bs">
+			<div class="detailInfo df">
+				<div class="detailInfoImg bg"></div>
+				<div class="detailInfoR">
+					<div class="detailShopName"></div>
+					<div class="detailShopPrice">
+						<span class="smallPrice"></span>
+						<span class="bigPrice"></span>
+					</div>
+				</div>
+			</div>
+			<div class="detailTit"><span></span>家药店有售</div>
+			<div class="searchItemBox yaodianBox storePosition bs">
+				<div class="shopItem storedeItem df">
+					<span></span>
+					<span></span>
+				</div>
+			</div>
+		</div>
+		<div class="detailBox bs">
+			<div class="detailTit">商品详情</div>
+			<div class="detailDetail bs">
+
+			</div>
+		</div>
+		<script src="../js/jquery.min.js"></script>
+		<script src="../js/jquery-weui.min.js"></script>
+		<script src="../js/redirct.js"></script>
+		<script src="../js/template.js"></script>
+		<script src="../js/rem.js"></script>
+		<script src="../js/weixin.js"></script>
+		<script src="../js/swiper.min.js"></script>
+<!--		<script src="../js/vconsole.min.js"></script>-->
+	</body>
+	<script>
+//		var vConsole = new VConsole();
+		//超链接取值
+		var idx = '',
+			lat = '',
+			lng = '';
+		(function($) {
+			$.getUrlParam = function(name) {
+				var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)");
+				var r = window.location.search.substr(1).match(reg);
+				if(r != null) return unescape(r[2]);
+				return null;
+			}
+		})(jQuery);
+
+		$(function() {
+			idx = $.getUrlParam('idx');
+			lat = $.getUrlParam('lat');
+			lng = $.getUrlParam('lng');
+			console.log(idx);
+			console.log(lat);
+			console.log(lng);
+			var da = {
+				"tag": "product",
+				"op": "getone",
+				"condition": {
+					"lng2": lng,
+					"lat2": lat,
+					"id": idx
+				}
+			}
+			$.ajax({
+				type: 'POST',
+				url: AJAXURL + '/index/product/index?page=1&limit=20',
+				contentType: "application/x-www-form-urlencoded",
+				data: da,
+				dataType: 'json',
+				success: function(success) {
+					console.log('商品详情' + JSON.stringify(success))
+					if(success.err > 0) {
+						$('.detailInfoImg').css('background-image', 'url(' + IMGURL + '' + success.data[0].imgurl + ')');
+						$('.detailShopName').text(success.data[0].name);
+						$('.smallPrice').text(success.data[0].trueprice);
+						$('.bigPrice').text(success.data[0].price);
+						$('.detailTit span').text(success.data[0].list.length);
+						$('.detailDetail').html(success.data[0].detail);
+						for(var i = 0; i < success.data[0].list.length; i++) {
+							var dis = success.data[0].list[i].dis / 1000;
+							dis = dis.toFixed(2);
+							success.data[0].list[i].dis = dis;
+						}
+						$(".storePosition").html(template("storePosition", success.data[0]));
+					} else if(success.err == '-100') {
+						window.location.href = 'login.html';
+					} else {
+						console.log(success.message);
+					}
+				}
+			});
+			//隐藏右上角菜单
+			var url = AJAXURL + '/aiyihui/www/shopdetails.html?idx=' + idx + '&lat=' + lat + '&lng' + lng
+			var da = {
+				url: url
+			}
+			$.ajax({
+				type: 'POST',
+				url: AJAXURL + '/index/index/geography',
+				contentType: "application/x-www-form-urlencoded",
+				dataType: 'json',
+				data: da,
+				success: function(success) {
+					console.log('数据' + JSON.stringify(success))
+					if(success.err > 0) {
+						var configData = success.data.data;
+						wx.config({
+							debug: false,
+							appId: configData.appId,
+							timestamp: configData.timestamp,
+							nonceStr: configData.nonceStr,
+							signature: configData.signature,
+							jsApiList: ['onMenuShareQQ']
+						});
+						wx.ready(function() {
+							wx.onMenuShareQQ({
+								title: '标题', // 分享标题
+								desc: '描述', // 分享描述
+								link: 'http://huahong.yongweisoft.cn/aiyihui/www/404.html', // 分享链接
+								imgUrl: 'http://huahong.yongweisoft.cn/uploads/other/20180827/5392d07fa43a9b251c0a97719d1a0f63.jpg', // 分享图标
+								success: function() {
+									console.log('22222222')
+								},
+								cancel: function() {
+									// 用户取消分享后执行的回调函数
+									console.log('33333333')
+								}
+							});
+						})
+						wx.error(function(res) {
+							console.log(res)
+						});
+					} else {
+						$.toast(success.data, "cancel");
+					}
+				}
+			});
+			//end
+			$('.storePosition').on('click', '.storedeItem', function() {
+				var idx = $(this).data('idx');
+				console.log(idx)
+				window.location.href = 'storedetails.html?idx=' + idx;
+			})
+		})
+	</script>
+	<script type="text/template" id="storePosition">
+		{{each list as value}}
+		<div class="shopItem storedeItem df" data-idx="{{value.shopid}}">
+			<span>{{value.shopname}}</span>
+			<span>> {{value.dis}}km</span>
+		</div>
+		{{/each}}
+	</script>
+
+</html>

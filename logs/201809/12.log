@@ -1,0 +1,3309 @@
+---------------------------------------------------------------
+[2018-09-12T00:45:56+08:00] 183.60.210.52 GET 119.29.217.103/
+[运行时间：0.034820s] [吞吐率：28.72req/s] [内存消耗：2,794.23kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'accept-language' => 'zh-cn',
+  'referer' => 'https://119.29.217.103',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 9.0; Windows NT 6.1)',
+  'host' => '119.29.217.103',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2018-09-12T03:01:44+08:00] 176.52.192.43 GET 119.29.217.103/
+[运行时间：0.074538s] [吞吐率：13.42req/s] [内存消耗：2,792.88kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '119.29.217.103',
+  'user-agent' => 'curl/7.43.0',
+  'accept' => '*/*',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2018-09-12T05:36:03+08:00] 222.186.31.27 GET 119.29.217.103/
+[运行时间：0.024904s] [吞吐率：40.15req/s] [内存消耗：2,794.23kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'accept-language' => 'zh-cn',
+  'referer' => 'https://119.29.217.103',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 9.0; Windows NT 6.1)',
+  'host' => '119.29.217.103',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2018-09-12T05:38:33+08:00] 71.6.232.7 GET 119.29.217.103/
+[运行时间：0.028312s] [吞吐率：35.32req/s] [内存消耗：2,793.62kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '119.29.217.103',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2018-09-12T09:08:07+08:00] 178.73.215.171 GET /
+[运行时间：0.027135s] [吞吐率：36.85req/s] [内存消耗：2,792.46kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2018-09-12T10:37:12+08:00] 209.17.96.66 GET map.yongweisoft.cn/
+[运行时间：0.029475s] [吞吐率：33.93req/s] [内存消耗：2,793.12kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'map.yongweisoft.cn',
+  'user-agent' => 'Mozilla/5.0 (compatible; Nimbostratus-Bot/v1.3.2; http://cloudsystemnetworks.com)',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2018-09-12T15:33:37+08:00] 183.60.210.52 GET 119.29.217.103/
+[运行时间：0.026259s] [吞吐率：38.08req/s] [内存消耗：2,794.23kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'accept-language' => 'zh-cn',
+  'referer' => 'https://119.29.217.103',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 9.0; Windows NT 6.1)',
+  'host' => '119.29.217.103',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2018-09-12T18:04:34+08:00] 221.237.113.130 POST abc.yongweisoft.cn/login?version=v1&model=user&method=pc
+[运行时间：0.809992s] [吞吐率：1.23req/s] [内存消耗：5,097.78kb] [文件加载：107]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'login',
+  'route' => 'login/Login/login',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'abc.yongweisoft.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '30',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'https://abc.yongweisoft.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.92 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'https://abc.yongweisoft.cn/web/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_dde6ba2851f3db0ddc415ce0f895822e=1536630837',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+  'model' => 'user',
+  'method' => 'pc',
+  'username' => 'admin',
+  'password' => '123456',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000495s ] mysql:host=127.0.0.1;port=3306;dbname=spa;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user` [ RunTime:0.015001s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_user` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.000502s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'yw_user',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 6,
+  'extra' => 'Using where',
+) ]
+---------------------------------------------------------------
+[2018-09-12T18:04:37+08:00] 221.237.113.130 POST abc.yongweisoft.cn/user/list?version=v1&page=1&limit=10
+[运行时间：0.136895s] [吞吐率：7.30req/s] [内存消耗：4,662.66kb] [文件加载：88]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'user/list',
+  'route' => 'user/UserController/user_list',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'abc.yongweisoft.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '44',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'https://abc.yongweisoft.cn',
+  'authorization' => 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VySW5mbyI6ImhlbGxvIiwidGltZXMiOjAsImV4cCI6MTUzNjgzMzA3NCwiaXNzIjoieXcuY29tIiwibWVtYmVyaWQiOjF9.QFJWrMQWigzaE0-J4KTUfqT-FF5Utg4chUrw8WdXl2A',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.92 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'https://abc.yongweisoft.cn/web/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_dde6ba2851f3db0ddc415ce0f895822e=1536630837; PHPSESSID=7sd8nd7v9ok5u4jrg9if254rd1',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+  'page' => '1',
+  'limit' => '10',
+  'username' => '',
+  'sellerid' => '0',
+  'state' => '0',
+  'selleridtostr' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000333s ] mysql:host=127.0.0.1;port=3306;dbname=spa;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user` [ RunTime:0.000819s ]
+[ sql ] [ SQL ] SELECT `a`.`id`,`a`.`username`,`a`.`realname`,`a`.`roleid`,`a`.`phone`,sellerinfo.name as sellername,`a`.`state` FROM `yw_user` `a` INNER JOIN `yw_sellerinfo` `sellerinfo` ON `sellerinfo`.`id`=`a`.`sellerid` WHERE  `a`.`state` IN ('1','2') [ RunTime:0.000602s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'sellerinfo',
+  'type' => 'ALL',
+  'possible_keys' => 'PRIMARY',
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 3,
+  'extra' => '',
+) ]
+[ sql ] [ SQL ] SELECT `a`.`id`,`a`.`username`,`a`.`realname`,`a`.`roleid`,`a`.`phone`,sellerinfo.name as sellername,`a`.`state` FROM `yw_user` `a` INNER JOIN `yw_sellerinfo` `sellerinfo` ON `sellerinfo`.`id`=`a`.`sellerid` WHERE  `a`.`state` IN ('1','2') [ RunTime:0.000265s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'sellerinfo',
+  'type' => 'ALL',
+  'possible_keys' => 'PRIMARY',
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 3,
+  'extra' => '',
+) ]
+---------------------------------------------------------------
+[2018-09-12T18:04:37+08:00] 221.237.113.130 POST abc.yongweisoft.cn/sellerinfo/list?version=v1&page=1&limit=2
+[运行时间：0.195067s] [吞吐率：5.13req/s] [内存消耗：4,716.00kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'sellerinfo/list',
+  'route' => 'sellerinfo/Sellerinfo/Sellerinfo_list',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'abc.yongweisoft.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'https://abc.yongweisoft.cn',
+  'authorization' => 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VySW5mbyI6ImhlbGxvIiwidGltZXMiOjAsImV4cCI6MTUzNjgzMzA3NCwiaXNzIjoieXcuY29tIiwibWVtYmVyaWQiOjF9.QFJWrMQWigzaE0-J4KTUfqT-FF5Utg4chUrw8WdXl2A',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.92 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'https://abc.yongweisoft.cn/web/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_dde6ba2851f3db0ddc415ce0f895822e=1536630837; PHPSESSID=7sd8nd7v9ok5u4jrg9if254rd1',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+  'page' => '1',
+  'limit' => '2',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000369s ] mysql:host=127.0.0.1;port=3306;dbname=spa;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_sellerinfo` [ RunTime:0.000830s ]
+[ sql ] [ SQL ] SELECT id,name,chargeman,phone,address,
+            longitude,latitude,introduction,imgurl,state FROM `yw_sellerinfo` WHERE  `state` IN (1,2) LIMIT 0,2 [ RunTime:0.000462s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'yw_sellerinfo',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 3,
+  'extra' => 'Using where',
+) ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yw_sellerinfo` WHERE  `state` IN (1,2) LIMIT 1 [ RunTime:0.000492s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'yw_sellerinfo',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 3,
+  'extra' => 'Using where',
+) ]
+---------------------------------------------------------------
+[2018-09-12T18:04:59+08:00] 221.237.113.130 POST abc.yongweisoft.cn/cardcoupon/list?version=v1&page=1&limit=10
+[运行时间：0.237786s] [吞吐率：4.21req/s] [内存消耗：4,905.79kb] [文件加载：93]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'cardcoupon/list',
+  'route' => 'cardcoupongoods/CardcouponGoods/CardcouponGoods_list',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'abc.yongweisoft.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '13',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'https://abc.yongweisoft.cn',
+  'authorization' => 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VySW5mbyI6ImhlbGxvIiwidGltZXMiOjAsImV4cCI6MTUzNjgzMzA3NCwiaXNzIjoieXcuY29tIiwibWVtYmVyaWQiOjF9.QFJWrMQWigzaE0-J4KTUfqT-FF5Utg4chUrw8WdXl2A',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.92 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'https://abc.yongweisoft.cn/web/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=7sd8nd7v9ok5u4jrg9if254rd1; Hm_lvt_dde6ba2851f3db0ddc415ce0f895822e=1536630837,1536746664; Hm_lpvt_dde6ba2851f3db0ddc415ce0f895822e=1536746664',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+  'page' => '1',
+  'limit' => '10',
+  'name' => '',
+  'state' => '0',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000376s ] mysql:host=127.0.0.1;port=3306;dbname=spa;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_goodscategory` [ RunTime:0.000981s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_goodscategory` WHERE  `fatherid` = 3 [ RunTime:0.015377s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'yw_goodscategory',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 10,
+  'extra' => 'Using where',
+) ]
+[ sql ] [ SQL ] SELECT * FROM `yw_goodscategory` WHERE  `fatherid` = 7 [ RunTime:0.000387s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'yw_goodscategory',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 10,
+  'extra' => 'Using where',
+) ]
+[ sql ] [ SQL ] SELECT * FROM `yw_goodscategory` WHERE  `fatherid` = 8 [ RunTime:0.000276s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'yw_goodscategory',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 10,
+  'extra' => 'Using where',
+) ]
+[ sql ] [ SQL ] SELECT * FROM `yw_goodscategory` WHERE  `fatherid` = 9 [ RunTime:0.000325s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'yw_goodscategory',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 10,
+  'extra' => 'Using where',
+) ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_cardcoupon_goods` [ RunTime:0.001106s ]
+[ sql ] [ SQL ] SELECT `g`.`name`,`imgurl`,`g`.`state`,`startdate`,`g`.`type`,`sellerid`,`stock`,`enddate`,`shop_price`,`member_price`,`number`,`discount`,`cid`,c.name as cname,`start_money`,`deduction_money`,g.id as goodsid FROM `yw_cardcoupon_goods` `a` FORCE INDEX ( id )  INNER JOIN `yw_goods` `g` ON `a`.`gid`=`g`.`id` INNER JOIN `yw_goodscategory` `c` ON `g`.`cid`=`c`.`id` WHERE  `g`.`name` LIKE '%%'  AND `cid` IN ('3','7','8','9')  AND `g`.`state` IN ('1','2') ORDER BY `a`.`id` DESC LIMIT 0,10 [ RunTime:0.017686s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'a',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 6,
+  'extra' => 'Using filesort',
+) ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yw_cardcoupon_goods` `a` INNER JOIN `yw_goods` `g` ON `a`.`gid`=`g`.`id` INNER JOIN `yw_goodscategory` `c` ON `g`.`cid`=`c`.`id` WHERE  `cid` IN ('3','7','8','9')  AND `g`.`state` IN ('1','2') LIMIT 1 [ RunTime:0.002170s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'a',
+  'type' => 'index',
+  'possible_keys' => 'gid',
+  'key' => 'gid',
+  'key_len' => '4',
+  'ref' => NULL,
+  'rows' => 6,
+  'extra' => 'Using index',
+) ]
+[ warn ] SQL:SELECT `g`.`name`,`imgurl`,`g`.`state`,`startdate`,`g`.`type`,`sellerid`,`stock`,`enddate`,`shop_price`,`member_price`,`number`,`discount`,`cid`,c.name as cname,`start_money`,`deduction_money`,g.id as goodsid FROM `yw_cardcoupon_goods` `a` FORCE INDEX ( id )  INNER JOIN `yw_goods` `g` ON `a`.`gid`=`g`.`id` INNER JOIN `yw_goodscategory` `c` ON `g`.`cid`=`c`.`id` WHERE  `g`.`name` LIKE :where_AND_g_name  AND `cid` IN (:where_AND_cid_in_1,:where_AND_cid_in_2,:where_AND_cid_in_3,:where_AND_cid_in_4)  AND `g`.`state` IN (:where_AND_g_state_in_1,:where_AND_g_state_in_2) ORDER BY `a`.`id` DESC LIMIT 0,10  [Using filesort]
+---------------------------------------------------------------
+[2018-09-12T18:04:59+08:00] 221.237.113.130 POST abc.yongweisoft.cn/catgory/list
+[运行时间：0.270851s] [吞吐率：3.69req/s] [内存消耗：4,722.02kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'catgory/list',
+  'route' => 'goodscategory/Goodscategory/goodscategory_list',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'abc.yongweisoft.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '137',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'https://abc.yongweisoft.cn',
+  'authorization' => 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VySW5mbyI6ImhlbGxvIiwidGltZXMiOjAsImV4cCI6MTUzNjgzMzA3NCwiaXNzIjoieXcuY29tIiwibWVtYmVyaWQiOjF9.QFJWrMQWigzaE0-J4KTUfqT-FF5Utg4chUrw8WdXl2A',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.92 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryuEPU1t8pgDgQ4Rf0',
+  'referer' => 'https://abc.yongweisoft.cn/web/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=7sd8nd7v9ok5u4jrg9if254rd1; Hm_lvt_dde6ba2851f3db0ddc415ce0f895822e=1536630837,1536746664; Hm_lpvt_dde6ba2851f3db0ddc415ce0f895822e=1536746664',
+)
+[ info ] [ PARAM ] array (
+  'level' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000361s ] mysql:host=127.0.0.1;port=3306;dbname=spa;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_goodscategory` [ RunTime:0.000738s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_goodscategory` WHERE  `state` IN (1,2) [ RunTime:0.000424s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'yw_goodscategory',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 10,
+  'extra' => 'Using where',
+) ]
+---------------------------------------------------------------
+[2018-09-12T18:04:59+08:00] 221.237.113.130 POST abc.yongweisoft.cn/catgory/list
+[运行时间：0.320822s] [吞吐率：3.12req/s] [内存消耗：4,722.28kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'catgory/list',
+  'route' => 'goodscategory/Goodscategory/goodscategory_list',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'abc.yongweisoft.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'https://abc.yongweisoft.cn',
+  'authorization' => 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VySW5mbyI6ImhlbGxvIiwidGltZXMiOjAsImV4cCI6MTUzNjgzMzA3NCwiaXNzIjoieXcuY29tIiwibWVtYmVyaWQiOjF9.QFJWrMQWigzaE0-J4KTUfqT-FF5Utg4chUrw8WdXl2A',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.92 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'https://abc.yongweisoft.cn/web/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=7sd8nd7v9ok5u4jrg9if254rd1; Hm_lvt_dde6ba2851f3db0ddc415ce0f895822e=1536630837,1536746664; Hm_lpvt_dde6ba2851f3db0ddc415ce0f895822e=1536746664',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000359s ] mysql:host=127.0.0.1;port=3306;dbname=spa;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_goodscategory` [ RunTime:0.000825s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_goodscategory` WHERE  `state` IN (1,2) [ RunTime:0.000262s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'yw_goodscategory',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 10,
+  'extra' => 'Using where',
+) ]
+---------------------------------------------------------------
+[2018-09-12T18:05:00+08:00] 221.237.113.130 POST abc.yongweisoft.cn/brand/list
+[运行时间：0.579901s] [吞吐率：1.72req/s] [内存消耗：4,631.40kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'brand/list',
+  'route' => 'brand/brand/brand_list',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'abc.yongweisoft.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'https://abc.yongweisoft.cn',
+  'authorization' => 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VySW5mbyI6ImhlbGxvIiwidGltZXMiOjAsImV4cCI6MTUzNjgzMzA3NCwiaXNzIjoieXcuY29tIiwibWVtYmVyaWQiOjF9.QFJWrMQWigzaE0-J4KTUfqT-FF5Utg4chUrw8WdXl2A',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.92 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'https://abc.yongweisoft.cn/web/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=7sd8nd7v9ok5u4jrg9if254rd1; Hm_lvt_dde6ba2851f3db0ddc415ce0f895822e=1536630837,1536746664; Hm_lpvt_dde6ba2851f3db0ddc415ce0f895822e=1536746664',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000367s ] mysql:host=127.0.0.1;port=3306;dbname=spa;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_brand` [ RunTime:0.000886s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`state` FROM `yw_brand` WHERE  `state` IN (1,2) LIMIT 0,9 [ RunTime:0.000419s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'yw_brand',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 2,
+  'extra' => 'Using where',
+) ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yw_brand` WHERE  `state` IN (1,2) LIMIT 1 [ RunTime:0.000295s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'yw_brand',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 2,
+  'extra' => 'Using where',
+) ]
+---------------------------------------------------------------
+[2018-09-12T18:07:10+08:00] 221.237.113.130 POST abc.yongweisoft.cn/login?version=v1&model=user&method=pc
+[运行时间：0.042842s] [吞吐率：23.34req/s] [内存消耗：5,097.15kb] [文件加载：107]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'login',
+  'route' => 'login/Login/login',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'abc.yongweisoft.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '30',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.92 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+  'model' => 'user',
+  'method' => 'pc',
+  'username' => 'admin',
+  'password' => '123456',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000333s ] mysql:host=127.0.0.1;port=3306;dbname=spa;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user` [ RunTime:0.000822s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_user` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.000275s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'yw_user',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 6,
+  'extra' => 'Using where',
+) ]
+---------------------------------------------------------------
+[2018-09-12T18:07:13+08:00] 221.237.113.130 POST abc.yongweisoft.cn/admin/booking/Get_trade_service
+[运行时间：0.318137s] [吞吐率：3.14req/s] [内存消耗：4,794.96kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'abc.yongweisoft.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '12',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8080',
+  'authorization' => 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VySW5mbyI6ImhlbGxvIiwidGltZXMiOjAsImV4cCI6MTUzNjgzMzIzMCwiaXNzIjoieXcuY29tIiwibWVtYmVyaWQiOjF9.oz8ur2eIzqmmj9_l3GK-CIwoQ4unAcIAYCeEUdrfYVQ',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.92 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'sid' => '1',
+  'page' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000457s ] mysql:host=127.0.0.1;port=3306;dbname=spa;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_trade_order` [ RunTime:0.001307s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yw_trade_order` `to` WHERE  `to`.`sellerid` = '1'  AND `to`.`type` = '2' LIMIT 1 [ RunTime:0.041282s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'to',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 27,
+  'extra' => 'Using where',
+) ]
+[ sql ] [ SQL ] SELECT `to`.`id`,`to`.`orderid`,`m`.`nickname`,`m`.`tel`,`to`.`money`,`to`.`actual_money`,`to`.`remark` FROM `yw_trade_order` `to` INNER JOIN `yw_member` `m` ON `to`.`mid`=`m`.`id` WHERE  `to`.`sellerid` = '1'  AND `to`.`type` = '2' LIMIT 0,10 [ RunTime:0.000697s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'to',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 27,
+  'extra' => 'Using where',
+) ]
+---------------------------------------------------------------
+[2018-09-12T18:07:55+08:00] 221.237.113.130 POST abc.yongweisoft.cn/admin/booking/Get_trade_service_detail
+[运行时间：0.041034s] [吞吐率：24.37req/s] [内存消耗：4,794.41kb] [文件加载：89]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'abc.yongweisoft.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '5',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8080',
+  'authorization' => 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VySW5mbyI6ImhlbGxvIiwidGltZXMiOjAsImV4cCI6MTUzNjgzMzIzMCwiaXNzIjoieXcuY29tIiwibWVtYmVyaWQiOjF9.oz8ur2eIzqmmj9_l3GK-CIwoQ4unAcIAYCeEUdrfYVQ',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.92 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'id' => '21',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000404s ] mysql:host=127.0.0.1;port=3306;dbname=spa;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_order_service` [ RunTime:0.000823s ]
+[ sql ] [ SQL ] SELECT `os`.`id`,`m`.`tel`,t.name as tname,`m`.`nickname`,g.name as gname,r.name as rname,b.name as bname,`os`.`starttime`,`os`.`state`,`os`.`sgtype`,`g`.`type`,`sg`.`money`,`sg`.`add_price`,`sg`.`minute`,`t`.`price`,sg.id as service_id FROM `yw_order_service` `os` INNER JOIN `yw_service_goods` `sg` ON `os`.`gid`=`sg`.`id` INNER JOIN `yw_goods` `g` ON `sg`.`gid`=`g`.`id` LEFT JOIN `yw_room` `r` ON `os`.`rid`=`r`.`id` LEFT JOIN `yw_bed` `b` ON `os`.`bid`=`b`.`id` LEFT JOIN `yw_technician` `t` ON `os`.`tid`=`t`.`id` INNER JOIN `yw_trade_order` `to` ON `os`.`orderid`=`to`.`id` INNER JOIN `yw_member` `m` ON `to`.`mid`=`m`.`id` WHERE  `os`.`orderid` = '21' [ RunTime:0.000401s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'to',
+  'type' => 'const',
+  'possible_keys' => 'PRIMARY',
+  'key' => 'PRIMARY',
+  'key_len' => '4',
+  'ref' => 'const',
+  'rows' => 1,
+  'extra' => '',
+) ]
+---------------------------------------------------------------
+[2018-09-12T18:08:16+08:00] 221.237.113.130 POST abc.yongweisoft.cn/admin/booking/Get_trade_service_detail
+[运行时间：0.049049s] [吞吐率：20.39req/s] [内存消耗：4,788.10kb] [文件加载：89]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'abc.yongweisoft.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '5',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8080',
+  'authorization' => 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VySW5mbyI6ImhlbGxvIiwidGltZXMiOjAsImV4cCI6MTUzNjgzMzIzMCwiaXNzIjoieXcuY29tIiwibWVtYmVyaWQiOjF9.oz8ur2eIzqmmj9_l3GK-CIwoQ4unAcIAYCeEUdrfYVQ',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.92 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'id' => '22',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000425s ] mysql:host=127.0.0.1;port=3306;dbname=spa;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_order_service` [ RunTime:0.000769s ]
+[ sql ] [ SQL ] SELECT `os`.`id`,`m`.`tel`,t.name as tname,`m`.`nickname`,g.name as gname,r.name as rname,b.name as bname,`os`.`starttime`,`os`.`state`,`os`.`sgtype`,`g`.`type`,`sg`.`money`,`sg`.`add_price`,`sg`.`minute`,`t`.`price`,sg.id as service_id FROM `yw_order_service` `os` INNER JOIN `yw_service_goods` `sg` ON `os`.`gid`=`sg`.`id` INNER JOIN `yw_goods` `g` ON `sg`.`gid`=`g`.`id` LEFT JOIN `yw_room` `r` ON `os`.`rid`=`r`.`id` LEFT JOIN `yw_bed` `b` ON `os`.`bid`=`b`.`id` LEFT JOIN `yw_technician` `t` ON `os`.`tid`=`t`.`id` INNER JOIN `yw_trade_order` `to` ON `os`.`orderid`=`to`.`id` INNER JOIN `yw_member` `m` ON `to`.`mid`=`m`.`id` WHERE  `os`.`orderid` = '22' [ RunTime:0.000718s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'to',
+  'type' => 'const',
+  'possible_keys' => 'PRIMARY',
+  'key' => 'PRIMARY',
+  'key_len' => '4',
+  'ref' => 'const',
+  'rows' => 1,
+  'extra' => '',
+) ]
+---------------------------------------------------------------
+[2018-09-12T18:08:19+08:00] 221.237.113.130 POST abc.yongweisoft.cn/admin/booking/get_member_card
+[运行时间：0.047361s] [吞吐率：21.11req/s] [内存消耗：4,803.69kb] [文件加载：89]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'abc.yongweisoft.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '5',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8080',
+  'authorization' => 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VySW5mbyI6ImhlbGxvIiwidGltZXMiOjAsImV4cCI6MTUzNjgzMzIzMCwiaXNzIjoieXcuY29tIiwibWVtYmVyaWQiOjF9.oz8ur2eIzqmmj9_l3GK-CIwoQ4unAcIAYCeEUdrfYVQ',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.92 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'id' => '27',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000356s ] mysql:host=127.0.0.1;port=3306;dbname=spa;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_trade_order` [ RunTime:0.000755s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_trade_order` WHERE  `id` = 27 LIMIT 1 [ RunTime:0.000405s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'yw_trade_order',
+  'type' => 'const',
+  'possible_keys' => 'PRIMARY',
+  'key' => 'PRIMARY',
+  'key_len' => '4',
+  'ref' => 'const',
+  'rows' => 1,
+  'extra' => '',
+) ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_order_service` [ RunTime:0.000706s ]
+[ sql ] [ SQL ] SELECT `gid`,`tid` FROM `yw_order_service` WHERE  `orderid` = 27 [ RunTime:0.000370s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'yw_order_service',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 253,
+  'extra' => 'Using where',
+) ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_membercard` [ RunTime:0.000711s ]
+[ sql ] [ SQL ] SELECT `cg`.`id`,`g`.`name`,`g`.`imgurl`,`cg`.`type`,`cg`.`use_service`,`cg`.`superposition`,`cg`.`start_money`,`cg`.`deduction_money`,`cg`.`discount`,`mc`.`enddate`,`mc`.`sumber` FROM `yw_membercard` `mc` INNER JOIN `yw_cardcoupon_goods` `cg` ON `mc`.`gid`=`cg`.`id` INNER JOIN `yw_goods` `g` ON `cg`.`gid`=`g`.`id` WHERE  `mc`.`mid` = '13'  AND `mc`.`state` = '1'  AND `mc`.`enddate` > '2018-09-12 18:08:19' [ RunTime:0.000428s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'mc',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 6,
+  'extra' => 'Using where',
+) ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_service_goods` [ RunTime:0.000684s ]
+[ sql ] [ SQL ] SELECT `sg`.`id` FROM `yw_service_goods` `sg` INNER JOIN `yw_goods` `g` ON `sg`.`gid`=`g`.`id` WHERE  `g`.`type` = '4' LIMIT 1 [ RunTime:0.000200s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'sg',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 3,
+  'extra' => '',
+) ]
+---------------------------------------------------------------
+[2018-09-12T18:08:27+08:00] 221.237.113.130 POST abc.yongweisoft.cn/admin/booking/get_member_card
+[运行时间：0.048710s] [吞吐率：20.53req/s] [内存消耗：4,803.69kb] [文件加载：89]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'abc.yongweisoft.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '5',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8080',
+  'authorization' => 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VySW5mbyI6ImhlbGxvIiwidGltZXMiOjAsImV4cCI6MTUzNjgzMzIzMCwiaXNzIjoieXcuY29tIiwibWVtYmVyaWQiOjF9.oz8ur2eIzqmmj9_l3GK-CIwoQ4unAcIAYCeEUdrfYVQ',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.92 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'id' => '30',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000478s ] mysql:host=127.0.0.1;port=3306;dbname=spa;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_trade_order` [ RunTime:0.001235s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_trade_order` WHERE  `id` = 30 LIMIT 1 [ RunTime:0.000387s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'yw_trade_order',
+  'type' => 'const',
+  'possible_keys' => 'PRIMARY',
+  'key' => 'PRIMARY',
+  'key_len' => '4',
+  'ref' => 'const',
+  'rows' => 1,
+  'extra' => '',
+) ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_order_service` [ RunTime:0.000796s ]
+[ sql ] [ SQL ] SELECT `gid`,`tid` FROM `yw_order_service` WHERE  `orderid` = 30 [ RunTime:0.000308s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'yw_order_service',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 253,
+  'extra' => 'Using where',
+) ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_membercard` [ RunTime:0.000732s ]
+[ sql ] [ SQL ] SELECT `cg`.`id`,`g`.`name`,`g`.`imgurl`,`cg`.`type`,`cg`.`use_service`,`cg`.`superposition`,`cg`.`start_money`,`cg`.`deduction_money`,`cg`.`discount`,`mc`.`enddate`,`mc`.`sumber` FROM `yw_membercard` `mc` INNER JOIN `yw_cardcoupon_goods` `cg` ON `mc`.`gid`=`cg`.`id` INNER JOIN `yw_goods` `g` ON `cg`.`gid`=`g`.`id` WHERE  `mc`.`mid` = '13'  AND `mc`.`state` = '1'  AND `mc`.`enddate` > '2018-09-12 18:08:27' [ RunTime:0.000423s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'mc',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 6,
+  'extra' => 'Using where',
+) ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_service_goods` [ RunTime:0.000670s ]
+[ sql ] [ SQL ] SELECT `sg`.`id` FROM `yw_service_goods` `sg` INNER JOIN `yw_goods` `g` ON `sg`.`gid`=`g`.`id` WHERE  `g`.`type` = '4' LIMIT 1 [ RunTime:0.000205s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'sg',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 3,
+  'extra' => '',
+) ]
+---------------------------------------------------------------
+[2018-09-12T18:12:03+08:00] 221.237.113.130 POST abc.yongweisoft.cn/admin/booking/Get_trade_service_detail
+[运行时间：0.045020s] [吞吐率：22.21req/s] [内存消耗：4,794.41kb] [文件加载：89]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'abc.yongweisoft.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '5',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8080',
+  'authorization' => 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VySW5mbyI6ImhlbGxvIiwidGltZXMiOjAsImV4cCI6MTUzNjgzMzIzMCwiaXNzIjoieXcuY29tIiwibWVtYmVyaWQiOjF9.oz8ur2eIzqmmj9_l3GK-CIwoQ4unAcIAYCeEUdrfYVQ',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.92 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'id' => '21',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000344s ] mysql:host=127.0.0.1;port=3306;dbname=spa;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_order_service` [ RunTime:0.000842s ]
+[ sql ] [ SQL ] SELECT `os`.`id`,`m`.`tel`,t.name as tname,`m`.`nickname`,g.name as gname,r.name as rname,b.name as bname,`os`.`starttime`,`os`.`state`,`os`.`sgtype`,`g`.`type`,`sg`.`money`,`sg`.`add_price`,`sg`.`minute`,`t`.`price`,sg.id as service_id FROM `yw_order_service` `os` INNER JOIN `yw_service_goods` `sg` ON `os`.`gid`=`sg`.`id` INNER JOIN `yw_goods` `g` ON `sg`.`gid`=`g`.`id` LEFT JOIN `yw_room` `r` ON `os`.`rid`=`r`.`id` LEFT JOIN `yw_bed` `b` ON `os`.`bid`=`b`.`id` LEFT JOIN `yw_technician` `t` ON `os`.`tid`=`t`.`id` INNER JOIN `yw_trade_order` `to` ON `os`.`orderid`=`to`.`id` INNER JOIN `yw_member` `m` ON `to`.`mid`=`m`.`id` WHERE  `os`.`orderid` = '21' [ RunTime:0.000372s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'to',
+  'type' => 'const',
+  'possible_keys' => 'PRIMARY',
+  'key' => 'PRIMARY',
+  'key_len' => '4',
+  'ref' => 'const',
+  'rows' => 1,
+  'extra' => '',
+) ]
+---------------------------------------------------------------
+[2018-09-12T18:12:15+08:00] 221.237.113.130 POST abc.yongweisoft.cn/admin/booking/Get_trade_service_detail
+[运行时间：0.046303s] [吞吐率：21.60req/s] [内存消耗：4,788.10kb] [文件加载：89]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'abc.yongweisoft.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '5',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8080',
+  'authorization' => 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VySW5mbyI6ImhlbGxvIiwidGltZXMiOjAsImV4cCI6MTUzNjgzMzIzMCwiaXNzIjoieXcuY29tIiwibWVtYmVyaWQiOjF9.oz8ur2eIzqmmj9_l3GK-CIwoQ4unAcIAYCeEUdrfYVQ',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.92 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'id' => '22',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000364s ] mysql:host=127.0.0.1;port=3306;dbname=spa;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_order_service` [ RunTime:0.000837s ]
+[ sql ] [ SQL ] SELECT `os`.`id`,`m`.`tel`,t.name as tname,`m`.`nickname`,g.name as gname,r.name as rname,b.name as bname,`os`.`starttime`,`os`.`state`,`os`.`sgtype`,`g`.`type`,`sg`.`money`,`sg`.`add_price`,`sg`.`minute`,`t`.`price`,sg.id as service_id FROM `yw_order_service` `os` INNER JOIN `yw_service_goods` `sg` ON `os`.`gid`=`sg`.`id` INNER JOIN `yw_goods` `g` ON `sg`.`gid`=`g`.`id` LEFT JOIN `yw_room` `r` ON `os`.`rid`=`r`.`id` LEFT JOIN `yw_bed` `b` ON `os`.`bid`=`b`.`id` LEFT JOIN `yw_technician` `t` ON `os`.`tid`=`t`.`id` INNER JOIN `yw_trade_order` `to` ON `os`.`orderid`=`to`.`id` INNER JOIN `yw_member` `m` ON `to`.`mid`=`m`.`id` WHERE  `os`.`orderid` = '22' [ RunTime:0.000387s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'to',
+  'type' => 'const',
+  'possible_keys' => 'PRIMARY',
+  'key' => 'PRIMARY',
+  'key_len' => '4',
+  'ref' => 'const',
+  'rows' => 1,
+  'extra' => '',
+) ]
+---------------------------------------------------------------
+[2018-09-12T18:12:20+08:00] 221.237.113.130 POST abc.yongweisoft.cn/admin/booking/get_member_card
+[运行时间：0.066800s] [吞吐率：14.97req/s] [内存消耗：4,803.69kb] [文件加载：89]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'abc.yongweisoft.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '5',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8080',
+  'authorization' => 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VySW5mbyI6ImhlbGxvIiwidGltZXMiOjAsImV4cCI6MTUzNjgzMzIzMCwiaXNzIjoieXcuY29tIiwibWVtYmVyaWQiOjF9.oz8ur2eIzqmmj9_l3GK-CIwoQ4unAcIAYCeEUdrfYVQ',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.92 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'id' => '24',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000436s ] mysql:host=127.0.0.1;port=3306;dbname=spa;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_trade_order` [ RunTime:0.000905s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_trade_order` WHERE  `id` = 24 LIMIT 1 [ RunTime:0.000516s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'yw_trade_order',
+  'type' => 'const',
+  'possible_keys' => 'PRIMARY',
+  'key' => 'PRIMARY',
+  'key_len' => '4',
+  'ref' => 'const',
+  'rows' => 1,
+  'extra' => '',
+) ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_order_service` [ RunTime:0.001040s ]
+[ sql ] [ SQL ] SELECT `gid`,`tid` FROM `yw_order_service` WHERE  `orderid` = 24 [ RunTime:0.000479s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'yw_order_service',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 251,
+  'extra' => 'Using where',
+) ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_membercard` [ RunTime:0.001041s ]
+[ sql ] [ SQL ] SELECT `cg`.`id`,`g`.`name`,`g`.`imgurl`,`cg`.`type`,`cg`.`use_service`,`cg`.`superposition`,`cg`.`start_money`,`cg`.`deduction_money`,`cg`.`discount`,`mc`.`enddate`,`mc`.`sumber` FROM `yw_membercard` `mc` INNER JOIN `yw_cardcoupon_goods` `cg` ON `mc`.`gid`=`cg`.`id` INNER JOIN `yw_goods` `g` ON `cg`.`gid`=`g`.`id` WHERE  `mc`.`mid` = '13'  AND `mc`.`state` = '1'  AND `mc`.`enddate` > '2018-09-12 18:12:20' [ RunTime:0.000626s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'mc',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 6,
+  'extra' => 'Using where',
+) ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_service_goods` [ RunTime:0.001020s ]
+[ sql ] [ SQL ] SELECT `sg`.`id` FROM `yw_service_goods` `sg` INNER JOIN `yw_goods` `g` ON `sg`.`gid`=`g`.`id` WHERE  `g`.`type` = '4' LIMIT 1 [ RunTime:0.000288s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'sg',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 3,
+  'extra' => '',
+) ]
+---------------------------------------------------------------
+[2018-09-12T18:12:24+08:00] 221.237.113.130 POST abc.yongweisoft.cn/admin/booking/get_member_card
+[运行时间：0.070413s] [吞吐率：14.20req/s] [内存消耗：4,814.38kb] [文件加载：89]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'abc.yongweisoft.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '5',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8080',
+  'authorization' => 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VySW5mbyI6ImhlbGxvIiwidGltZXMiOjAsImV4cCI6MTUzNjgzMzIzMCwiaXNzIjoieXcuY29tIiwibWVtYmVyaWQiOjF9.oz8ur2eIzqmmj9_l3GK-CIwoQ4unAcIAYCeEUdrfYVQ',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.92 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'id' => '21',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000465s ] mysql:host=127.0.0.1;port=3306;dbname=spa;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_trade_order` [ RunTime:0.001111s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_trade_order` WHERE  `id` = 21 LIMIT 1 [ RunTime:0.000333s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'yw_trade_order',
+  'type' => 'const',
+  'possible_keys' => 'PRIMARY',
+  'key' => 'PRIMARY',
+  'key_len' => '4',
+  'ref' => 'const',
+  'rows' => 1,
+  'extra' => '',
+) ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_order_service` [ RunTime:0.000907s ]
+[ sql ] [ SQL ] SELECT `gid`,`tid` FROM `yw_order_service` WHERE  `orderid` = 21 [ RunTime:0.000261s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'yw_order_service',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 251,
+  'extra' => 'Using where',
+) ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_membercard` [ RunTime:0.001014s ]
+[ sql ] [ SQL ] SELECT `cg`.`id`,`g`.`name`,`g`.`imgurl`,`cg`.`type`,`cg`.`use_service`,`cg`.`superposition`,`cg`.`start_money`,`cg`.`deduction_money`,`cg`.`discount`,`mc`.`enddate`,`mc`.`sumber` FROM `yw_membercard` `mc` INNER JOIN `yw_cardcoupon_goods` `cg` ON `mc`.`gid`=`cg`.`id` INNER JOIN `yw_goods` `g` ON `cg`.`gid`=`g`.`id` WHERE  `mc`.`mid` = '13'  AND `mc`.`state` = '1'  AND `mc`.`enddate` > '2018-09-12 18:12:24' [ RunTime:0.000598s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'mc',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 6,
+  'extra' => 'Using where',
+) ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_service_goods` [ RunTime:0.001171s ]
+[ sql ] [ SQL ] SELECT `sg`.`id` FROM `yw_service_goods` `sg` INNER JOIN `yw_goods` `g` ON `sg`.`gid`=`g`.`id` WHERE  `g`.`type` = '4' LIMIT 1 [ RunTime:0.000269s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'sg',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 3,
+  'extra' => '',
+) ]
+[ sql ] [ SQL ] SELECT `sg`.`id` FROM `yw_service_goods` `sg` INNER JOIN `yw_goods` `g` ON `sg`.`gid`=`g`.`id` WHERE  `g`.`type` = '4' LIMIT 1 [ RunTime:0.000286s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'sg',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 3,
+  'extra' => '',
+) ]
+[ sql ] [ SQL ] SELECT `sg`.`id` FROM `yw_service_goods` `sg` INNER JOIN `yw_goods` `g` ON `sg`.`gid`=`g`.`id` WHERE  `g`.`type` = '4' LIMIT 1 [ RunTime:0.000252s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'sg',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 3,
+  'extra' => '',
+) ]
+[ sql ] [ SQL ] SELECT `sg`.`id` FROM `yw_service_goods` `sg` INNER JOIN `yw_goods` `g` ON `sg`.`gid`=`g`.`id` WHERE  `g`.`type` = '4' LIMIT 1 [ RunTime:0.000258s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'sg',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 3,
+  'extra' => '',
+) ]
+[ sql ] [ SQL ] SELECT `sg`.`id` FROM `yw_service_goods` `sg` INNER JOIN `yw_goods` `g` ON `sg`.`gid`=`g`.`id` WHERE  `g`.`type` = '4' LIMIT 1 [ RunTime:0.000279s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'sg',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 3,
+  'extra' => '',
+) ]
+[ sql ] [ SQL ] SELECT `sg`.`id` FROM `yw_service_goods` `sg` INNER JOIN `yw_goods` `g` ON `sg`.`gid`=`g`.`id` WHERE  `g`.`type` = '4' LIMIT 1 [ RunTime:0.000301s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'sg',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 3,
+  'extra' => '',
+) ]
+[ sql ] [ SQL ] SELECT `sg`.`id` FROM `yw_service_goods` `sg` INNER JOIN `yw_goods` `g` ON `sg`.`gid`=`g`.`id` WHERE  `g`.`type` = '4' LIMIT 1 [ RunTime:0.000255s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'sg',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 3,
+  'extra' => '',
+) ]
+---------------------------------------------------------------
+[2018-09-12T18:13:36+08:00] 221.237.113.130 POST abc.yongweisoft.cn/admin/booking/Get_trade_service
+[运行时间：0.091014s] [吞吐率：10.99req/s] [内存消耗：4,795.94kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'abc.yongweisoft.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '12',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8080',
+  'authorization' => 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VySW5mbyI6ImhlbGxvIiwidGltZXMiOjAsImV4cCI6MTUzNjgzMzIzMCwiaXNzIjoieXcuY29tIiwibWVtYmVyaWQiOjF9.oz8ur2eIzqmmj9_l3GK-CIwoQ4unAcIAYCeEUdrfYVQ',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.92 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'sid' => '1',
+  'page' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.008548s ] mysql:host=127.0.0.1;port=3306;dbname=spa;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_trade_order` [ RunTime:0.000878s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yw_trade_order` `to` WHERE  `to`.`sellerid` = '1'  AND `to`.`type` = '2' LIMIT 1 [ RunTime:0.000295s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'to',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 27,
+  'extra' => 'Using where',
+) ]
+[ sql ] [ SQL ] SELECT `to`.`id`,`to`.`orderid`,`m`.`nickname`,`m`.`tel`,`to`.`money`,`to`.`actual_money`,`to`.`remark` FROM `yw_trade_order` `to` INNER JOIN `yw_member` `m` ON `to`.`mid`=`m`.`id` WHERE  `to`.`sellerid` = '1'  AND `to`.`type` = '2' LIMIT 0,10 [ RunTime:0.000298s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'to',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 27,
+  'extra' => 'Using where',
+) ]
+---------------------------------------------------------------
+[2018-09-12T18:13:59+08:00] 221.237.113.130 POST abc.yongweisoft.cn/admin/booking/Get_trade_service_detail
+[运行时间：0.042514s] [吞吐率：23.52req/s] [内存消耗：4,794.41kb] [文件加载：89]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'abc.yongweisoft.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '5',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8080',
+  'authorization' => 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VySW5mbyI6ImhlbGxvIiwidGltZXMiOjAsImV4cCI6MTUzNjgzMzIzMCwiaXNzIjoieXcuY29tIiwibWVtYmVyaWQiOjF9.oz8ur2eIzqmmj9_l3GK-CIwoQ4unAcIAYCeEUdrfYVQ',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.92 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'id' => '21',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000400s ] mysql:host=127.0.0.1;port=3306;dbname=spa;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_order_service` [ RunTime:0.000850s ]
+[ sql ] [ SQL ] SELECT `os`.`id`,`m`.`tel`,t.name as tname,`m`.`nickname`,g.name as gname,r.name as rname,b.name as bname,`os`.`starttime`,`os`.`state`,`os`.`sgtype`,`g`.`type`,`sg`.`money`,`sg`.`add_price`,`sg`.`minute`,`t`.`price`,sg.id as service_id FROM `yw_order_service` `os` INNER JOIN `yw_service_goods` `sg` ON `os`.`gid`=`sg`.`id` INNER JOIN `yw_goods` `g` ON `sg`.`gid`=`g`.`id` LEFT JOIN `yw_room` `r` ON `os`.`rid`=`r`.`id` LEFT JOIN `yw_bed` `b` ON `os`.`bid`=`b`.`id` LEFT JOIN `yw_technician` `t` ON `os`.`tid`=`t`.`id` INNER JOIN `yw_trade_order` `to` ON `os`.`orderid`=`to`.`id` INNER JOIN `yw_member` `m` ON `to`.`mid`=`m`.`id` WHERE  `os`.`orderid` = '21' [ RunTime:0.000390s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'to',
+  'type' => 'const',
+  'possible_keys' => 'PRIMARY',
+  'key' => 'PRIMARY',
+  'key_len' => '4',
+  'ref' => 'const',
+  'rows' => 1,
+  'extra' => '',
+) ]
+---------------------------------------------------------------
+[2018-09-12T18:14:41+08:00] 221.237.113.130 POST abc.yongweisoft.cn/admin/booking/get_member_card
+[运行时间：0.065303s] [吞吐率：15.31req/s] [内存消耗：4,814.38kb] [文件加载：89]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'abc.yongweisoft.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '5',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8080',
+  'authorization' => 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VySW5mbyI6ImhlbGxvIiwidGltZXMiOjAsImV4cCI6MTUzNjgzMzIzMCwiaXNzIjoieXcuY29tIiwibWVtYmVyaWQiOjF9.oz8ur2eIzqmmj9_l3GK-CIwoQ4unAcIAYCeEUdrfYVQ',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.92 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'id' => '21',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000365s ] mysql:host=127.0.0.1;port=3306;dbname=spa;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_trade_order` [ RunTime:0.000917s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_trade_order` WHERE  `id` = 21 LIMIT 1 [ RunTime:0.000281s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'yw_trade_order',
+  'type' => 'const',
+  'possible_keys' => 'PRIMARY',
+  'key' => 'PRIMARY',
+  'key_len' => '4',
+  'ref' => 'const',
+  'rows' => 1,
+  'extra' => '',
+) ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_order_service` [ RunTime:0.000786s ]
+[ sql ] [ SQL ] SELECT `gid`,`tid` FROM `yw_order_service` WHERE  `orderid` = 21 [ RunTime:0.000223s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'yw_order_service',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 251,
+  'extra' => 'Using where',
+) ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_membercard` [ RunTime:0.000714s ]
+[ sql ] [ SQL ] SELECT `cg`.`id`,`g`.`name`,`g`.`imgurl`,`cg`.`type`,`cg`.`use_service`,`cg`.`superposition`,`cg`.`start_money`,`cg`.`deduction_money`,`cg`.`discount`,`mc`.`enddate`,`mc`.`sumber` FROM `yw_membercard` `mc` INNER JOIN `yw_cardcoupon_goods` `cg` ON `mc`.`gid`=`cg`.`id` INNER JOIN `yw_goods` `g` ON `cg`.`gid`=`g`.`id` WHERE  `mc`.`mid` = '13'  AND `mc`.`state` = '1'  AND `mc`.`enddate` > '2018-09-12 18:14:41' [ RunTime:0.000470s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'mc',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 6,
+  'extra' => 'Using where',
+) ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_service_goods` [ RunTime:0.000730s ]
+[ sql ] [ SQL ] SELECT `sg`.`id` FROM `yw_service_goods` `sg` INNER JOIN `yw_goods` `g` ON `sg`.`gid`=`g`.`id` WHERE  `g`.`type` = '4' LIMIT 1 [ RunTime:0.000237s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'sg',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 3,
+  'extra' => '',
+) ]
+[ sql ] [ SQL ] SELECT `sg`.`id` FROM `yw_service_goods` `sg` INNER JOIN `yw_goods` `g` ON `sg`.`gid`=`g`.`id` WHERE  `g`.`type` = '4' LIMIT 1 [ RunTime:0.000262s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'sg',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 3,
+  'extra' => '',
+) ]
+[ sql ] [ SQL ] SELECT `sg`.`id` FROM `yw_service_goods` `sg` INNER JOIN `yw_goods` `g` ON `sg`.`gid`=`g`.`id` WHERE  `g`.`type` = '4' LIMIT 1 [ RunTime:0.000232s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'sg',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 3,
+  'extra' => '',
+) ]
+[ sql ] [ SQL ] SELECT `sg`.`id` FROM `yw_service_goods` `sg` INNER JOIN `yw_goods` `g` ON `sg`.`gid`=`g`.`id` WHERE  `g`.`type` = '4' LIMIT 1 [ RunTime:0.000226s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'sg',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 3,
+  'extra' => '',
+) ]
+[ sql ] [ SQL ] SELECT `sg`.`id` FROM `yw_service_goods` `sg` INNER JOIN `yw_goods` `g` ON `sg`.`gid`=`g`.`id` WHERE  `g`.`type` = '4' LIMIT 1 [ RunTime:0.000201s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'sg',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 3,
+  'extra' => '',
+) ]
+[ sql ] [ SQL ] SELECT `sg`.`id` FROM `yw_service_goods` `sg` INNER JOIN `yw_goods` `g` ON `sg`.`gid`=`g`.`id` WHERE  `g`.`type` = '4' LIMIT 1 [ RunTime:0.000209s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'sg',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 3,
+  'extra' => '',
+) ]
+[ sql ] [ SQL ] SELECT `sg`.`id` FROM `yw_service_goods` `sg` INNER JOIN `yw_goods` `g` ON `sg`.`gid`=`g`.`id` WHERE  `g`.`type` = '4' LIMIT 1 [ RunTime:0.000216s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'sg',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 3,
+  'extra' => '',
+) ]
+---------------------------------------------------------------
+[2018-09-12T18:14:50+08:00] 221.237.113.130 POST abc.yongweisoft.cn/sellerinfo/list?version=v1&page=1&limit=2
+[运行时间：0.043287s] [吞吐率：23.10req/s] [内存消耗：4,716.11kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'sellerinfo/list',
+  'route' => 'sellerinfo/Sellerinfo/Sellerinfo_list',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'abc.yongweisoft.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8080',
+  'authorization' => 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VySW5mbyI6ImhlbGxvIiwidGltZXMiOjAsImV4cCI6MTUzNjgzMzIzMCwiaXNzIjoieXcuY29tIiwibWVtYmVyaWQiOjF9.oz8ur2eIzqmmj9_l3GK-CIwoQ4unAcIAYCeEUdrfYVQ',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.92 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+  'page' => '1',
+  'limit' => '2',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000337s ] mysql:host=127.0.0.1;port=3306;dbname=spa;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_sellerinfo` [ RunTime:0.000846s ]
+[ sql ] [ SQL ] SELECT id,name,chargeman,phone,address,
+            longitude,latitude,introduction,imgurl,state FROM `yw_sellerinfo` WHERE  `state` IN (1,2) LIMIT 0,2 [ RunTime:0.000283s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'yw_sellerinfo',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 3,
+  'extra' => 'Using where',
+) ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yw_sellerinfo` WHERE  `state` IN (1,2) LIMIT 1 [ RunTime:0.000283s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'yw_sellerinfo',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 3,
+  'extra' => 'Using where',
+) ]
+---------------------------------------------------------------
+[2018-09-12T18:15:59+08:00] 221.237.113.130 POST abc.yongweisoft.cn/admin/booking/Get_trade_service
+[运行时间：0.090456s] [吞吐率：11.06req/s] [内存消耗：4,795.94kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'abc.yongweisoft.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '12',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8080',
+  'authorization' => 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VySW5mbyI6ImhlbGxvIiwidGltZXMiOjAsImV4cCI6MTUzNjgzMzIzMCwiaXNzIjoieXcuY29tIiwibWVtYmVyaWQiOjF9.oz8ur2eIzqmmj9_l3GK-CIwoQ4unAcIAYCeEUdrfYVQ',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.92 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'sid' => '1',
+  'page' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012269s ] mysql:host=127.0.0.1;port=3306;dbname=spa;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_trade_order` [ RunTime:0.000855s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yw_trade_order` `to` WHERE  `to`.`sellerid` = '1'  AND `to`.`type` = '2' LIMIT 1 [ RunTime:0.000235s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'to',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 27,
+  'extra' => 'Using where',
+) ]
+[ sql ] [ SQL ] SELECT `to`.`id`,`to`.`orderid`,`m`.`nickname`,`m`.`tel`,`to`.`money`,`to`.`actual_money`,`to`.`remark` FROM `yw_trade_order` `to` INNER JOIN `yw_member` `m` ON `to`.`mid`=`m`.`id` WHERE  `to`.`sellerid` = '1'  AND `to`.`type` = '2' LIMIT 0,10 [ RunTime:0.003187s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'to',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 27,
+  'extra' => 'Using where',
+) ]
+---------------------------------------------------------------
+[2018-09-12T18:16:48+08:00] 221.237.113.130 POST abc.yongweisoft.cn/admin/booking/Get_trade_service_detail
+[运行时间：0.042963s] [吞吐率：23.28req/s] [内存消耗：4,794.41kb] [文件加载：89]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'abc.yongweisoft.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '5',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8080',
+  'authorization' => 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VySW5mbyI6ImhlbGxvIiwidGltZXMiOjAsImV4cCI6MTUzNjgzMzIzMCwiaXNzIjoieXcuY29tIiwibWVtYmVyaWQiOjF9.oz8ur2eIzqmmj9_l3GK-CIwoQ4unAcIAYCeEUdrfYVQ',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.92 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'id' => '21',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000345s ] mysql:host=127.0.0.1;port=3306;dbname=spa;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_order_service` [ RunTime:0.000861s ]
+[ sql ] [ SQL ] SELECT `os`.`id`,`m`.`tel`,t.name as tname,`m`.`nickname`,g.name as gname,r.name as rname,b.name as bname,`os`.`starttime`,`os`.`state`,`os`.`sgtype`,`g`.`type`,`sg`.`money`,`sg`.`add_price`,`sg`.`minute`,`t`.`price`,sg.id as service_id FROM `yw_order_service` `os` INNER JOIN `yw_service_goods` `sg` ON `os`.`gid`=`sg`.`id` INNER JOIN `yw_goods` `g` ON `sg`.`gid`=`g`.`id` LEFT JOIN `yw_room` `r` ON `os`.`rid`=`r`.`id` LEFT JOIN `yw_bed` `b` ON `os`.`bid`=`b`.`id` LEFT JOIN `yw_technician` `t` ON `os`.`tid`=`t`.`id` INNER JOIN `yw_trade_order` `to` ON `os`.`orderid`=`to`.`id` INNER JOIN `yw_member` `m` ON `to`.`mid`=`m`.`id` WHERE  `os`.`orderid` = '21' [ RunTime:0.000415s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'to',
+  'type' => 'const',
+  'possible_keys' => 'PRIMARY',
+  'key' => 'PRIMARY',
+  'key_len' => '4',
+  'ref' => 'const',
+  'rows' => 1,
+  'extra' => '',
+) ]
+---------------------------------------------------------------
+[2018-09-12T18:21:18+08:00] 221.237.113.130 POST abc.yongweisoft.cn/admin/booking/Get_trade_service
+[运行时间：0.099575s] [吞吐率：10.04req/s] [内存消耗：4,795.94kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'abc.yongweisoft.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '12',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8080',
+  'authorization' => 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VySW5mbyI6ImhlbGxvIiwidGltZXMiOjAsImV4cCI6MTUzNjgzMzIzMCwiaXNzIjoieXcuY29tIiwibWVtYmVyaWQiOjF9.oz8ur2eIzqmmj9_l3GK-CIwoQ4unAcIAYCeEUdrfYVQ',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.92 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'sid' => '1',
+  'page' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000502s ] mysql:host=127.0.0.1;port=3306;dbname=spa;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_trade_order` [ RunTime:0.015948s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yw_trade_order` `to` WHERE  `to`.`sellerid` = '1'  AND `to`.`type` = '2' LIMIT 1 [ RunTime:0.000363s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'to',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 27,
+  'extra' => 'Using where',
+) ]
+[ sql ] [ SQL ] SELECT `to`.`id`,`to`.`orderid`,`m`.`nickname`,`m`.`tel`,`to`.`money`,`to`.`actual_money`,`to`.`remark` FROM `yw_trade_order` `to` INNER JOIN `yw_member` `m` ON `to`.`mid`=`m`.`id` WHERE  `to`.`sellerid` = '1'  AND `to`.`type` = '2' LIMIT 0,10 [ RunTime:0.000271s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'to',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 27,
+  'extra' => 'Using where',
+) ]
+---------------------------------------------------------------
+[2018-09-12T18:21:23+08:00] 221.237.113.130 POST abc.yongweisoft.cn/sellerinfo/list?version=v1&page=1&limit=2
+[运行时间：0.081627s] [吞吐率：12.25req/s] [内存消耗：4,716.11kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'sellerinfo/list',
+  'route' => 'sellerinfo/Sellerinfo/Sellerinfo_list',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'abc.yongweisoft.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8080',
+  'authorization' => 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VySW5mbyI6ImhlbGxvIiwidGltZXMiOjAsImV4cCI6MTUzNjgzMzIzMCwiaXNzIjoieXcuY29tIiwibWVtYmVyaWQiOjF9.oz8ur2eIzqmmj9_l3GK-CIwoQ4unAcIAYCeEUdrfYVQ',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.92 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+  'page' => '1',
+  'limit' => '2',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007882s ] mysql:host=127.0.0.1;port=3306;dbname=spa;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_sellerinfo` [ RunTime:0.000747s ]
+[ sql ] [ SQL ] SELECT id,name,chargeman,phone,address,
+            longitude,latitude,introduction,imgurl,state FROM `yw_sellerinfo` WHERE  `state` IN (1,2) LIMIT 0,2 [ RunTime:0.000312s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'yw_sellerinfo',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 3,
+  'extra' => 'Using where',
+) ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yw_sellerinfo` WHERE  `state` IN (1,2) LIMIT 1 [ RunTime:0.000218s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'yw_sellerinfo',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 3,
+  'extra' => 'Using where',
+) ]
+---------------------------------------------------------------
+[2018-09-12T18:21:49+08:00] 221.237.113.130 POST abc.yongweisoft.cn/admin/booking/get_member_card
+[运行时间：0.058898s] [吞吐率：16.98req/s] [内存消耗：4,814.38kb] [文件加载：89]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'abc.yongweisoft.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '5',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8080',
+  'authorization' => 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VySW5mbyI6ImhlbGxvIiwidGltZXMiOjAsImV4cCI6MTUzNjgzMzIzMCwiaXNzIjoieXcuY29tIiwibWVtYmVyaWQiOjF9.oz8ur2eIzqmmj9_l3GK-CIwoQ4unAcIAYCeEUdrfYVQ',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.92 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'id' => '21',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000466s ] mysql:host=127.0.0.1;port=3306;dbname=spa;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_trade_order` [ RunTime:0.000880s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_trade_order` WHERE  `id` = 21 LIMIT 1 [ RunTime:0.000290s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'yw_trade_order',
+  'type' => 'const',
+  'possible_keys' => 'PRIMARY',
+  'key' => 'PRIMARY',
+  'key_len' => '4',
+  'ref' => 'const',
+  'rows' => 1,
+  'extra' => '',
+) ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_order_service` [ RunTime:0.000840s ]
+[ sql ] [ SQL ] SELECT `gid`,`tid` FROM `yw_order_service` WHERE  `orderid` = 21 [ RunTime:0.000234s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'yw_order_service',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 251,
+  'extra' => 'Using where',
+) ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_membercard` [ RunTime:0.000622s ]
+[ sql ] [ SQL ] SELECT `cg`.`id`,`g`.`name`,`g`.`imgurl`,`cg`.`type`,`cg`.`use_service`,`cg`.`superposition`,`cg`.`start_money`,`cg`.`deduction_money`,`cg`.`discount`,`mc`.`enddate`,`mc`.`sumber` FROM `yw_membercard` `mc` INNER JOIN `yw_cardcoupon_goods` `cg` ON `mc`.`gid`=`cg`.`id` INNER JOIN `yw_goods` `g` ON `cg`.`gid`=`g`.`id` WHERE  `mc`.`mid` = '13'  AND `mc`.`state` = '1'  AND `mc`.`enddate` > '2018-09-12 18:21:49' [ RunTime:0.000522s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'mc',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 6,
+  'extra' => 'Using where',
+) ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_service_goods` [ RunTime:0.000669s ]
+[ sql ] [ SQL ] SELECT `sg`.`id` FROM `yw_service_goods` `sg` INNER JOIN `yw_goods` `g` ON `sg`.`gid`=`g`.`id` WHERE  `g`.`type` = '4' LIMIT 1 [ RunTime:0.000210s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'sg',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 3,
+  'extra' => '',
+) ]
+[ sql ] [ SQL ] SELECT `sg`.`id` FROM `yw_service_goods` `sg` INNER JOIN `yw_goods` `g` ON `sg`.`gid`=`g`.`id` WHERE  `g`.`type` = '4' LIMIT 1 [ RunTime:0.000276s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'sg',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 3,
+  'extra' => '',
+) ]
+[ sql ] [ SQL ] SELECT `sg`.`id` FROM `yw_service_goods` `sg` INNER JOIN `yw_goods` `g` ON `sg`.`gid`=`g`.`id` WHERE  `g`.`type` = '4' LIMIT 1 [ RunTime:0.000271s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'sg',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 3,
+  'extra' => '',
+) ]
+[ sql ] [ SQL ] SELECT `sg`.`id` FROM `yw_service_goods` `sg` INNER JOIN `yw_goods` `g` ON `sg`.`gid`=`g`.`id` WHERE  `g`.`type` = '4' LIMIT 1 [ RunTime:0.000256s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'sg',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 3,
+  'extra' => '',
+) ]
+[ sql ] [ SQL ] SELECT `sg`.`id` FROM `yw_service_goods` `sg` INNER JOIN `yw_goods` `g` ON `sg`.`gid`=`g`.`id` WHERE  `g`.`type` = '4' LIMIT 1 [ RunTime:0.000206s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'sg',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 3,
+  'extra' => '',
+) ]
+[ sql ] [ SQL ] SELECT `sg`.`id` FROM `yw_service_goods` `sg` INNER JOIN `yw_goods` `g` ON `sg`.`gid`=`g`.`id` WHERE  `g`.`type` = '4' LIMIT 1 [ RunTime:0.000213s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'sg',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 3,
+  'extra' => '',
+) ]
+[ sql ] [ SQL ] SELECT `sg`.`id` FROM `yw_service_goods` `sg` INNER JOIN `yw_goods` `g` ON `sg`.`gid`=`g`.`id` WHERE  `g`.`type` = '4' LIMIT 1 [ RunTime:0.000263s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'sg',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 3,
+  'extra' => '',
+) ]
+---------------------------------------------------------------
+[2018-09-12T18:22:16+08:00] 221.237.113.130 POST abc.yongweisoft.cn/admin/booking/Get_trade_service_detail
+[运行时间：0.042865s] [吞吐率：23.33req/s] [内存消耗：4,794.41kb] [文件加载：89]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'abc.yongweisoft.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '5',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8080',
+  'authorization' => 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VySW5mbyI6ImhlbGxvIiwidGltZXMiOjAsImV4cCI6MTUzNjgzMzIzMCwiaXNzIjoieXcuY29tIiwibWVtYmVyaWQiOjF9.oz8ur2eIzqmmj9_l3GK-CIwoQ4unAcIAYCeEUdrfYVQ',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.92 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'id' => '21',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000350s ] mysql:host=127.0.0.1;port=3306;dbname=spa;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_order_service` [ RunTime:0.000744s ]
+[ sql ] [ SQL ] SELECT `os`.`id`,`m`.`tel`,t.name as tname,`m`.`nickname`,g.name as gname,r.name as rname,b.name as bname,`os`.`starttime`,`os`.`state`,`os`.`sgtype`,`g`.`type`,`sg`.`money`,`sg`.`add_price`,`sg`.`minute`,`t`.`price`,sg.id as service_id FROM `yw_order_service` `os` INNER JOIN `yw_service_goods` `sg` ON `os`.`gid`=`sg`.`id` INNER JOIN `yw_goods` `g` ON `sg`.`gid`=`g`.`id` LEFT JOIN `yw_room` `r` ON `os`.`rid`=`r`.`id` LEFT JOIN `yw_bed` `b` ON `os`.`bid`=`b`.`id` LEFT JOIN `yw_technician` `t` ON `os`.`tid`=`t`.`id` INNER JOIN `yw_trade_order` `to` ON `os`.`orderid`=`to`.`id` INNER JOIN `yw_member` `m` ON `to`.`mid`=`m`.`id` WHERE  `os`.`orderid` = '21' [ RunTime:0.000387s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'to',
+  'type' => 'const',
+  'possible_keys' => 'PRIMARY',
+  'key' => 'PRIMARY',
+  'key_len' => '4',
+  'ref' => 'const',
+  'rows' => 1,
+  'extra' => '',
+) ]
+---------------------------------------------------------------
+[2018-09-12T18:23:15+08:00] 221.237.113.130 POST abc.yongweisoft.cn/admin/booking/Get_trade_service
+[运行时间：0.094780s] [吞吐率：10.55req/s] [内存消耗：4,795.94kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'abc.yongweisoft.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '12',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8080',
+  'authorization' => 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VySW5mbyI6ImhlbGxvIiwidGltZXMiOjAsImV4cCI6MTUzNjgzMzIzMCwiaXNzIjoieXcuY29tIiwibWVtYmVyaWQiOjF9.oz8ur2eIzqmmj9_l3GK-CIwoQ4unAcIAYCeEUdrfYVQ',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.92 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'sid' => '1',
+  'page' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003429s ] mysql:host=127.0.0.1;port=3306;dbname=spa;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_trade_order` [ RunTime:0.000844s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yw_trade_order` `to` WHERE  `to`.`sellerid` = '1'  AND `to`.`type` = '2' LIMIT 1 [ RunTime:0.000245s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'to',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 27,
+  'extra' => 'Using where',
+) ]
+[ sql ] [ SQL ] SELECT `to`.`id`,`to`.`orderid`,`m`.`nickname`,`m`.`tel`,`to`.`money`,`to`.`actual_money`,`to`.`remark` FROM `yw_trade_order` `to` INNER JOIN `yw_member` `m` ON `to`.`mid`=`m`.`id` WHERE  `to`.`sellerid` = '1'  AND `to`.`type` = '2' LIMIT 0,10 [ RunTime:0.000254s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'to',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 27,
+  'extra' => 'Using where',
+) ]
+---------------------------------------------------------------
+[2018-09-12T18:23:25+08:00] 221.237.113.130 POST abc.yongweisoft.cn/sellerinfo/list?version=v1&page=1&limit=2
+[运行时间：0.093899s] [吞吐率：10.65req/s] [内存消耗：4,716.11kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'sellerinfo/list',
+  'route' => 'sellerinfo/Sellerinfo/Sellerinfo_list',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'abc.yongweisoft.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8080',
+  'authorization' => 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VySW5mbyI6ImhlbGxvIiwidGltZXMiOjAsImV4cCI6MTUzNjgzMzIzMCwiaXNzIjoieXcuY29tIiwibWVtYmVyaWQiOjF9.oz8ur2eIzqmmj9_l3GK-CIwoQ4unAcIAYCeEUdrfYVQ',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.92 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+  'page' => '1',
+  'limit' => '2',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.017424s ] mysql:host=127.0.0.1;port=3306;dbname=spa;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_sellerinfo` [ RunTime:0.000998s ]
+[ sql ] [ SQL ] SELECT id,name,chargeman,phone,address,
+            longitude,latitude,introduction,imgurl,state FROM `yw_sellerinfo` WHERE  `state` IN (1,2) LIMIT 0,2 [ RunTime:0.000771s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'yw_sellerinfo',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 3,
+  'extra' => 'Using where',
+) ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yw_sellerinfo` WHERE  `state` IN (1,2) LIMIT 1 [ RunTime:0.001799s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'yw_sellerinfo',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 3,
+  'extra' => 'Using where',
+) ]
+---------------------------------------------------------------
+[2018-09-12T18:23:39+08:00] 221.237.113.130 POST abc.yongweisoft.cn/admin/booking/Get_trade_service
+[运行时间：0.084432s] [吞吐率：11.84req/s] [内存消耗：4,795.94kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'abc.yongweisoft.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '12',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8080',
+  'authorization' => 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VySW5mbyI6ImhlbGxvIiwidGltZXMiOjAsImV4cCI6MTUzNjgzMzIzMCwiaXNzIjoieXcuY29tIiwibWVtYmVyaWQiOjF9.oz8ur2eIzqmmj9_l3GK-CIwoQ4unAcIAYCeEUdrfYVQ',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.92 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'sid' => '1',
+  'page' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001190s ] mysql:host=127.0.0.1;port=3306;dbname=spa;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_trade_order` [ RunTime:0.000960s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yw_trade_order` `to` WHERE  `to`.`sellerid` = '1'  AND `to`.`type` = '2' LIMIT 1 [ RunTime:0.000254s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'to',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 27,
+  'extra' => 'Using where',
+) ]
+[ sql ] [ SQL ] SELECT `to`.`id`,`to`.`orderid`,`m`.`nickname`,`m`.`tel`,`to`.`money`,`to`.`actual_money`,`to`.`remark` FROM `yw_trade_order` `to` INNER JOIN `yw_member` `m` ON `to`.`mid`=`m`.`id` WHERE  `to`.`sellerid` = '1'  AND `to`.`type` = '2' LIMIT 0,10 [ RunTime:0.000288s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'to',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 27,
+  'extra' => 'Using where',
+) ]
+---------------------------------------------------------------
+[2018-09-12T18:23:47+08:00] 221.237.113.130 POST abc.yongweisoft.cn/admin/booking/Get_trade_service_detail
+[运行时间：0.046770s] [吞吐率：21.38req/s] [内存消耗：4,794.41kb] [文件加载：89]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'abc.yongweisoft.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '5',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8080',
+  'authorization' => 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VySW5mbyI6ImhlbGxvIiwidGltZXMiOjAsImV4cCI6MTUzNjgzMzIzMCwiaXNzIjoieXcuY29tIiwibWVtYmVyaWQiOjF9.oz8ur2eIzqmmj9_l3GK-CIwoQ4unAcIAYCeEUdrfYVQ',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.92 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'id' => '21',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000513s ] mysql:host=127.0.0.1;port=3306;dbname=spa;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_order_service` [ RunTime:0.000981s ]
+[ sql ] [ SQL ] SELECT `os`.`id`,`m`.`tel`,t.name as tname,`m`.`nickname`,g.name as gname,r.name as rname,b.name as bname,`os`.`starttime`,`os`.`state`,`os`.`sgtype`,`g`.`type`,`sg`.`money`,`sg`.`add_price`,`sg`.`minute`,`t`.`price`,sg.id as service_id FROM `yw_order_service` `os` INNER JOIN `yw_service_goods` `sg` ON `os`.`gid`=`sg`.`id` INNER JOIN `yw_goods` `g` ON `sg`.`gid`=`g`.`id` LEFT JOIN `yw_room` `r` ON `os`.`rid`=`r`.`id` LEFT JOIN `yw_bed` `b` ON `os`.`bid`=`b`.`id` LEFT JOIN `yw_technician` `t` ON `os`.`tid`=`t`.`id` INNER JOIN `yw_trade_order` `to` ON `os`.`orderid`=`to`.`id` INNER JOIN `yw_member` `m` ON `to`.`mid`=`m`.`id` WHERE  `os`.`orderid` = '21' [ RunTime:0.000404s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'to',
+  'type' => 'const',
+  'possible_keys' => 'PRIMARY',
+  'key' => 'PRIMARY',
+  'key_len' => '4',
+  'ref' => 'const',
+  'rows' => 1,
+  'extra' => '',
+) ]
+---------------------------------------------------------------
+[2018-09-12T18:24:01+08:00] 221.237.113.130 POST abc.yongweisoft.cn/admin/booking/Get_trade_service
+[运行时间：0.086082s] [吞吐率：11.62req/s] [内存消耗：4,795.94kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'abc.yongweisoft.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '12',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8080',
+  'authorization' => 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VySW5mbyI6ImhlbGxvIiwidGltZXMiOjAsImV4cCI6MTUzNjgzMzIzMCwiaXNzIjoieXcuY29tIiwibWVtYmVyaWQiOjF9.oz8ur2eIzqmmj9_l3GK-CIwoQ4unAcIAYCeEUdrfYVQ',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.92 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'sid' => '1',
+  'page' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003635s ] mysql:host=127.0.0.1;port=3306;dbname=spa;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_trade_order` [ RunTime:0.002376s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yw_trade_order` `to` WHERE  `to`.`sellerid` = '1'  AND `to`.`type` = '2' LIMIT 1 [ RunTime:0.000294s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'to',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 27,
+  'extra' => 'Using where',
+) ]
+[ sql ] [ SQL ] SELECT `to`.`id`,`to`.`orderid`,`m`.`nickname`,`m`.`tel`,`to`.`money`,`to`.`actual_money`,`to`.`remark` FROM `yw_trade_order` `to` INNER JOIN `yw_member` `m` ON `to`.`mid`=`m`.`id` WHERE  `to`.`sellerid` = '1'  AND `to`.`type` = '2' LIMIT 0,10 [ RunTime:0.000278s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'to',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 27,
+  'extra' => 'Using where',
+) ]
+---------------------------------------------------------------
+[2018-09-12T18:24:04+08:00] 221.237.113.130 POST abc.yongweisoft.cn/admin/booking/Get_trade_service_detail
+[运行时间：0.049198s] [吞吐率：20.33req/s] [内存消耗：4,794.41kb] [文件加载：89]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'abc.yongweisoft.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '5',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8080',
+  'authorization' => 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VySW5mbyI6ImhlbGxvIiwidGltZXMiOjAsImV4cCI6MTUzNjgzMzIzMCwiaXNzIjoieXcuY29tIiwibWVtYmVyaWQiOjF9.oz8ur2eIzqmmj9_l3GK-CIwoQ4unAcIAYCeEUdrfYVQ',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.92 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'id' => '21',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000369s ] mysql:host=127.0.0.1;port=3306;dbname=spa;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_order_service` [ RunTime:0.001202s ]
+[ sql ] [ SQL ] SELECT `os`.`id`,`m`.`tel`,t.name as tname,`m`.`nickname`,g.name as gname,r.name as rname,b.name as bname,`os`.`starttime`,`os`.`state`,`os`.`sgtype`,`g`.`type`,`sg`.`money`,`sg`.`add_price`,`sg`.`minute`,`t`.`price`,sg.id as service_id FROM `yw_order_service` `os` INNER JOIN `yw_service_goods` `sg` ON `os`.`gid`=`sg`.`id` INNER JOIN `yw_goods` `g` ON `sg`.`gid`=`g`.`id` LEFT JOIN `yw_room` `r` ON `os`.`rid`=`r`.`id` LEFT JOIN `yw_bed` `b` ON `os`.`bid`=`b`.`id` LEFT JOIN `yw_technician` `t` ON `os`.`tid`=`t`.`id` INNER JOIN `yw_trade_order` `to` ON `os`.`orderid`=`to`.`id` INNER JOIN `yw_member` `m` ON `to`.`mid`=`m`.`id` WHERE  `os`.`orderid` = '21' [ RunTime:0.000411s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'to',
+  'type' => 'const',
+  'possible_keys' => 'PRIMARY',
+  'key' => 'PRIMARY',
+  'key_len' => '4',
+  'ref' => 'const',
+  'rows' => 1,
+  'extra' => '',
+) ]
+---------------------------------------------------------------
+[2018-09-12T18:24:04+08:00] 221.237.113.130 POST abc.yongweisoft.cn/admin/booking/get_member_card
+[运行时间：0.069380s] [吞吐率：14.41req/s] [内存消耗：4,814.38kb] [文件加载：89]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'abc.yongweisoft.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '5',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8080',
+  'authorization' => 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VySW5mbyI6ImhlbGxvIiwidGltZXMiOjAsImV4cCI6MTUzNjgzMzIzMCwiaXNzIjoieXcuY29tIiwibWVtYmVyaWQiOjF9.oz8ur2eIzqmmj9_l3GK-CIwoQ4unAcIAYCeEUdrfYVQ',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.92 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'id' => '21',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000422s ] mysql:host=127.0.0.1;port=3306;dbname=spa;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_trade_order` [ RunTime:0.001140s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_trade_order` WHERE  `id` = 21 LIMIT 1 [ RunTime:0.000396s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'yw_trade_order',
+  'type' => 'const',
+  'possible_keys' => 'PRIMARY',
+  'key' => 'PRIMARY',
+  'key_len' => '4',
+  'ref' => 'const',
+  'rows' => 1,
+  'extra' => '',
+) ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_order_service` [ RunTime:0.000810s ]
+[ sql ] [ SQL ] SELECT `gid`,`tid` FROM `yw_order_service` WHERE  `orderid` = 21 [ RunTime:0.000243s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'yw_order_service',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 251,
+  'extra' => 'Using where',
+) ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_membercard` [ RunTime:0.000955s ]
+[ sql ] [ SQL ] SELECT `cg`.`id`,`g`.`name`,`g`.`imgurl`,`cg`.`type`,`cg`.`use_service`,`cg`.`superposition`,`cg`.`start_money`,`cg`.`deduction_money`,`cg`.`discount`,`mc`.`enddate`,`mc`.`sumber` FROM `yw_membercard` `mc` INNER JOIN `yw_cardcoupon_goods` `cg` ON `mc`.`gid`=`cg`.`id` INNER JOIN `yw_goods` `g` ON `cg`.`gid`=`g`.`id` WHERE  `mc`.`mid` = '13'  AND `mc`.`state` = '1'  AND `mc`.`enddate` > '2018-09-12 18:24:04' [ RunTime:0.000653s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'mc',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 6,
+  'extra' => 'Using where',
+) ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_service_goods` [ RunTime:0.000954s ]
+[ sql ] [ SQL ] SELECT `sg`.`id` FROM `yw_service_goods` `sg` INNER JOIN `yw_goods` `g` ON `sg`.`gid`=`g`.`id` WHERE  `g`.`type` = '4' LIMIT 1 [ RunTime:0.000310s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'sg',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 3,
+  'extra' => '',
+) ]
+[ sql ] [ SQL ] SELECT `sg`.`id` FROM `yw_service_goods` `sg` INNER JOIN `yw_goods` `g` ON `sg`.`gid`=`g`.`id` WHERE  `g`.`type` = '4' LIMIT 1 [ RunTime:0.000224s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'sg',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 3,
+  'extra' => '',
+) ]
+[ sql ] [ SQL ] SELECT `sg`.`id` FROM `yw_service_goods` `sg` INNER JOIN `yw_goods` `g` ON `sg`.`gid`=`g`.`id` WHERE  `g`.`type` = '4' LIMIT 1 [ RunTime:0.000224s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'sg',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 3,
+  'extra' => '',
+) ]
+[ sql ] [ SQL ] SELECT `sg`.`id` FROM `yw_service_goods` `sg` INNER JOIN `yw_goods` `g` ON `sg`.`gid`=`g`.`id` WHERE  `g`.`type` = '4' LIMIT 1 [ RunTime:0.000293s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'sg',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 3,
+  'extra' => '',
+) ]
+[ sql ] [ SQL ] SELECT `sg`.`id` FROM `yw_service_goods` `sg` INNER JOIN `yw_goods` `g` ON `sg`.`gid`=`g`.`id` WHERE  `g`.`type` = '4' LIMIT 1 [ RunTime:0.000281s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'sg',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 3,
+  'extra' => '',
+) ]
+[ sql ] [ SQL ] SELECT `sg`.`id` FROM `yw_service_goods` `sg` INNER JOIN `yw_goods` `g` ON `sg`.`gid`=`g`.`id` WHERE  `g`.`type` = '4' LIMIT 1 [ RunTime:0.000303s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'sg',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 3,
+  'extra' => '',
+) ]
+[ sql ] [ SQL ] SELECT `sg`.`id` FROM `yw_service_goods` `sg` INNER JOIN `yw_goods` `g` ON `sg`.`gid`=`g`.`id` WHERE  `g`.`type` = '4' LIMIT 1 [ RunTime:0.000303s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'sg',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 3,
+  'extra' => '',
+) ]
+---------------------------------------------------------------
+[2018-09-12T18:25:08+08:00] 221.237.113.130 POST abc.yongweisoft.cn/sellerinfo/list?version=v1&page=1&limit=2
+[运行时间：0.074790s] [吞吐率：13.37req/s] [内存消耗：4,716.11kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'sellerinfo/list',
+  'route' => 'sellerinfo/Sellerinfo/Sellerinfo_list',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'abc.yongweisoft.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8080',
+  'authorization' => 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VySW5mbyI6ImhlbGxvIiwidGltZXMiOjAsImV4cCI6MTUzNjgzMzIzMCwiaXNzIjoieXcuY29tIiwibWVtYmVyaWQiOjF9.oz8ur2eIzqmmj9_l3GK-CIwoQ4unAcIAYCeEUdrfYVQ',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.92 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+  'page' => '1',
+  'limit' => '2',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000355s ] mysql:host=127.0.0.1;port=3306;dbname=spa;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_sellerinfo` [ RunTime:0.001193s ]
+[ sql ] [ SQL ] SELECT id,name,chargeman,phone,address,
+            longitude,latitude,introduction,imgurl,state FROM `yw_sellerinfo` WHERE  `state` IN (1,2) LIMIT 0,2 [ RunTime:0.000312s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'yw_sellerinfo',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 3,
+  'extra' => 'Using where',
+) ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yw_sellerinfo` WHERE  `state` IN (1,2) LIMIT 1 [ RunTime:0.000214s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'yw_sellerinfo',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 3,
+  'extra' => 'Using where',
+) ]
+---------------------------------------------------------------
+[2018-09-12T18:25:39+08:00] 221.237.113.130 POST abc.yongweisoft.cn/admin/booking/Get_trade_service
+[运行时间：0.078838s] [吞吐率：12.68req/s] [内存消耗：4,795.94kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'abc.yongweisoft.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '12',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8080',
+  'authorization' => 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VySW5mbyI6ImhlbGxvIiwidGltZXMiOjAsImV4cCI6MTUzNjgzMzIzMCwiaXNzIjoieXcuY29tIiwibWVtYmVyaWQiOjF9.oz8ur2eIzqmmj9_l3GK-CIwoQ4unAcIAYCeEUdrfYVQ',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.92 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'sid' => '1',
+  'page' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001003s ] mysql:host=127.0.0.1;port=3306;dbname=spa;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_trade_order` [ RunTime:0.000861s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yw_trade_order` `to` WHERE  `to`.`sellerid` = '1'  AND `to`.`type` = '2' LIMIT 1 [ RunTime:0.001603s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'to',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 27,
+  'extra' => 'Using where',
+) ]
+[ sql ] [ SQL ] SELECT `to`.`id`,`to`.`orderid`,`m`.`nickname`,`m`.`tel`,`to`.`money`,`to`.`actual_money`,`to`.`remark` FROM `yw_trade_order` `to` INNER JOIN `yw_member` `m` ON `to`.`mid`=`m`.`id` WHERE  `to`.`sellerid` = '1'  AND `to`.`type` = '2' LIMIT 0,10 [ RunTime:0.001731s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'to',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 27,
+  'extra' => 'Using where',
+) ]
+---------------------------------------------------------------
+[2018-09-12T18:25:44+08:00] 221.237.113.130 POST abc.yongweisoft.cn/admin/booking/Get_trade_service_detail
+[运行时间：0.042100s] [吞吐率：23.75req/s] [内存消耗：4,794.41kb] [文件加载：89]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'abc.yongweisoft.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '5',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8080',
+  'authorization' => 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VySW5mbyI6ImhlbGxvIiwidGltZXMiOjAsImV4cCI6MTUzNjgzMzIzMCwiaXNzIjoieXcuY29tIiwibWVtYmVyaWQiOjF9.oz8ur2eIzqmmj9_l3GK-CIwoQ4unAcIAYCeEUdrfYVQ',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.92 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'id' => '21',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000398s ] mysql:host=127.0.0.1;port=3306;dbname=spa;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_order_service` [ RunTime:0.000875s ]
+[ sql ] [ SQL ] SELECT `os`.`id`,`m`.`tel`,t.name as tname,`m`.`nickname`,g.name as gname,r.name as rname,b.name as bname,`os`.`starttime`,`os`.`state`,`os`.`sgtype`,`g`.`type`,`sg`.`money`,`sg`.`add_price`,`sg`.`minute`,`t`.`price`,sg.id as service_id FROM `yw_order_service` `os` INNER JOIN `yw_service_goods` `sg` ON `os`.`gid`=`sg`.`id` INNER JOIN `yw_goods` `g` ON `sg`.`gid`=`g`.`id` LEFT JOIN `yw_room` `r` ON `os`.`rid`=`r`.`id` LEFT JOIN `yw_bed` `b` ON `os`.`bid`=`b`.`id` LEFT JOIN `yw_technician` `t` ON `os`.`tid`=`t`.`id` INNER JOIN `yw_trade_order` `to` ON `os`.`orderid`=`to`.`id` INNER JOIN `yw_member` `m` ON `to`.`mid`=`m`.`id` WHERE  `os`.`orderid` = '21' [ RunTime:0.000445s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'to',
+  'type' => 'const',
+  'possible_keys' => 'PRIMARY',
+  'key' => 'PRIMARY',
+  'key_len' => '4',
+  'ref' => 'const',
+  'rows' => 1,
+  'extra' => '',
+) ]
+---------------------------------------------------------------
+[2018-09-12T18:27:14+08:00] 221.237.113.130 POST abc.yongweisoft.cn/sellerinfo/list?version=v1&page=1&limit=2
+[运行时间：0.072209s] [吞吐率：13.85req/s] [内存消耗：4,716.11kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'sellerinfo/list',
+  'route' => 'sellerinfo/Sellerinfo/Sellerinfo_list',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'abc.yongweisoft.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8080',
+  'authorization' => 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VySW5mbyI6ImhlbGxvIiwidGltZXMiOjAsImV4cCI6MTUzNjgzMzIzMCwiaXNzIjoieXcuY29tIiwibWVtYmVyaWQiOjF9.oz8ur2eIzqmmj9_l3GK-CIwoQ4unAcIAYCeEUdrfYVQ',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.92 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+  'page' => '1',
+  'limit' => '2',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009030s ] mysql:host=127.0.0.1;port=3306;dbname=spa;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_sellerinfo` [ RunTime:0.000925s ]
+[ sql ] [ SQL ] SELECT id,name,chargeman,phone,address,
+            longitude,latitude,introduction,imgurl,state FROM `yw_sellerinfo` WHERE  `state` IN (1,2) LIMIT 0,2 [ RunTime:0.000301s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'yw_sellerinfo',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 3,
+  'extra' => 'Using where',
+) ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yw_sellerinfo` WHERE  `state` IN (1,2) LIMIT 1 [ RunTime:0.000253s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'yw_sellerinfo',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 3,
+  'extra' => 'Using where',
+) ]
+---------------------------------------------------------------
+[2018-09-12T18:27:19+08:00] 221.237.113.130 POST abc.yongweisoft.cn/admin/booking/Get_trade_service
+[运行时间：0.080255s] [吞吐率：12.46req/s] [内存消耗：4,795.94kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'abc.yongweisoft.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '12',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8080',
+  'authorization' => 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VySW5mbyI6ImhlbGxvIiwidGltZXMiOjAsImV4cCI6MTUzNjgzMzIzMCwiaXNzIjoieXcuY29tIiwibWVtYmVyaWQiOjF9.oz8ur2eIzqmmj9_l3GK-CIwoQ4unAcIAYCeEUdrfYVQ',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.92 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'sid' => '1',
+  'page' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001504s ] mysql:host=127.0.0.1;port=3306;dbname=spa;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_trade_order` [ RunTime:0.001341s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yw_trade_order` `to` WHERE  `to`.`sellerid` = '1'  AND `to`.`type` = '2' LIMIT 1 [ RunTime:0.000344s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'to',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 27,
+  'extra' => 'Using where',
+) ]
+[ sql ] [ SQL ] SELECT `to`.`id`,`to`.`orderid`,`m`.`nickname`,`m`.`tel`,`to`.`money`,`to`.`actual_money`,`to`.`remark` FROM `yw_trade_order` `to` INNER JOIN `yw_member` `m` ON `to`.`mid`=`m`.`id` WHERE  `to`.`sellerid` = '1'  AND `to`.`type` = '2' LIMIT 0,10 [ RunTime:0.001665s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'to',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 27,
+  'extra' => 'Using where',
+) ]
+---------------------------------------------------------------
+[2018-09-12T18:27:28+08:00] 221.237.113.130 POST abc.yongweisoft.cn/sellerinfo/list?version=v1&page=1&limit=2
+[运行时间：0.078295s] [吞吐率：12.77req/s] [内存消耗：4,716.11kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'sellerinfo/list',
+  'route' => 'sellerinfo/Sellerinfo/Sellerinfo_list',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'abc.yongweisoft.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8080',
+  'authorization' => 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VySW5mbyI6ImhlbGxvIiwidGltZXMiOjAsImV4cCI6MTUzNjgzMzIzMCwiaXNzIjoieXcuY29tIiwibWVtYmVyaWQiOjF9.oz8ur2eIzqmmj9_l3GK-CIwoQ4unAcIAYCeEUdrfYVQ',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.92 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+  'page' => '1',
+  'limit' => '2',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000372s ] mysql:host=127.0.0.1;port=3306;dbname=spa;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_sellerinfo` [ RunTime:0.000919s ]
+[ sql ] [ SQL ] SELECT id,name,chargeman,phone,address,
+            longitude,latitude,introduction,imgurl,state FROM `yw_sellerinfo` WHERE  `state` IN (1,2) LIMIT 0,2 [ RunTime:0.000279s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'yw_sellerinfo',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 3,
+  'extra' => 'Using where',
+) ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yw_sellerinfo` WHERE  `state` IN (1,2) LIMIT 1 [ RunTime:0.000236s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'yw_sellerinfo',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 3,
+  'extra' => 'Using where',
+) ]
+---------------------------------------------------------------
+[2018-09-12T18:27:30+08:00] 221.237.113.130 POST abc.yongweisoft.cn/admin/booking/Get_trade_service_detail
+[运行时间：0.048783s] [吞吐率：20.50req/s] [内存消耗：4,794.41kb] [文件加载：89]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'abc.yongweisoft.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '5',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8080',
+  'authorization' => 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VySW5mbyI6ImhlbGxvIiwidGltZXMiOjAsImV4cCI6MTUzNjgzMzIzMCwiaXNzIjoieXcuY29tIiwibWVtYmVyaWQiOjF9.oz8ur2eIzqmmj9_l3GK-CIwoQ4unAcIAYCeEUdrfYVQ',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.92 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'id' => '21',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000473s ] mysql:host=127.0.0.1;port=3306;dbname=spa;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_order_service` [ RunTime:0.001274s ]
+[ sql ] [ SQL ] SELECT `os`.`id`,`m`.`tel`,t.name as tname,`m`.`nickname`,g.name as gname,r.name as rname,b.name as bname,`os`.`starttime`,`os`.`state`,`os`.`sgtype`,`g`.`type`,`sg`.`money`,`sg`.`add_price`,`sg`.`minute`,`t`.`price`,sg.id as service_id FROM `yw_order_service` `os` INNER JOIN `yw_service_goods` `sg` ON `os`.`gid`=`sg`.`id` INNER JOIN `yw_goods` `g` ON `sg`.`gid`=`g`.`id` LEFT JOIN `yw_room` `r` ON `os`.`rid`=`r`.`id` LEFT JOIN `yw_bed` `b` ON `os`.`bid`=`b`.`id` LEFT JOIN `yw_technician` `t` ON `os`.`tid`=`t`.`id` INNER JOIN `yw_trade_order` `to` ON `os`.`orderid`=`to`.`id` INNER JOIN `yw_member` `m` ON `to`.`mid`=`m`.`id` WHERE  `os`.`orderid` = '21' [ RunTime:0.000538s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'to',
+  'type' => 'const',
+  'possible_keys' => 'PRIMARY',
+  'key' => 'PRIMARY',
+  'key_len' => '4',
+  'ref' => 'const',
+  'rows' => 1,
+  'extra' => '',
+) ]
+---------------------------------------------------------------
+[2018-09-12T18:28:05+08:00] 221.237.113.130 POST abc.yongweisoft.cn/admin/booking/Get_trade_service_detail
+[运行时间：0.047474s] [吞吐率：21.06req/s] [内存消耗：4,794.41kb] [文件加载：89]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'abc.yongweisoft.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '5',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8080',
+  'authorization' => 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VySW5mbyI6ImhlbGxvIiwidGltZXMiOjAsImV4cCI6MTUzNjgzMzIzMCwiaXNzIjoieXcuY29tIiwibWVtYmVyaWQiOjF9.oz8ur2eIzqmmj9_l3GK-CIwoQ4unAcIAYCeEUdrfYVQ',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.92 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'id' => '21',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000466s ] mysql:host=127.0.0.1;port=3306;dbname=spa;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_order_service` [ RunTime:0.000930s ]
+[ sql ] [ SQL ] SELECT `os`.`id`,`m`.`tel`,t.name as tname,`m`.`nickname`,g.name as gname,r.name as rname,b.name as bname,`os`.`starttime`,`os`.`state`,`os`.`sgtype`,`g`.`type`,`sg`.`money`,`sg`.`add_price`,`sg`.`minute`,`t`.`price`,sg.id as service_id FROM `yw_order_service` `os` INNER JOIN `yw_service_goods` `sg` ON `os`.`gid`=`sg`.`id` INNER JOIN `yw_goods` `g` ON `sg`.`gid`=`g`.`id` LEFT JOIN `yw_room` `r` ON `os`.`rid`=`r`.`id` LEFT JOIN `yw_bed` `b` ON `os`.`bid`=`b`.`id` LEFT JOIN `yw_technician` `t` ON `os`.`tid`=`t`.`id` INNER JOIN `yw_trade_order` `to` ON `os`.`orderid`=`to`.`id` INNER JOIN `yw_member` `m` ON `to`.`mid`=`m`.`id` WHERE  `os`.`orderid` = '21' [ RunTime:0.000491s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'to',
+  'type' => 'const',
+  'possible_keys' => 'PRIMARY',
+  'key' => 'PRIMARY',
+  'key_len' => '4',
+  'ref' => 'const',
+  'rows' => 1,
+  'extra' => '',
+) ]
+---------------------------------------------------------------
+[2018-09-12T18:28:05+08:00] 221.237.113.130 POST abc.yongweisoft.cn/admin/booking/Get_trade_service
+[运行时间：0.046654s] [吞吐率：21.43req/s] [内存消耗：4,795.94kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'abc.yongweisoft.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '12',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8080',
+  'authorization' => 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VySW5mbyI6ImhlbGxvIiwidGltZXMiOjAsImV4cCI6MTUzNjgzMzIzMCwiaXNzIjoieXcuY29tIiwibWVtYmVyaWQiOjF9.oz8ur2eIzqmmj9_l3GK-CIwoQ4unAcIAYCeEUdrfYVQ',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.92 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'sid' => '1',
+  'page' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000490s ] mysql:host=127.0.0.1;port=3306;dbname=spa;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_trade_order` [ RunTime:0.001207s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yw_trade_order` `to` WHERE  `to`.`sellerid` = '1'  AND `to`.`type` = '2' LIMIT 1 [ RunTime:0.000369s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'to',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 27,
+  'extra' => 'Using where',
+) ]
+[ sql ] [ SQL ] SELECT `to`.`id`,`to`.`orderid`,`m`.`nickname`,`m`.`tel`,`to`.`money`,`to`.`actual_money`,`to`.`remark` FROM `yw_trade_order` `to` INNER JOIN `yw_member` `m` ON `to`.`mid`=`m`.`id` WHERE  `to`.`sellerid` = '1'  AND `to`.`type` = '2' LIMIT 0,10 [ RunTime:0.000394s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'to',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 27,
+  'extra' => 'Using where',
+) ]
+---------------------------------------------------------------
+[2018-09-12T18:28:40+08:00] 221.237.113.130 POST abc.yongweisoft.cn/admin/booking/Get_trade_service
+[运行时间：0.085388s] [吞吐率：11.71req/s] [内存消耗：4,795.94kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'abc.yongweisoft.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '12',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8080',
+  'authorization' => 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VySW5mbyI6ImhlbGxvIiwidGltZXMiOjAsImV4cCI6MTUzNjgzMzIzMCwiaXNzIjoieXcuY29tIiwibWVtYmVyaWQiOjF9.oz8ur2eIzqmmj9_l3GK-CIwoQ4unAcIAYCeEUdrfYVQ',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.92 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'sid' => '1',
+  'page' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.008758s ] mysql:host=127.0.0.1;port=3306;dbname=spa;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_trade_order` [ RunTime:0.000991s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yw_trade_order` `to` WHERE  `to`.`sellerid` = '1'  AND `to`.`type` = '2' LIMIT 1 [ RunTime:0.000263s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'to',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 27,
+  'extra' => 'Using where',
+) ]
+[ sql ] [ SQL ] SELECT `to`.`id`,`to`.`orderid`,`m`.`nickname`,`m`.`tel`,`to`.`money`,`to`.`actual_money`,`to`.`remark` FROM `yw_trade_order` `to` INNER JOIN `yw_member` `m` ON `to`.`mid`=`m`.`id` WHERE  `to`.`sellerid` = '1'  AND `to`.`type` = '2' LIMIT 0,10 [ RunTime:0.000266s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'to',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 27,
+  'extra' => 'Using where',
+) ]
+---------------------------------------------------------------
+[2018-09-12T18:30:24+08:00] 221.237.113.130 POST abc.yongweisoft.cn/admin/booking/get_member_card
+[运行时间：0.056724s] [吞吐率：17.63req/s] [内存消耗：4,814.38kb] [文件加载：89]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'abc.yongweisoft.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '5',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8080',
+  'authorization' => 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VySW5mbyI6ImhlbGxvIiwidGltZXMiOjAsImV4cCI6MTUzNjgzMzIzMCwiaXNzIjoieXcuY29tIiwibWVtYmVyaWQiOjF9.oz8ur2eIzqmmj9_l3GK-CIwoQ4unAcIAYCeEUdrfYVQ',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.92 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'id' => '21',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000380s ] mysql:host=127.0.0.1;port=3306;dbname=spa;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_trade_order` [ RunTime:0.000932s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_trade_order` WHERE  `id` = 21 LIMIT 1 [ RunTime:0.000298s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'yw_trade_order',
+  'type' => 'const',
+  'possible_keys' => 'PRIMARY',
+  'key' => 'PRIMARY',
+  'key_len' => '4',
+  'ref' => 'const',
+  'rows' => 1,
+  'extra' => '',
+) ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_order_service` [ RunTime:0.000815s ]
+[ sql ] [ SQL ] SELECT `gid`,`tid` FROM `yw_order_service` WHERE  `orderid` = 21 [ RunTime:0.000231s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'yw_order_service',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 251,
+  'extra' => 'Using where',
+) ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_membercard` [ RunTime:0.000803s ]
+[ sql ] [ SQL ] SELECT `cg`.`id`,`g`.`name`,`g`.`imgurl`,`cg`.`type`,`cg`.`use_service`,`cg`.`superposition`,`cg`.`start_money`,`cg`.`deduction_money`,`cg`.`discount`,`mc`.`enddate`,`mc`.`sumber` FROM `yw_membercard` `mc` INNER JOIN `yw_cardcoupon_goods` `cg` ON `mc`.`gid`=`cg`.`id` INNER JOIN `yw_goods` `g` ON `cg`.`gid`=`g`.`id` WHERE  `mc`.`mid` = '13'  AND `mc`.`state` = '1'  AND `mc`.`enddate` > '2018-09-12 18:30:24' [ RunTime:0.000490s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'mc',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 6,
+  'extra' => 'Using where',
+) ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_service_goods` [ RunTime:0.000787s ]
+[ sql ] [ SQL ] SELECT `sg`.`id` FROM `yw_service_goods` `sg` INNER JOIN `yw_goods` `g` ON `sg`.`gid`=`g`.`id` WHERE  `g`.`type` = '4' LIMIT 1 [ RunTime:0.000222s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'sg',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 3,
+  'extra' => '',
+) ]
+[ sql ] [ SQL ] SELECT `sg`.`id` FROM `yw_service_goods` `sg` INNER JOIN `yw_goods` `g` ON `sg`.`gid`=`g`.`id` WHERE  `g`.`type` = '4' LIMIT 1 [ RunTime:0.000231s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'sg',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 3,
+  'extra' => '',
+) ]
+[ sql ] [ SQL ] SELECT `sg`.`id` FROM `yw_service_goods` `sg` INNER JOIN `yw_goods` `g` ON `sg`.`gid`=`g`.`id` WHERE  `g`.`type` = '4' LIMIT 1 [ RunTime:0.000232s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'sg',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 3,
+  'extra' => '',
+) ]
+[ sql ] [ SQL ] SELECT `sg`.`id` FROM `yw_service_goods` `sg` INNER JOIN `yw_goods` `g` ON `sg`.`gid`=`g`.`id` WHERE  `g`.`type` = '4' LIMIT 1 [ RunTime:0.000274s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'sg',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 3,
+  'extra' => '',
+) ]
+[ sql ] [ SQL ] SELECT `sg`.`id` FROM `yw_service_goods` `sg` INNER JOIN `yw_goods` `g` ON `sg`.`gid`=`g`.`id` WHERE  `g`.`type` = '4' LIMIT 1 [ RunTime:0.000205s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'sg',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 3,
+  'extra' => '',
+) ]
+[ sql ] [ SQL ] SELECT `sg`.`id` FROM `yw_service_goods` `sg` INNER JOIN `yw_goods` `g` ON `sg`.`gid`=`g`.`id` WHERE  `g`.`type` = '4' LIMIT 1 [ RunTime:0.000219s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'sg',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 3,
+  'extra' => '',
+) ]
+[ sql ] [ SQL ] SELECT `sg`.`id` FROM `yw_service_goods` `sg` INNER JOIN `yw_goods` `g` ON `sg`.`gid`=`g`.`id` WHERE  `g`.`type` = '4' LIMIT 1 [ RunTime:0.000210s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'sg',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 3,
+  'extra' => '',
+) ]
+---------------------------------------------------------------
+[2018-09-12T18:33:45+08:00] 221.237.113.130 POST abc.yongweisoft.cn/sellerinfo/list?version=v1&page=1&limit=2
+[运行时间：0.075066s] [吞吐率：13.32req/s] [内存消耗：4,716.11kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'sellerinfo/list',
+  'route' => 'sellerinfo/Sellerinfo/Sellerinfo_list',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'abc.yongweisoft.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8080',
+  'authorization' => 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VySW5mbyI6ImhlbGxvIiwidGltZXMiOjAsImV4cCI6MTUzNjgzMzIzMCwiaXNzIjoieXcuY29tIiwibWVtYmVyaWQiOjF9.oz8ur2eIzqmmj9_l3GK-CIwoQ4unAcIAYCeEUdrfYVQ',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.92 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+  'page' => '1',
+  'limit' => '2',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000982s ] mysql:host=127.0.0.1;port=3306;dbname=spa;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_sellerinfo` [ RunTime:0.014317s ]
+[ sql ] [ SQL ] SELECT id,name,chargeman,phone,address,
+            longitude,latitude,introduction,imgurl,state FROM `yw_sellerinfo` WHERE  `state` IN (1,2) LIMIT 0,2 [ RunTime:0.000282s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'yw_sellerinfo',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 3,
+  'extra' => 'Using where',
+) ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yw_sellerinfo` WHERE  `state` IN (1,2) LIMIT 1 [ RunTime:0.000218s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'yw_sellerinfo',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 3,
+  'extra' => 'Using where',
+) ]
+---------------------------------------------------------------
+[2018-09-12T18:34:10+08:00] 221.237.113.130 POST abc.yongweisoft.cn/admin/booking/Get_trade_service
+[运行时间：0.086404s] [吞吐率：11.57req/s] [内存消耗：4,795.94kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'abc.yongweisoft.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '12',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8080',
+  'authorization' => 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VySW5mbyI6ImhlbGxvIiwidGltZXMiOjAsImV4cCI6MTUzNjgzMzIzMCwiaXNzIjoieXcuY29tIiwibWVtYmVyaWQiOjF9.oz8ur2eIzqmmj9_l3GK-CIwoQ4unAcIAYCeEUdrfYVQ',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.92 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'sid' => '1',
+  'page' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009763s ] mysql:host=127.0.0.1;port=3306;dbname=spa;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_trade_order` [ RunTime:0.001298s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yw_trade_order` `to` WHERE  `to`.`sellerid` = '1'  AND `to`.`type` = '2' LIMIT 1 [ RunTime:0.000368s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'to',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 27,
+  'extra' => 'Using where',
+) ]
+[ sql ] [ SQL ] SELECT `to`.`id`,`to`.`orderid`,`m`.`nickname`,`m`.`tel`,`to`.`money`,`to`.`actual_money`,`to`.`remark` FROM `yw_trade_order` `to` INNER JOIN `yw_member` `m` ON `to`.`mid`=`m`.`id` WHERE  `to`.`sellerid` = '1'  AND `to`.`type` = '2' LIMIT 0,10 [ RunTime:0.000280s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'to',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 27,
+  'extra' => 'Using where',
+) ]
+---------------------------------------------------------------
+[2018-09-12T19:43:31+08:00] 139.162.116.133 GET 119.29.217.103/
+[运行时间：0.031824s] [吞吐率：31.42req/s] [内存消耗：2,793.16kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '119.29.217.103',
+  'user-agent' => 'Go-http-client/1.1',
+  'connection' => 'close',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2018-09-12T20:24:25+08:00] 222.186.31.27 GET 119.29.217.103/
+[运行时间：0.032899s] [吞吐率：30.40req/s] [内存消耗：2,794.23kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'accept-language' => 'zh-cn',
+  'referer' => 'https://119.29.217.103',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 9.0; Windows NT 6.1)',
+  'host' => '119.29.217.103',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2018-09-12T20:24:29+08:00] 222.186.31.240 GET 119.29.217.103/
+[运行时间：0.027874s] [吞吐率：35.88req/s] [内存消耗：2,794.23kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'accept-language' => 'zh-cn',
+  'referer' => 'https://119.29.217.103',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 9.0; Windows NT 6.1)',
+  'host' => '119.29.217.103',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2018-09-12T23:57:05+08:00] 184.105.247.194 GET 119.29.217.103/
+[运行时间：0.025290s] [吞吐率：39.54req/s] [内存消耗：2,792.48kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '119.29.217.103',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)

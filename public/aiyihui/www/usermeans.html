@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<title>完善资料</title>
+		<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+		<meta content="yes" name="apple-mobile-web-app-capable">
+		<meta content="black" name="apple-mobile-web-app-status-bar-style">
+		<meta content="telephone=no" name="format-detection">
+		<link rel="stylesheet" href="../css/weui.css">
+		<link rel="stylesheet" href="../css/jquery-weui.css">
+		<link rel="stylesheet" href="../css/base.css">
+		<link rel="stylesheet" href="../css/style.css">
+		<style>
+			.meansBox {
+				margin: 4% 2%;
+			}
+			
+			.submitBtn {
+				justify-content: center;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div class="conBox meansBox bs">
+			<div class="weui-cell">
+				<div class="weui-cell__hd"><label for="" class="weui-label">您的姓名</label></div>
+				<div class="weui-cell__bd">
+					<input class="weui-input" type="text" id="userName" placeholder="请输入您的姓名">
+				</div>
+			</div>
+			<div class="weui-cell">
+				<div class="weui-cell__hd"><label for="" class="weui-label">您的病史</label></div>
+				<div class="weui-cell__bd">
+					<input class="weui-input" type="text" id="in" placeholder="请选择您的病史" value="">
+				</div>
+			</div>
+		</div>
+		<div class="submitBtn df">
+			<a href="javascript:;" class="weui-btn weui-btn_mini weui-btn_primary">确定</a>
+		</div>
+
+		<script src="../js/jquery.min.js"></script>
+		<script src="../js/jquery-weui.min.js"></script>
+		<!--<script src="../js/redirct.js"></script>-->
+		<script src="../js/dropload.min.js"></script>
+		<script src="../js/weixin.js"></script>
+		<script src="../js/rem.js"></script>
+		<script src="../js/swiper.min.js"></script>
+<!--		<script src="../js/vconsole.min.js"></script>-->
+	</body>
+	<script>
+		var bingArr = [];
+		$(function() {
+			bingData();
+			var values = $('#in').data('values');
+			console.log(values)
+		})
+		//填写姓名
+		$('#userName').on('focus', function() {
+			$('.weui-picker-modal').removeClass('weui-picker-modal-visible');
+		})
+		$('#userName').on('input', function() {
+			var username = $(this).val();
+			if(username.length > 8) {
+				this.value = this.value.substr(0, 8);
+			}
+		})
+		//选择病史
+		$('#in').on('focus', function() {
+			$('.weui-picker-modal').addClass('weui-picker-modal-visible');
+		})
+		//确定按钮
+		$('.submitBtn').on('click', function() {
+			$('.weui-picker-modal').removeClass('weui-picker-modal-visible');
+			var username = $('#userName').val();
+			var usersign = $('#in').data('values');
+			console.log(username)
+			console.log(usersign)
+		})
+		//病史列表
+		function bingData() {
+			var da = {
+				"tag": "member",
+				"op": "signlist",
+			}
+			$.ajax({
+				type: 'POST',
+				url: AJAXURL + '/admin/member/index',
+				contentType: "application/x-www-form-urlencoded",
+				data: da,
+				dataType: 'json',
+				success: function(success) {
+					console.log('标签数据' + JSON.stringify(success))
+					if(success.err > 0) {
+						var userList = success.data.list;
+						console.log(userList);
+						for(var i = 0; i < userList.length; i++) {
+							bingArr.push({
+								'value': userList[i].id,
+								'title': userList[i].sign
+							})
+						}
+						console.log(bingArr)
+						//下拉框
+						$("#in").select({
+							title: "",
+							multi: true,
+							items: bingArr
+						});
+						//end下拉框
+					} else if(success.err == '-100') {
+						window.location.href = 'login.html?openid=' + success.data.openid;
+					} else {
+						$.toast(success.message, "cancel");
+					}
+				}
+			});
+		}
+		//end病史列表
+	</script>
+
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<title>消息详情</title>
+		<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+		<meta content="yes" name="apple-mobile-web-app-capable">
+		<meta content="black" name="apple-mobile-web-app-status-bar-style">
+		<meta content="telephone=no" name="format-detection">
+		<link rel="stylesheet" href="../css/weui.css">
+		<link rel="stylesheet" href="../css/jquery-weui.css">
+		<link rel="stylesheet" href="../font/iconfont.css">
+		<link rel="stylesheet" href="../css/base.css">
+		<link rel="stylesheet" href="../css/style.css">
+		<style>
+			.inforBox {
+				width: 96%;
+				padding: 2% 4%;
+				margin: 2%;
+				background-color: #ffffff;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div class="conBox inforBox bs"></div>
+		<script src="../js/jquery.min.js"></script>
+		<script src="../js/jquery-weui.min.js"></script>
+		<script src="../js/redirct.js"></script>
+		<script src="../js/rem.js"></script>
+		<script src="../js/weixin.js"></script>
+<!--		<script src="../js/vconsole.min.js"></script>-->
+	</body>
+	<script>
+//		var vConsole = new VConsole();
+		//超链接取值
+		var h = document.documentElement.clientHeight || document.body.clientHeight;
+		$('.inforBox').css('height', h + 'px');
+		(function($) {
+			$.getUrlParam = function(name) {
+				var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)");
+				var r = window.location.search.substr(1).match(reg);
+				if(r != null) return unescape(r[2]);
+				return null;
+			}
+		})(jQuery);
+		//超链接取值
+		var idx = $.getUrlParam('idx');
+		var da = {
+			"tag": "member",
+			"op": "readmsg",
+			"condition": {
+				"id": idx
+			}
+		}
+		//文章资讯列表
+		$.ajax({
+			type: 'POST',
+			url: AJAXURL + '/index/member/index',
+			contentType: "application/x-www-form-urlencoded",
+			data: da,
+			dataType: 'json',
+			success: function(success) {
+				console.log('消息详情' + JSON.stringify(success))
+				if(success.err > 0) {
+					$('.inforBox').html(success.data.msg);
+				} else if(success.err == '-100') {
+					window.location.href = 'login.html';
+				} else {
+					$.toast(success.message, "cancel");
+				}
+			}
+		});
+	</script>
+
+</html>

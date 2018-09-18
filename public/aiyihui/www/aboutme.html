@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<title>关于我们</title>
+		<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+		<meta content="yes" name="apple-mobile-web-app-capable">
+		<meta content="black" name="apple-mobile-web-app-status-bar-style">
+		<meta content="telephone=no" name="format-detection">
+		<link rel="stylesheet" href="../css/weui.css">
+		<link rel="stylesheet" href="../css/jquery-weui.css">
+		<style>
+			section {
+				word-wrap: break-word;
+				word-break: break-all;
+			}
+		</style>
+	</head>
+
+	<body>
+		<article class="weui-article">
+			<section></section>
+		</article>
+		<!--end底部导航-->
+		<script src="../js/jquery.min.js"></script>
+		<script src="../js/jquery-weui.min.js"></script>
+		<script src="../js/redirct.js"></script>
+		<script src="../js/template.js"></script>
+		<script src="../js/weixin.js"></script>
+		<script src="../js/vconsole.min.js"></script>
+	</body>
+	<script>
+		var vConsole = new VConsole();
+		var da = {
+			"isUpdate": 2,
+			"tag": "aboutus_config"
+		}
+		$.ajax({
+			type: 'POST',
+			url: AJAXURL + '/admin/systemsets/system_set',
+			contentType: "application/x-www-form-urlencoded",
+			data: da,
+			dataType: 'json',
+			success: function(success) {
+				console.log('关于我们' + JSON.stringify(success))
+				if(success.err > 0) {
+					$('section').html(success.data.text);
+				} else if(success.err == '-100') {
+					window.location.href = 'login.html';
+				} else {
+					$.toast(success.message, "cancel");
+				}
+			}
+		});
+	</script>
+
+</html>

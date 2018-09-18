@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title>首页</title>
+		<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+		<meta content="yes" name="apple-mobile-web-app-capable">
+		<meta content="black" name="apple-mobile-web-app-status-bar-style">
+		<meta content="telephone=no" name="format-detection">
+		<link rel="stylesheet" href="css/weui.css">
+		<link rel="stylesheet" href="css/jquery-weui.css">
+		<link rel="stylesheet" href="css/base.css">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="font/iconfont.css">
+		<style>
+
+		</style>
+	</head>
+
+	<body>
+		<!--搜索-->
+		<div class="weui-search-bar" id="searchBar">
+			<form class="weui-search-bar__form" id="search" action="">
+				<div class="weui-search-bar__box">
+					<i class="weui-icon-search"></i>
+					<input type="search" class="weui-search-bar__input" id="searchInput" placeholder="搜索1" required="">
+					<a href="javascript:" class="weui-icon-clear" id="searchClear"></a>
+				</div>
+				<label class="weui-search-bar__label" id="searchText">
+	      <i class="weui-icon-search"></i>
+	      <span>快速找药</span>
+	    </label>
+			</form>
+			<a href="javascript:" class="weui-search-bar__cancel-btn" id="searchCancel">取消</a>
+		</div>
+		<!--end搜索-->
+		<!--轮播图-->
+		<div class="swiper-container">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide bg" style="background-image: url(img/tep/1.jpg);"></div>
+				<div class="swiper-slide bg" style="background-image: url(img/tep/2.jpg);"></div>
+				<div class="swiper-slide bg" style="background-image: url(img/tep/3.jpg);"></div>
+			</div>
+			<div class="swiper-pagination"></div>
+		</div>
+		
+		<!--end轮播图-->
+		<i class="icon iconfont icon-shouji"></i>
+		<!--折扣商品-->
+		<!--<div class="shopBox">
+			<div class="shopTit f24">折扣商品</div>
+			<div class="swiper-container2">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide">
+						<div class="discount">
+							<img src="img/tep/2.jpg" />
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="discount">
+							<img src="img/tep/1.jpg" />
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="discount">
+							<img src="img/tep/3.jpg" />
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="discount">
+							<img src="img/tep/2.jpg" />
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="discount">
+							<img src="img/tep/1.jpg" />
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="discount">
+							<img src="img/tep/3.jpg" />
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="discount">
+							<img src="img/tep/2.jpg" />
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="discount">
+							<img src="img/tep/1.jpg" />
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>-->
+		<!--end折扣商品-->
+		<!--底部导航-->
+		<div class="weui-tabbar">
+			<a href="javascript:;" class="weui-tabbar__item weui-bar__item_on">
+				<span style="display: inline-block;position: relative;">
+                        <img src="./images/icon_tabbar.png" alt="" class="weui-tabbar__icon">
+                        <span class="weui-badge" style="position: absolute;top: -2px;right: -13px;">8</span>
+				</span>
+				<p class="weui-tabbar__label">微信</p>
+			</a>
+			<a href="javascript:;" class="weui-tabbar__item">
+				<img src="./images/icon_tabbar.png" alt="" class="weui-tabbar__icon">
+				<p class="weui-tabbar__label">通讯录</p>
+			</a>
+			<a href="javascript:;" class="weui-tabbar__item">
+				<span style="display: inline-block;position: relative;">
+                        <img src="./images/icon_tabbar.png" alt="" class="weui-tabbar__icon">
+                        <span class="weui-badge weui-badge_dot" style="position: absolute;top: 0;right: -6px;"></span>
+				</span>
+				<p class="weui-tabbar__label">发现</p>
+			</a>
+			<a href="javascript:;" class="weui-tabbar__item">
+				<img src="./images/icon_tabbar.png" alt="" class="weui-tabbar__icon">
+				<p class="weui-tabbar__label">我</p>
+			</a>
+		</div>
+		<!--end底部导航-->
+		<script src="js/jquery.min.js"></script>
+		<script src="js/jquery-weui.min.js"></script>
+		<script src="js/swiper.min.js"></script>
+		<script type="text/javascript" class="tabbar js_show">
+			//轮播图
+			var mySwiper = new Swiper('.swiper-container', {
+				autoplay: 3000, //可选选项，自动滑动
+				speed: 500, //滑动速度
+				pagination: '.swiper-pagination', // 分页器
+				paginationType: 'bullets', //fraction 数字分页坐标  bullets 加点页坐标
+				loop: true, // 连续循环
+				autoplayDisableOnInteraction: false, // 滑动后继续滑动
+				autoHeight: false, //高度随内容变化
+			})
+			//折扣商品
+			var swiper = new Swiper('.swiper-container2', {
+				scrollbarHide: true,
+				slidesPerView: 'auto', //可以设置为number或者 'auto'则自动根据slides的宽度来设定数量。
+				centeredSlides: false, //设定为true时，活动块会居中，而不是默认状态下的居左。
+				spaceBetween: 10, // 类别之间距离
+				grabCursor: true,
+				slidesOffsetBefore: 10, //设定slide与左边框的预设偏移量（单位px）。
+				slidesOffsetAfter: 10, //设定slide与右边框的预设偏移量（单位px）。
+			});
+			$(function() {
+				$('.weui-tabbar__item').on('click', function() {
+					$(this).addClass('weui-bar__item_on').siblings('.weui-bar__item_on').removeClass('weui-bar__item_on');
+				});
+			});
+		</script>
+	</body>
+
+</html>

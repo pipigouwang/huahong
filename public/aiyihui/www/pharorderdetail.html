@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<title>订单状态</title>
+		<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+		<meta content="yes" name="apple-mobile-web-app-capable">
+		<meta content="black" name="apple-mobile-web-app-status-bar-style">
+		<meta content="telephone=no" name="format-detection">
+		<link rel="stylesheet" href="../css/weui.css">
+		<link rel="stylesheet" href="../css/jquery-weui.css">
+		<link rel="stylesheet" href="../font/iconfont.css">
+		<link rel="stylesheet" href="../css/base.css">
+		<link rel="stylesheet" href="../css/style.css">
+	</head>
+
+	<body>
+		<div class="conBox pharorderBox bs">
+			<div class="pharorderItem df">
+				<span class="pharorderTit1">进货日期</span>
+				<span class="jinhuodate"></span>
+			</div>
+			<div class="pharorderItem df">
+				<span class="pharorderTit1">订单号</span>
+				<span class="orderhao"></span>
+			</div>
+			<div class="pharorderItem df">
+				<span class="pharorderTit1">交易人</span>
+				<span class="jiaoyiren"></span>
+			</div>
+			<div class="pharorderItem df">
+				<span class="pharorderTit1">交易金额</span>
+				<span class="jiaoyimoney"></span>
+			</div>
+			<div class="pharorderItem noboder df">
+				<span class="pharorderTit1">交易商品</span>
+			</div>
+			<div class="pharshopBox bs">
+				<script type="text/template" id="pharshopBox">
+					{{each goods as value}}
+					<div class="pharshopItem df">
+						<div class="pharshopL df">
+							<div class="pharshopLImg bg" style="background-image: url({{href}}{{value.imgurl}});"></div>
+							<div class="pharshopLTit df">
+								<span>{{value.goodsname}}</span>
+								<span>批次号：{{value.sn}}</span>
+							</div>
+						</div>
+						<div class="pharshopM">x{{value.num}}</div>
+						<div class="pharshopR">￥{{value.price}}</div>
+					</div>
+					{{/each}}
+				</script>
+			</div>
+			<div class="pharorderItem pharorderFapiao df">
+				<span class="pharorderTit1">电子发票</span>
+				<span class="fapiao"><i class="icon iconfont icon-tupian fapiao_icon"></i><span class="fapiaospan" style="font-size: .24rem;margin-left: 4px;"></span></span>
+			</div>
+			<div class="pharorderItem df">
+				<span class="pharorderTit1">交易状态</span>
+				<div class="pharorderBtn"><button class="weui-btn weui-btn_mini weui-btn_primary fr">已完成</button></div>
+			</div>
+		</div>
+		<div class="pharstateBox bs">
+			<ul class="df bs">
+				<li class="li1"><i class="icon iconfont icon-shenhetongguo"></i><span>审核订单</span></li>
+				<li class="jiantouli"><i class="icon iconfont icon-jiantou"></i></li>
+				<li class="li2"><i class="icon iconfont icon-fahuo"></i><span>已发货</span></li>
+				<li class="jiantouli"><i class="icon iconfont icon-jiantou"></i></li>
+				<li class="li3"><i class="icon iconfont icon-yishouhuo"></i><span>已收货</span></li>
+				<li class="jiantouli"><i class="icon iconfont icon-jiantou"></i></li>
+				<li class="li4"><i class="icon iconfont icon-zhifu"></i><span>完成付款</span></li>
+			</ul>
+		</div>
+		<script src="../js/jquery.min.js"></script>
+		<script src="../js/jquery-weui.min.js"></script>
+		<script src="../js/redirct.js"></script>
+		<script src="../js/weixin.js"></script>
+		<script src="../js/template.js"></script>
+		<script src="../js/rem.js"></script>
+<!--		<script src="../js/vconsole.min.js"></script>-->
+	</body>
+	<script>
+//		var vConsole = new VConsole();
+		//超链接取值
+		(function($) {
+			$.getUrlParam = function(name) {
+				var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)");
+				var r = window.location.search.substr(1).match(reg);
+				if(r != null) return unescape(r[2]);
+				return null;
+			}
+		})(jQuery);
+		//超链接取值
+		$(function() {
+			var orderid = $.getUrlParam('orderid');
+			//微信配置
+			$.ajax({
+				type: 'POST',
+				url: AJAXURL + '/index/index/geography',
+				contentType: "application/x-www-form-urlencoded",
+				dataType: 'json',
+				data: {
+					url: AJAXURL + "/aiyihui/www/pharorderdetail.html?orderid=" + orderid
+				},
+				success: function(success) {
+					console.log('数据' + JSON.stringify(success))
+					if(success.err > 0) {
+						var configData = success.data.data;
+						wx.config({
+							debug: false,
+							appId: configData.appId,
+							timestamp: configData.timestamp,
+							nonceStr: configData.nonceStr,
+							signature: configData.signature,
+							jsApiList: ['downloadImage']
+						});
+						wx.error(function(res) {
+							console.log(res)
+						});
+					} else {
+						$.toast(success.data, "cancel");
+					}
+				}
+			});
+			//end微信配置
+			var da = {
+				"tag": "member",
+				"op": "orderone",
+				"condition": {
+					"id": orderid
+				}
+			}
+			//订单详情
+			$.ajax({
+				type: 'POST',
+				url: AJAXURL + '/index/member/index',
+				contentType: "application/x-www-form-urlencoded",
+				data: da,
+				dataType: 'json',
+				success: function(success) {
+					console.log('订单详情' + JSON.stringify(success))
+					if(success.err > 0) {
+						var otime = success.data.create_date;
+						otime = otime.replace(/-/g, '/');
+						var ostatus = success.data.status;
+						if(ostatus == 0) {
+							ostatus = '已删除'
+						} else if(ostatus == 1) {
+							ostatus = '待发货';
+							$('.li1').addClass('color');
+						} else if(ostatus == 2) {
+							ostatus = '待付款'
+						} else if(ostatus == 3) {
+							ostatus = '已付款';
+							$('.li4').addClass('color');
+						} else if(ostatus == 4) {
+							ostatus = '已驳回'
+						} else if(ostatus == 5) {
+							ostatus = '挂单'
+						} else if(ostatus == 6) {
+							ostatus = '已发货';
+							$('.li2').addClass('color');
+						} else {
+							ostatus = '已收货';
+							$('.li3').addClass('color');
+						}
+						var totalPrice = 0;
+						for(var i = 0; i < success.data.goods.length; i++) {
+							totalPrice += +success.data.goods[i].num * +success.data.goods[i].price;
+						}
+						if(!!success.data.invoiceurl) {
+							$('.fapiao').css('color', '#32ad38').attr('data-img', success.data.ginvoiceurl);
+							$('.fapiaospan').text('点击保存');
+						} else {
+							$('.fapiao').css('color', '#999999').attr('data-img', success.data.invoiceurl);
+							$('.fapiaospan').text('无电子发票');
+						}
+						$('.jinhuodate').text(otime);
+						$('.orderhao').text(success.data.order_id);
+						$('.jiaoyiren').text(success.data.uname || success.data.name);
+						$('.jiaoyimoney').text('￥' + totalPrice);
+						$('.pharorderBtn button').text(ostatus);
+						success.data.href = IMGURL;
+						$(".pharshopBox").html(template("pharshopBox", success.data));
+					} else if(success.err == '-100') {
+						window.location.href = 'login.html';
+					} else {
+						$.toast(success.message, "cancel");
+					}
+				}
+			});
+		})
+		$('.pharorderFapiao').on('click', function() {
+			var a = $('.fapiao').attr('data-img');
+			if(!!a){
+				a = AJAXURL+''+a;
+				window.location.href = "fapiao.html?href="+a;
+			}
+		})
+	</script>
+
+</html>

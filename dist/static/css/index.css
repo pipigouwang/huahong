@@ -1,0 +1,585 @@
+*{
+    margin: 0;
+    padding: 0
+}
+ul{
+    list-style: none;
+}
+.over{
+    overflow: hidden;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.m0 {
+    margin-left: 0!important;
+}
+.tc{
+    text-align: center;
+}
+.tr{
+    text-align: right;
+}
+.sr-only{
+  display: none;
+}
+.name_title{
+    color: #FFFFFF;
+    font-size: 27px;
+    /* font-style:italic; */
+    font-family:"宋体";
+    line-height: 58px;
+}
+.name_logo{
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    background-image: url(../img/logo.jpg);
+    background-position: center center;
+    background-size: 40px 40px;
+    background-repeat: no-repeat;
+
+}
+/* 登录 */
+.login_m {
+  width: 403px;
+  margin: 0 auto;
+  /* height: 375px; */
+  padding-top: 98px;
+}
+.login_logo {
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 30px;
+}
+.login_boder {
+  background: url(../../static/img/login_m_bg.png) no-repeat;
+  height: 302px;
+  overflow: hidden;
+}
+.w_per-90{
+    width: 90%;
+}
+.el-login_name{
+    margin-top: 45px!important;
+}
+.el-login_sub{
+    width: 100%;
+    text-align: center;
+}
+.login_sub{
+    width: 40%;
+    
+}
+.main_content{
+    padding: 10px 10px;
+}
+.main-title{
+    margin: 15px 0 10px 0;
+}
+.main-panle {
+    margin:10px 0; 
+  background-color: #fff;
+  padding: 10px;
+  background: #f2f2f2;
+}
+.from-reset .from-group {
+  display: inline-block;
+  margin-right: 15px;
+  position: relative;
+}
+tbody tr,
+th,
+.cell {
+    text-align: center;
+}
+thead tr th{
+    background: #EEF1F6!important;
+}
+/* 分页 */
+.el-pagination{
+    float: right;
+    padding: 15px 0;
+}
+/* 药品列表 */
+.from_number{
+    width: 160px;
+}
+.from_size{
+    width: 140px;
+}
+.cell span{
+    cursor: pointer;
+}
+.tag_danger {
+  background-color: hsla(0, 87%, 69%, .1);
+  color: #f56c6c;
+  padding:2px 15px;
+  line-height: 22px;
+  border-radius: 5px;
+  border: 1px solid #F5D9DB;
+}
+.disable{
+    color: #f56c6c;
+}
+.enable{
+    color: #67c23a;
+}
+.orange{
+    color: #e6a23c;
+}
+.tag_success {
+  background-color: rgba(103, 194, 58, .1);
+  color: #67c23a;
+  padding:2px 15px;
+  line-height: 22px;
+  border-radius: 5px;
+  border: 1px solid #D3EEC7;
+}
+.el-dialog__body {
+  padding: 10px 20px!important;
+  overflow: hidden !important;
+}
+/* 上传图片 */
+  .avatar-uploader .el-upload {
+    border: 1px dashed #d9d9d9;
+    border-radius: 6px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .avatar-uploader .el-upload:hover {
+    border-color: #409EFF;
+  }
+
+  .avatar-uploader-icon {
+    font-size: 28px;
+    color: #8c939d;
+    width: 100px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+  }
+  .dtail_number{
+      cursor: pointer;
+  }
+  .dtail_number:hover{
+      color: #409EFF;
+  }
+  /* 订单列表 */
+  .form_phone{
+      width: 140px;
+  }
+  .from-group .el-date-editor {
+    width: 100%;
+  }
+  .ive_seacg{
+      margin-left: 15px;
+      margin-top: 2px;
+  }
+  .pop-foot{
+      padding-top: 30px;
+  }
+.el-input-number{
+        width: 150px;
+}
+  .el-input-number__increase{
+    right:0!important;
+  }
+  .detail_page{
+      height: 50px;
+  }
+  .avatar-uploader .el-upload {
+    border: 1px dashed #d9d9d9;
+    border-radius: 6px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .avatar-uploader .el-upload:hover {
+    border-color: #409EFF;
+  }
+
+  .avatar-uploader-icon {
+    font-size: 28px;
+    color: #8c939d;
+    width: 130px;
+    height: 93px;
+    line-height: 79px;
+    text-align: center;
+  }
+
+  .avatar {
+    width: 130px;
+    height: 93px;
+    display: block;
+  }
+  .el_choose{
+      width: 100%!important;
+  }
+  .service-detial_ul li {
+    line-height: 50px;
+    border-top: 1px solid #EEF0F3
+  }
+
+  .service-detial_ul li div {
+    width: 50%;
+  }
+  .add_case{
+      position: absolute;
+      top: 15px;
+      right: 36px;
+  }
+  .el-button.is-circle{
+    padding: 7px!important;
+    margin-left: 10px;
+  }
+  /* 三级联动 */
+  .area-selected-trigger{
+      line-height: 16px;
+  }
+  .ivu-notice{
+      z-index: 99999!important;
+  }
+  .surephone{
+      margin-left: 20px;
+  }
+  .morelist{
+      width: 70px;
+      float: right;
+  }
+  .morelist li div{
+        line-height: 33px !important;
+        height: 31px !important;
+        padding: 0 18px;
+  }
+
+  .set_content{
+      width: 50%;
+      margin: 40px 0;
+  }
+  .busines{
+      margin-top: 20px;
+  }
+    .el-dropdown-link {
+      cursor: pointer;
+      color: #409EFF;
+    }
+
+    .el-icon-arrow-down {
+      font-size: 12px;
+    }
+    .el-dialog{
+        padding-bottom: 20px;
+    }
+    .el-radio+.el-radio {
+      margin-left: 25px!important;
+    }
+    #edui149_body{
+        z-index: 9999999 !important;
+    }
+    .edui-for-insertimage{
+        z-index: 9999999 !important;
+    }
+    #container{
+        margin: auto auto !important;
+    }
+    .details{
+        padding: 30px 0 20px 0;
+    }
+    .detail {
+        padding-bottom: 15px;
+    }
+    .f_seach{
+        padding-bottom:20px;
+        padding-left:100px;
+    }
+    .d_seach{
+        padding-top: 20px;
+    }
+      .demo-table-expand {
+        font-size: 0;
+      }
+
+      .demo-table-expand label {
+        width: 90px;
+        color: #99a9bf;
+      }
+
+      .demo-table-expand .el-form-item {
+        margin-right: 0;
+        margin-bottom: 0;
+        width: 50%;
+      }
+      .picture_drug img {
+          width: 100%;
+          height: 100%;
+      }
+      .form_dugr {
+        width: 180px;
+      }
+      .red{
+          color:red;
+      }
+      .dialog-cons {
+        padding: 0 10px!important;
+      }
+      .white{
+          color: white;
+      }
+      .icc_admin{
+        background-image: url(../img/admin.png);
+      }
+      .icc_out{
+          background-image: url(../img/out.png);
+      }
+    .icc {
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        background-position: center center;
+        background-size: 20px 20px;
+        background-repeat: no-repeat;
+        margin-top: 22px;
+        margin-right: 7px;
+    }
+    .icc_span {
+        position: absolute;
+        top: 6px;
+    }
+    #app{
+        height: 100%;
+    }
+    html,
+    body{
+      width: 100%;
+      height: 100%;
+    }
+    .el_more {
+      background: #409EFF;
+      padding: 2px 10px;
+      border-radius: 3px;
+    }
+
+    .el_more span {
+      color: white;
+    }
+    /* 首页 */
+    store_title {
+      margin-left: 4px;
+    }
+
+    .store-right {
+      margin-right: 15px;
+    }
+
+    .mt_10 {
+      margin-top: 10px;
+    }
+
+    .store_data {
+      font-size: 14px;
+      display: flex;
+      display: -webkit-flex;
+      margin-top: 10px;
+    }
+
+    .store_data li {
+      flex-direction: column;
+      justify-content: center;
+      flex-grow: 2;
+      margin: 0 20px;
+    }
+
+    .store_data li p {
+      line-height: 40px;
+      height: 65px;
+    }
+
+    .little_bit {
+      width: 10px;
+      height: 10px;
+      background: white;
+      border-radius: 50%;
+      margin-top: 14px;
+      margin-left: 15px;
+    }
+
+    .store_little {
+      border-bottom: 1px solid white;
+    }
+
+    .store_order {
+      color: white;
+    }
+
+    .store_order-data {
+      text-align: center;
+    }
+
+    .store_today-count {
+      padding-left: 20px;
+      left: 20px;
+    }
+
+    .bluesheepblue {
+      background: #62CEDE;
+    }
+
+    .bluecolor {
+      background: #3BB1C3 !important;
+    }
+
+    .purple_deep {
+      background: #8E95DB;
+    }
+
+    .purple_tint {
+      background: #AFB6E6;
+    }
+
+    .orange_deep {
+      background: #F1951D;
+    }
+
+    .orange_tint {
+      background: #F4BC74;
+    }
+
+    .red_deep {
+      background: #F35F5C;
+    }
+
+    .red_tint {
+      background: #F1A3A2;
+    }
+
+    .main .main-panle_width {
+      width: 74% !important;
+    }
+
+    .main_table {
+      display: flex;
+      display: -webkit-flex;
+    }
+
+    .main_table .main-flex {
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .order-flex {
+      flex-grow: 1;
+      margin-right: 10px;
+    }
+
+    .servers-flex {
+      flex-grow: 0.5;
+      width: 10%;
+    }
+
+    .chart div{
+      width: 100% !important;
+    }
+
+    .today_reservation {
+      background: #76CE54;
+      height: 125px;
+      text-align: center;
+      color: white;
+      line-height: 20px;
+      font-size: 20px;
+    }
+
+    .today_reservation p {
+      line-height: 75px;
+    }
+
+    .today_reservation h1 {
+      font-size: 30px;
+    }
+
+    .tab_switch {
+      display: flex;
+    }
+
+    .tab_switch li {
+      flex-grow: 2;
+      text-align: center;
+      cursor: pointer;
+    }
+
+    .being_service p {
+      line-height: 50px;
+      border-bottom: 1px solid #EBEBEB;
+    }
+
+    .being_service p:last-child {
+      border-bottom: none;
+    }
+    .main-content{
+        margin: 10px 20px;
+    }
+    .prize_name{
+      margin: 20px 0;
+      font-size: 14px;
+    }
+    .prize_name input{
+      line-height: 32px;
+      border: 1px solid #C0C4CC;
+      border-radius: 5px;
+      padding: 0 5px;
+    }
+    .prize_name input:focus {
+      outline: none;
+      border: 1px solid #409EFF;
+    }
+    .prize_name input[type=text]::-webkit-input-placeholder {
+      /* WebKit browsers */
+      color: #C0C4CC;
+    }
+    .prize{
+      padding: 0 20px;
+    }
+    .totles{
+      font-size: 26px;
+      color: red;
+      font-weight: bold;
+    }
+    .prize_content{
+      margin: 40px 0;
+    }
+    .email_content{
+      margin: 40px 20px;
+    }
+    .prize_count{
+      margin-top: 40px;
+    }
+    .email_text{
+      width: 50%;
+      margin: 30px 10px;
+      padding: 10px;
+    }
+    .fold{
+      width: 50%;
+      padding: 10px;
+    }
+    .add_prize{
+      margin-left: 30px;
+    }
+    .close{
+      font-size: 20px;
+      margin-top: 7px;
+      cursor: pointer;
+    }
+    .detail_remark{
+      padding: 10px 20px;
+    }
+    .bre{
+      margin-top: 60px;
+    }

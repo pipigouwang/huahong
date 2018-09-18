@@ -1,0 +1,123 @@
+﻿body,
+ul,
+ol,
+li,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+fieldset,
+table,
+td,
+img,
+div {
+	margin: 0;
+	padding: 0;
+	border: 0
+}
+
+body {
+	color: #333;
+	font-size: 12px;
+	font-family: microsoft yahei
+}
+
+ul,
+ol {
+	list-style-type: none
+}
+
+select,
+input,
+img,
+select {
+	vertical-align: middle
+}
+
+input {
+	font-size: 12px
+}
+
+a {
+	text-decoration: none;
+	color: #000
+}
+
+a:hover {
+	color: #c00;
+	text-decoration: none
+}
+
+.clear {
+	clear: both
+}
+
+.tc {
+	text-align: center;
+}
+
+.banner {
+	display: block;
+	width: 95%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px
+}
+
+.banner .turnplate {
+	display: block;
+	width: 100%;
+	position: relative
+}
+
+.banner .turnplate canvas.item {
+	width: 100%
+}
+
+.banner .turnplate img.pointer {
+	position: absolute;
+	width: 31.5%;
+	height: 42.5%;
+	left: 34.6%;
+	top: 23%
+}
+
+.join_in {
+	width: 96%;
+	margin: 0 2%;
+	padding: 2%;
+	box-sizing: border-box;　
+}
+
+.join_in span {
+	margin: 0 2%;
+	font-size: 12px;
+}
+
+.join_in div {
+	margin: 2px 0;
+}
+.activeBox{
+	width: 96%;
+	margin: 2%;
+	padding: 2%;
+	background-color: #FFFFFF;
+	filter: alpa(opacity=50);
+	opacity: 0.5;
+	border-radius: 4px;
+	box-sizing: border-box;
+	border: 1px solid red;
+}
+.activie_tit{
+	font-size: 14px;
+	padding-bottom: 8px;
+}
+.title-green{
+	font-size: 14px;
+	padding: 2% 0;
+	color: #000000;
+}

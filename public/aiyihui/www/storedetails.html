@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<title>店铺详情</title>
+		<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+		<meta content="yes" name="apple-mobile-web-app-capable">
+		<meta content="black" name="apple-mobile-web-app-status-bar-style">
+		<meta content="telephone=no" name="format-detection">
+		<link rel="stylesheet" href="../css/weui.css">
+		<link rel="stylesheet" href="../css/jquery-weui.css">
+		<link rel="stylesheet" href="../font/iconfont.css">
+		<link rel="stylesheet" href="../css/base.css">
+		<link rel="stylesheet" href="../css/style.css">
+		<style>
+			.detailInfo {
+				padding: 0 0 4% 0;
+			}
+			
+			.storeImg {
+				width: 96%;
+				height: 2rem;
+				margin: 0 2%;
+			}
+			
+			.storePosition {
+				padding: 2% 0 0 2%;
+				font-size: .28rem;
+			}
+			
+			.storePositionL {
+				width: 78%;
+				height: auto;
+			}
+			
+			.storePositionR {
+				width: 22%;
+				height: auto;
+				color: #15c484;
+				justify-content: center;
+				align-content: center;
+				flex-wrap: wrap;
+				border-left: 1px solid #f5f5f5;
+			}
+			
+			.storePhone {
+				padding: 1% 0;
+			}
+			
+			.storeAddress {
+				line-height: .36rem;
+			}
+			
+			.icon-daohang {
+				font-size: .4rem;
+				line-height: normal;
+			}
+			
+			.storePositionR span {
+				display: inline-block;
+				width: 100%;
+				text-align: center;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div class="con storedetails">
+			<div class="detailBox bs">
+				<div class="detailInfo df">
+					<div class="storeImg bg"></div>
+				</div>
+				<div class="storePosition df">
+					<div class="storePositionL">
+						<div class="storeName">
+							<span>店铺名称:</span>
+							<span class="dianpuName"></span>
+						</div>
+						<div class="storePhone">
+							<span>联系电话:</span>
+							<a href="tel:18728763491" class="tel"></a>
+						</div>
+						<div class="storeAddress bs">
+							<span>地址：</span>
+							<span class="dianpuAddress"></span>
+						</div>
+					</div>
+					<div class="storePositionR df bs">
+						<i class="icon iconfont icon-daohang"></i>
+						<span>导航</span>
+					</div>
+				</div>
+
+			</div>
+			<div class="detailBox bs">
+				<div class="detailTit">店铺详情</div>
+				<div class="detailDetail bs">
+					
+				</div>
+			</div>
+		</div>
+		<script src="../js/jquery.min.js"></script>
+		<script src="../js/jquery-weui.min.js"></script>
+		<script src="../js/redirct.js"></script>
+		<script src="../js/weixin.js"></script>
+		<script src="../js/rem.js"></script>
+		<script src="../js/swiper.min.js"></script>
+<!--		<script src="../js/vconsole.min.js"></script>-->
+	</body>
+	<script>
+//		var vConsole = new VConsole();
+		var idx = '',
+			lat = '',
+			lng = '',
+			name = '',
+			address = '';
+		(function($) {
+			$.getUrlParam = function(name) {
+				var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)");
+				var r = window.location.search.substr(1).match(reg);
+				if(r != null) return unescape(r[2]);
+				return null;
+			}
+		})(jQuery);
+		$(function() {
+			idx = $.getUrlParam('idx');
+			var url = AJAXURL + '/aiyihui/www/storedetails.html?idx=' + idx;
+			var da = {
+				url: url
+			}
+			$.ajax({
+				type: 'POST',
+				url: AJAXURL + '/index/index/geography',
+				contentType: "application/x-www-form-urlencoded",
+				dataType: 'json',
+				data: da,
+				success: function(success) {
+					console.log('数据' + JSON.stringify(success))
+					if(success.err > 0) {
+						var configData = success.data.data;
+						wx.config({
+							debug: false,
+							appId: configData.appId,
+							timestamp: configData.timestamp,
+							nonceStr: configData.nonceStr,
+							signature: configData.signature,
+							jsApiList: ['openLocation', 'getLocation']
+						});
+						wx.error(function(res) {
+							console.log(res)
+						});
+					} else {
+						$.toast(success.data, "cancel");
+					}
+				}
+			});
+			//end
+			var da = {
+				"tag": "product",
+				"op": "getlist",
+				"condition": {
+					"id": idx
+				}
+			}
+			$.ajax({
+				type: 'POST',
+				url: AJAXURL + '/index/search/shop',
+				contentType: "application/x-www-form-urlencoded",
+				data: da,
+				dataType: 'json',
+				success: function(success) {
+					console.log('店铺详情' + JSON.stringify(success))
+					if(success.err > 0) {
+						lat = success.data.latitude;
+						lng = success.data.longitude;
+						name = success.data.shop_name;
+						address = success.data.address;
+						if(!!success.data.imgurl) {
+							$('.storeImg').css('background-image', 'url(' + IMGURL + '' + success.data.imgurl + ')');
+						} else {
+							$('.storeImg').css('background-image', 'url('+success.data.shop_image+')');
+						}
+						$('.dianpuName').text(success.data.shop_name);
+						$('.storePhone a').attr('href', 'tel:'+success.data.phone).text(success.data.phone);
+						$('.dianpuAddress').text(success.data.address);
+						$('.detailDetail').html(success.data.be_good_at);
+					} else if(success.err == '-100') {
+						window.location.href = 'login.html';
+					} else {
+						$('.storedetails').html("<div class='noData'><img src='../img/noCon.png' alt='' title='' /></div>");
+					}
+				}
+			});
+			$('.storePositionR').on('click', function() {
+				wx.openLocation({
+					latitude: lat,
+					longitude: lng,
+					name: name,
+					address: address,
+					scale: 14,
+					infoUrl: ''
+				});
+			})
+		})
+	</script>
+
+</html>

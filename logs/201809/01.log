@@ -1,0 +1,447 @@
+---------------------------------------------------------------
+[2018-09-01T06:03:59+08:00] 178.73.215.171 GET /
+[运行时间：0.025089s] [吞吐率：39.86req/s] [内存消耗：2,792.52kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2018-09-01T09:27:34+08:00] 5.8.10.202 GET troyhack.xyz/
+[运行时间：0.025788s] [吞吐率：38.78req/s] [内存消耗：2,793.60kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'troyhack.xyz',
+  'user-agent' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.0; Trident/3.0)',
+  'accept-encoding' => 'gzip',
+  'connection' => 'close',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2018-09-01T09:27:38+08:00] 5.8.10.202 GET piratebuhta.cc/
+[运行时间：0.027340s] [吞吐率：36.58req/s] [内存消耗：2,793.57kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'piratebuhta.cc',
+  'user-agent' => 'Mozilla/5.0 (Windows; U; Windows NT 5.0) AppleWebKit/533.29.6 (KHTML, like Gecko) Version/4.0 Safari/533.29.6',
+  'accept-encoding' => 'gzip',
+  'connection' => 'close',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2018-09-01T09:27:41+08:00] 5.8.10.202 GET www.group-ib.ru/
+[运行时间：0.027208s] [吞吐率：36.75req/s] [内存消耗：2,793.60kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.group-ib.ru',
+  'user-agent' => 'Mozilla/5.0 Mozilla/5.0 (Windows NT 5.1; rv:35.0) Gecko/20140723 Firefox/35.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'close',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2018-09-01T10:31:14+08:00] 222.186.31.27 GET 119.29.217.103/
+[运行时间：0.029850s] [吞吐率：33.50req/s] [内存消耗：2,794.23kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'accept-language' => 'zh-cn',
+  'referer' => 'https://119.29.217.103',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 9.0; Windows NT 6.1)',
+  'host' => '119.29.217.103',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2018-09-01T15:46:33+08:00] 125.70.190.11 GET abc.yongweisoft.cn/download/Hi%E5%88%86.apk
+[运行时间：0.030653s] [吞吐率：32.62req/s] [内存消耗：2,796.20kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'abc.yongweisoft.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 7.1.1; OPPO R11t Build/NMF26X; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/6.2 TBS/044205 Mobile Safari/537.36 MicroMessenger/6.7.2.1340(0x26070238) NetType/WIFI Language/zh_CN',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,image/wxpic,image/sharpp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2018-09-01T15:46:55+08:00] 125.70.190.11 GET abc.yongweisoft.cn/download/Hi%E5%88%86.apk
+[运行时间：0.034553s] [吞吐率：28.94req/s] [内存消耗：2,796.45kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'abc.yongweisoft.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 7.1.1; OPPO R11t Build/NMF26X; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/6.2 TBS/044205 Mobile Safari/537.36 MicroMessenger/6.7.2.1340(0x26070238) NetType/WIFI Language/zh_CN',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,image/wxpic,image/sharpp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=ft78r1je2m69lvda4qvlptv5k7',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2018-09-01T15:47:00+08:00] 125.70.190.11 GET abc.yongweisoft.cn/download/Hi%E5%88%86.apk
+[运行时间：0.025644s] [吞吐率：39.00req/s] [内存消耗：2,796.45kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'abc.yongweisoft.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 7.1.1; OPPO R11t Build/NMF26X; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/6.2 TBS/044205 Mobile Safari/537.36 MicroMessenger/6.7.2.1340(0x26070238) NetType/WIFI Language/zh_CN',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,image/wxpic,image/sharpp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=ft78r1je2m69lvda4qvlptv5k7',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2018-09-01T15:47:18+08:00] 125.70.190.11 GET abc.yongweisoft.cn/download/Hi%E5%88%86.apk
+[运行时间：0.025605s] [吞吐率：39.05req/s] [内存消耗：2,796.45kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'abc.yongweisoft.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 7.1.1; OPPO R11t Build/NMF26X; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/6.2 TBS/044205 Mobile Safari/537.36 MicroMessenger/6.7.2.1340(0x26070238) NetType/WIFI Language/zh_CN',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,image/wxpic,image/sharpp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=ft78r1je2m69lvda4qvlptv5k7',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2018-09-01T15:47:47+08:00] 125.70.190.11 GET abc.yongweisoft.cn/download/Hi%E5%88%86.apk
+[运行时间：0.026635s] [吞吐率：37.54req/s] [内存消耗：2,796.45kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'abc.yongweisoft.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 7.1.1; OPPO R11t Build/NMF26X; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/6.2 TBS/044205 Mobile Safari/537.36 MicroMessenger/6.7.2.1340(0x26070238) NetType/WIFI Language/zh_CN',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,image/wxpic,image/sharpp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=ft78r1je2m69lvda4qvlptv5k7',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2018-09-01T15:47:52+08:00] 125.70.190.11 GET abc.yongweisoft.cn/download/Hi%E5%88%86.apk
+[运行时间：0.025755s] [吞吐率：38.83req/s] [内存消耗：2,796.45kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'abc.yongweisoft.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 7.1.1; OPPO R11t Build/NMF26X; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/6.2 TBS/044205 Mobile Safari/537.36 MicroMessenger/6.7.2.1340(0x26070238) NetType/WIFI Language/zh_CN',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,image/wxpic,image/sharpp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=ft78r1je2m69lvda4qvlptv5k7',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2018-09-01T15:48:02+08:00] 125.70.190.11 GET abc.yongweisoft.cn/download/Hi%E5%88%86.apk
+[运行时间：0.031698s] [吞吐率：31.55req/s] [内存消耗：2,796.45kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'abc.yongweisoft.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 7.1.1; OPPO R11t Build/NMF26X; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/6.2 TBS/044205 Mobile Safari/537.36 MicroMessenger/6.7.2.1340(0x26070238) NetType/WIFI Language/zh_CN',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,image/wxpic,image/sharpp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=ft78r1je2m69lvda4qvlptv5k7',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2018-09-01T16:17:26+08:00] 95.156.251.10 GET 119.29.217.103/
+[运行时间：0.026713s] [吞吐率：37.44req/s] [内存消耗：2,793.55kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '119.29.217.103',
+  'user-agent' => 'Mozilla/5.0 (X11; U; linux x86_64; de; rv:1.9.0.3) Gecko/2008090713 Firefox/3.0.3',
+  'accept-encoding' => 'gzip',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2018-09-01T18:56:00+08:00] 222.210.165.203 POST abc.yongweisoft.cn/index.php/wxsmallprogram/interface_api/api
+[运行时间：0.757162s] [吞吐率：1.32req/s] [内存消耗：3,740.76kb] [文件加载：91]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'charset' => 'utf-8',
+  'accept-encoding' => 'gzip',
+  'referer' => 'https://servicewechat.com/wx55a78e77456c4f35/0/page-frame.html',
+  'cookie' => '[object Null]',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.0.0; VTR-AL00 Build/HUAWEIVTR-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 Mobile Safari/537.36 MicroMessenger/6.7.2.1340(0x26070238) NetType/WIFI Language/zh_CN',
+  'content-length' => '71',
+  'host' => 'abc.yongweisoft.cn',
+  'connection' => 'Keep-Alive',
+)
+[ info ] [ PARAM ] array (
+  'time' => '1535799357',
+  'sign' => '6B81098DCAE55FEC7DE8C07B079D7036',
+  'tag' => 'MEMBER_CENTER',
+)
+---------------------------------------------------------------
+[2018-09-01T18:56:02+08:00] 222.210.165.203 POST abc.yongweisoft.cn/index.php/wxsmallprogram/interface_api/api
+[运行时间：0.508974s] [吞吐率：1.96req/s] [内存消耗：4,966.05kb] [文件加载：96]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'charset' => 'utf-8',
+  'accept-encoding' => 'gzip',
+  'referer' => 'https://servicewechat.com/wx55a78e77456c4f35/0/page-frame.html',
+  'cookie' => 'PHPSESSID=b1jnrg3nbr29kloqi425kug5n1; path=/; HttpOnly',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.0.0; VTR-AL00 Build/HUAWEIVTR-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 Mobile Safari/537.36 MicroMessenger/6.7.2.1340(0x26070238) NetType/WIFI Language/zh_CN',
+  'content-length' => '71',
+  'host' => 'abc.yongweisoft.cn',
+  'connection' => 'Keep-Alive',
+)
+[ info ] [ PARAM ] array (
+  'time' => '1535799360',
+  'sign' => 'B8BE17086F55BEDD53ABD717F42B67DD',
+  'tag' => 'MEMBER_CENTER',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000547s ] mysql:host=127.0.0.1;port=3306;dbname=spa;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_member` [ RunTime:0.000983s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_member` WHERE  `id` = 16 LIMIT 1 [ RunTime:0.000464s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'yw_member',
+  'type' => 'const',
+  'possible_keys' => 'PRIMARY,id',
+  'key' => 'PRIMARY',
+  'key_len' => '4',
+  'ref' => 'const',
+  'rows' => 1,
+  'extra' => '',
+) ]
+[ sql ] [ SQL ] SELECT `money`,phone as tel,`grade`,`name`,`occupation`,`birthday` FROM `yw_member` WHERE  `id` = 16 LIMIT 1 [ RunTime:0.000329s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'yw_member',
+  'type' => 'const',
+  'possible_keys' => 'PRIMARY,id',
+  'key' => 'PRIMARY',
+  'key_len' => '4',
+  'ref' => 'const',
+  'rows' => 1,
+  'extra' => '',
+) ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_receive_address` [ RunTime:0.000925s ]
+[ sql ] [ SQL ] SELECT `address` FROM `yw_receive_address` WHERE  `mid` = 16  AND `state` = 2 LIMIT 1 [ RunTime:0.000357s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'yw_receive_address',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 3,
+  'extra' => 'Using where',
+) ]
+[ sql ] [ SQL ] SELECT `address` FROM `yw_receive_address` WHERE  `mid` = 16  AND `state` = 2 LIMIT 1 [ RunTime:0.000394s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'yw_receive_address',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 3,
+  'extra' => 'Using where',
+) ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_order_service` [ RunTime:0.000909s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yw_order_service` `os` INNER JOIN `yw_trade_order` `to` ON `os`.`orderid`=`to`.`id` WHERE  `mid` = '16'  AND `to`.`state` = '1' LIMIT 1 [ RunTime:0.000875s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'os',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 249,
+  'extra' => '',
+) ]
+---------------------------------------------------------------
+[2018-09-01T18:56:02+08:00] 222.210.165.203 POST abc.yongweisoft.cn/index.php/wxsmallprogram/interface_api/api
+[运行时间：0.633238s] [吞吐率：1.58req/s] [内存消耗：4,869.82kb] [文件加载：95]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'charset' => 'utf-8',
+  'accept-encoding' => 'gzip',
+  'referer' => 'https://servicewechat.com/wx55a78e77456c4f35/0/page-frame.html',
+  'cookie' => 'PHPSESSID=b1jnrg3nbr29kloqi425kug5n1; path=/; HttpOnly',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.0.0; VTR-AL00 Build/HUAWEIVTR-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 Mobile Safari/537.36 MicroMessenger/6.7.2.1340(0x26070238) NetType/WIFI Language/zh_CN',
+  'content-length' => '65',
+  'host' => 'abc.yongweisoft.cn',
+  'connection' => 'Keep-Alive',
+)
+[ info ] [ PARAM ] array (
+  'time' => '1535799360',
+  'sign' => '20CF0601AE92D70061A78C6728BB4E9E',
+  'tag' => 'INDEX_T',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006372s ] mysql:host=127.0.0.1;port=3306;dbname=spa;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_technician` [ RunTime:0.001220s ]
+[ sql ] [ SQL ] SELECT `t`.`id`,`t`.`name`,tl.name as job,t.imgurl as photo,type as islable,label_color as color,label_text as title FROM `yw_technician` `t` INNER JOIN `yw_technician_level` `tl` ON `tl`.`id`=`t`.`level` WHERE  `t`.`star` = '1' [ RunTime:0.000730s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 't',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 7,
+  'extra' => 'Using where',
+) ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yw_technician` `t` INNER JOIN `yw_technician_level` `tl` ON `tl`.`id`=`t`.`level` WHERE  `t`.`star` = '1' LIMIT 1 [ RunTime:0.000425s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'tl',
+  'type' => 'index',
+  'possible_keys' => 'PRIMARY',
+  'key' => 'PRIMARY',
+  'key_len' => '4',
+  'ref' => NULL,
+  'rows' => 4,
+  'extra' => 'Using index',
+) ]
+---------------------------------------------------------------
+[2018-09-01T18:56:02+08:00] 222.210.165.203 POST abc.yongweisoft.cn/index.php/wxsmallprogram/interface_api/api
+[运行时间：0.659097s] [吞吐率：1.52req/s] [内存消耗：4,976.04kb] [文件加载：97]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'charset' => 'utf-8',
+  'accept-encoding' => 'gzip',
+  'referer' => 'https://servicewechat.com/wx55a78e77456c4f35/0/page-frame.html',
+  'cookie' => 'PHPSESSID=b1jnrg3nbr29kloqi425kug5n1; path=/; HttpOnly',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.0.0; VTR-AL00 Build/HUAWEIVTR-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 Mobile Safari/537.36 MicroMessenger/6.7.2.1340(0x26070238) NetType/WIFI Language/zh_CN',
+  'content-length' => '70',
+  'host' => 'abc.yongweisoft.cn',
+  'connection' => 'Keep-Alive',
+)
+[ info ] [ PARAM ] array (
+  'time' => '1535799360',
+  'sign' => '35E066E9F4C1FA2F3D6D3FFE416EABB7',
+  'tag' => 'INDEX_ISSHOW',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000428s ] mysql:host=127.0.0.1;port=3306;dbname=spa;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_member` [ RunTime:0.000980s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_member` WHERE  `id` = 16 LIMIT 1 [ RunTime:0.000360s ]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'yw_member',
+  'type' => 'const',
+  'possible_keys' => 'PRIMARY,id',
+  'key' => 'PRIMARY',
+  'key_len' => '4',
+  'ref' => 'const',
+  'rows' => 1,
+  'extra' => '',
+) ]
+---------------------------------------------------------------
+[2018-09-01T19:38:40+08:00] 183.60.210.46 GET 119.29.217.103/
+[运行时间：0.025000s] [吞吐率：40.00req/s] [内存消耗：2,794.23kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/default/garbage.yw/server/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'accept-language' => 'zh-cn',
+  'referer' => 'https://119.29.217.103',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 9.0; Windows NT 6.1)',
+  'host' => '119.29.217.103',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)

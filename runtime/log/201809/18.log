@@ -1,0 +1,1139 @@
+---------------------------------------------------------------
+[ 2018-09-18T06:05:11+08:00 ] 120.132.3.65 GET /404/search_children.js
+[ info ] www.qq.com/404/search_children.js [运行时间：0.020185s][吞吐率：49.54req/s] [内存消耗：1,358.65kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/huahong.yongweisoft.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.qq.com',
+  'accept' => '*/*',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.114 Safari/537.36',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-18T08:33:46+08:00 ] 59.36.119.227 GET /admin/systemsets/banner_or_ad_set
+[ info ] huahong.yongweisoft.cn/admin/systemsets/banner_or_ad_set [运行时间：0.032425s][吞吐率：30.84req/s] [内存消耗：3,495.32kb] [文件加载：72]
+[ info ] [ LANG ] /www/wwwroot/huahong.yongweisoft.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'huahong.yongweisoft.cn',
+  'accept-encoding' => 'deflate, gzip',
+  'accept' => '*/*',
+  'accept-language' => 'zh-cn',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_3_4 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13G35 QQ/6.5.3.410 V1_IPH_SQ_6.5.3_1_APP_A Pixel/750 Core/UIWebView NetType/2G Mem/117',
+  'connection' => 'Close',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000345s ] mysql:host=127.0.0.1;dbname=huahong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.000785s ]
+[ sql ] [ SQL ] SELECT `uid`,`group_id`,`title`,`rules` FROM `auth_group_access` `a` INNER JOIN `auth_group` `g` ON `g`.`id`=`a`.`group_id` WHERE  (  a.uid='1' and g.status='1' ) [ RunTime:0.000441s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_rule` [ RunTime:0.000676s ]
+[ sql ] [ SQL ] SELECT `condition`,`name` FROM `auth_rule` WHERE  `id` IN (4,5,6,7,9,10,11,14,3,2,1,8)  AND `type` = 1  AND `status` = 1 [ RunTime:0.000385s ]
+[ error ] [0]variable type error： array[/www/wwwroot/huahong.yongweisoft.cn/thinkphp/library/think/Response.php:355]
+---------------------------------------------------------------
+[ 2018-09-18T09:19:29+08:00 ] 221.237.113.130 GET /admin/test/gethistory
+[ info ] aiyihui.yongweisoft.cn/admin/test/gethistory [运行时间：0.776183s][吞吐率：1.29req/s] [内存消耗：3,005.30kb] [文件加载：63]
+[ info ] [ LANG ] /www/wwwroot/huahong.yongweisoft.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'aiyihui.yongweisoft.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'socketlog' => 'SocketLog(tabid=2&client_id=123456)',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000438s ] mysql:host=127.0.0.1;dbname=huahong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wx_public_number` [ RunTime:0.001174s ]
+[ sql ] [ SQL ] SELECT * FROM `wx_public_number` LIMIT 1 [ RunTime:0.000325s ]
+---------------------------------------------------------------
+[ 2018-09-18T09:19:44+08:00 ] 221.237.113.130 POST /admin/users/rulegroup
+[ info ] huahong.yongweisoft.cn/admin/users/rulegroup [运行时间：0.171128s][吞吐率：5.84req/s] [内存消耗：3,938.06kb] [文件加载：76]
+[ info ] [ LANG ] /www/wwwroot/huahong.yongweisoft.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'huahong.yongweisoft.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '72',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://aiyihui.yongweisoft.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'http://aiyihui.yongweisoft.cn/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'socketlog' => 'SocketLog(tabid=2&client_id=123456)',
+)
+[ info ] [ PARAM ] array (
+  'tag' => 'user',
+  'op' => 'user_login',
+  'data' => 
+  array (
+    'account' => 'admin',
+    'password' => '123456',
+  ),
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000363s ] mysql:host=127.0.0.1;dbname=huahong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.000763s ]
+[ sql ] [ SQL ] SELECT `uid`,`group_id`,`title`,`rules` FROM `auth_group_access` `a` INNER JOIN `auth_group` `g` ON `g`.`id`=`a`.`group_id` WHERE  (  a.uid='1' and g.status='1' ) [ RunTime:0.000241s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_rule` [ RunTime:0.000563s ]
+[ sql ] [ SQL ] SELECT `condition`,`name` FROM `auth_rule` WHERE  `id` IN (4,5,6,7,9,10,11,14,3,2,1,8)  AND `type` = 1  AND `status` = 1 [ RunTime:0.000329s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.000868s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `account` = 'admin'  AND `password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1 [ RunTime:0.000327s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000313s ] mysql:host=127.0.0.1;dbname=huahong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `disable_ip` [ RunTime:0.000659s ]
+[ sql ] [ SQL ] SELECT * FROM `disable_ip` WHERE  `ip` = '221.237.113.130' LIMIT 1 [ RunTime:0.000316s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `systemlog` [ RunTime:0.001016s ]
+[ sql ] [ SQL ] INSERT INTO `systemlog` (`time` , `op` , `uid`) VALUES ('2018-09-18 09:19:44' , '管理员管理员在2018-09-18 09:19:44登录,登录ip为：221.237.113.130' , 2) [ RunTime:0.022935s ]
+---------------------------------------------------------------
+[ 2018-09-18T09:19:45+08:00 ] 221.237.113.130 POST /admin/index/membercount
+[ info ] huahong.yongweisoft.cn/admin/index/membercount [运行时间：0.194373s][吞吐率：5.14req/s] [内存消耗：2,981.75kb] [文件加载：63]
+[ info ] [ LANG ] /www/wwwroot/huahong.yongweisoft.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'huahong.yongweisoft.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://aiyihui.yongweisoft.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'http://aiyihui.yongweisoft.cn/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'socketlog' => 'SocketLog(tabid=2&client_id=123456)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000456s ] mysql:host=127.0.0.1;dbname=huahong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.000822s ]
+[ sql ] [ SQL ] SELECT `uid`,`group_id`,`title`,`rules` FROM `auth_group_access` `a` INNER JOIN `auth_group` `g` ON `g`.`id`=`a`.`group_id` WHERE  (  a.uid='1' and g.status='1' ) [ RunTime:0.000235s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_rule` [ RunTime:0.000802s ]
+[ sql ] [ SQL ] SELECT `condition`,`name` FROM `auth_rule` WHERE  `id` IN (4,5,6,7,9,10,11,14,3,2,1,8)  AND `type` = 1  AND `status` = 1 [ RunTime:0.000316s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000218s ] mysql:host=127.0.0.1;dbname=huahong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `member` [ RunTime:0.000889s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `member` WHERE  `create_time` BETWEEN '2018-09-18 00:00:00' AND '2018-09-19 00:00:00' LIMIT 1 [ RunTime:0.000365s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000255s ] mysql:host=127.0.0.1;dbname=huahong;charset=utf8
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `member` WHERE  `create_time` BETWEEN '2018-09-01 00:00:00' AND '2018-10-01 00:00:00' LIMIT 1 [ RunTime:0.000255s ]
+---------------------------------------------------------------
+[ 2018-09-18T09:19:45+08:00 ] 221.237.113.130 POST /admin/index/activepeople
+[ info ] huahong.yongweisoft.cn/admin/index/activepeople [运行时间：0.101750s][吞吐率：9.83req/s] [内存消耗：2,926.30kb] [文件加载：64]
+[ info ] [ LANG ] /www/wwwroot/huahong.yongweisoft.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'huahong.yongweisoft.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://aiyihui.yongweisoft.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'http://aiyihui.yongweisoft.cn/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'socketlog' => 'SocketLog(tabid=2&client_id=123456)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004978s ] mysql:host=127.0.0.1;dbname=huahong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.041864s ]
+[ sql ] [ SQL ] SELECT `uid`,`group_id`,`title`,`rules` FROM `auth_group_access` `a` INNER JOIN `auth_group` `g` ON `g`.`id`=`a`.`group_id` WHERE  (  a.uid='1' and g.status='1' ) [ RunTime:0.001090s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_rule` [ RunTime:0.000812s ]
+[ sql ] [ SQL ] SELECT `condition`,`name` FROM `auth_rule` WHERE  `id` IN (4,5,6,7,9,10,11,14,3,2,1,8)  AND `type` = 1  AND `status` = 1 [ RunTime:0.001727s ]
+---------------------------------------------------------------
+[ 2018-09-18T09:19:45+08:00 ] 221.237.113.130 POST /admin/index/ordercounter
+[ info ] huahong.yongweisoft.cn/admin/index/ordercounter [运行时间：0.095304s][吞吐率：10.49req/s] [内存消耗：2,974.45kb] [文件加载：63]
+[ info ] [ LANG ] /www/wwwroot/huahong.yongweisoft.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'huahong.yongweisoft.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://aiyihui.yongweisoft.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'http://aiyihui.yongweisoft.cn/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'socketlog' => 'SocketLog(tabid=2&client_id=123456)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000286s ] mysql:host=127.0.0.1;dbname=huahong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.040232s ]
+[ sql ] [ SQL ] SELECT `uid`,`group_id`,`title`,`rules` FROM `auth_group_access` `a` INNER JOIN `auth_group` `g` ON `g`.`id`=`a`.`group_id` WHERE  (  a.uid='1' and g.status='1' ) [ RunTime:0.000298s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_rule` [ RunTime:0.000756s ]
+[ sql ] [ SQL ] SELECT `condition`,`name` FROM `auth_rule` WHERE  `id` IN (4,5,6,7,9,10,11,14,3,2,1,8)  AND `type` = 1  AND `status` = 1 [ RunTime:0.001145s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001829s ] mysql:host=127.0.0.1;dbname=huahong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.000844s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `order` WHERE  `status` > 6  AND `create_date` BETWEEN '2018-09-18' AND '2018-09-19' LIMIT 1 [ RunTime:0.001419s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003485s ] mysql:host=127.0.0.1;dbname=huahong;charset=utf8
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `order` WHERE  `status` > 6  AND `create_date` BETWEEN '2018-09-01' AND '2018-10-01' LIMIT 1 [ RunTime:0.000300s ]
+---------------------------------------------------------------
+[ 2018-09-18T09:19:51+08:00 ] 221.237.113.130 POST /admin/users/rulegroup?limit=10&page=1
+[ info ] huahong.yongweisoft.cn/admin/users/rulegroup?limit=10&page=1 [运行时间：0.041131s][吞吐率：24.31req/s] [内存消耗：3,565.03kb] [文件加载：70]
+[ info ] [ LANG ] /www/wwwroot/huahong.yongweisoft.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'huahong.yongweisoft.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '21',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://aiyihui.yongweisoft.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'http://aiyihui.yongweisoft.cn/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'socketlog' => 'SocketLog(tabid=2&client_id=123456)',
+)
+[ info ] [ PARAM ] array (
+  'limit' => '10',
+  'page' => '1',
+  'tag' => 'user',
+  'op' => 'user_list',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000357s ] mysql:host=127.0.0.1;dbname=huahong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.000792s ]
+[ sql ] [ SQL ] SELECT `uid`,`group_id`,`title`,`rules` FROM `auth_group_access` `a` INNER JOIN `auth_group` `g` ON `g`.`id`=`a`.`group_id` WHERE  (  a.uid='1' and g.status='1' ) [ RunTime:0.000252s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_rule` [ RunTime:0.000932s ]
+[ sql ] [ SQL ] SELECT `condition`,`name` FROM `auth_rule` WHERE  `id` IN (4,5,6,7,9,10,11,14,3,2,1,8)  AND `type` = 1  AND `status` = 1 [ RunTime:0.000278s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000417s ] mysql:host=127.0.0.1;dbname=huahong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.000688s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `state` > 0 LIMIT 0,10 [ RunTime:0.000314s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000212s ] mysql:host=127.0.0.1;dbname=huahong;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `auth_group_access` WHERE  `uid` = 2 [ RunTime:0.000565s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000193s ] mysql:host=127.0.0.1;dbname=huahong;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `auth_group_access` WHERE  `uid` = 7 [ RunTime:0.000240s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000235s ] mysql:host=127.0.0.1;dbname=huahong;charset=utf8
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `state` > 0 LIMIT 1 [ RunTime:0.000231s ]
+---------------------------------------------------------------
+[ 2018-09-18T09:19:55+08:00 ] 221.237.113.130 POST /admin/users/rulegroup?limit=10&page=1
+[ info ] huahong.yongweisoft.cn/admin/users/rulegroup?limit=10&page=1 [运行时间：0.033634s][吞吐率：29.73req/s] [内存消耗：3,448.94kb] [文件加载：70]
+[ info ] [ LANG ] /www/wwwroot/huahong.yongweisoft.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'huahong.yongweisoft.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '29',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://aiyihui.yongweisoft.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'http://aiyihui.yongweisoft.cn/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'socketlog' => 'SocketLog(tabid=2&client_id=123456)',
+)
+[ info ] [ PARAM ] array (
+  'limit' => '10',
+  'page' => '1',
+  'tag' => 'auth_rule',
+  'op' => 'get',
+  'ispage' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000395s ] mysql:host=127.0.0.1;dbname=huahong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.000884s ]
+[ sql ] [ SQL ] SELECT `uid`,`group_id`,`title`,`rules` FROM `auth_group_access` `a` INNER JOIN `auth_group` `g` ON `g`.`id`=`a`.`group_id` WHERE  (  a.uid='1' and g.status='1' ) [ RunTime:0.000246s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_rule` [ RunTime:0.000682s ]
+[ sql ] [ SQL ] SELECT `condition`,`name` FROM `auth_rule` WHERE  `id` IN (4,5,6,7,9,10,11,14,3,2,1,8)  AND `type` = 1  AND `status` = 1 [ RunTime:0.000288s ]
+[ sql ] [ SQL ] SELECT * FROM `auth_rule` LIMIT 0,10 [ RunTime:0.000393s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_rule` LIMIT 1 [ RunTime:0.000225s ]
+---------------------------------------------------------------
+[ 2018-09-18T09:20:05+08:00 ] 221.237.113.130 POST /admin/users/rulegroup?limit=10&page=1
+[ info ] huahong.yongweisoft.cn/admin/users/rulegroup?limit=10&page=1 [运行时间：0.036046s][吞吐率：27.74req/s] [内存消耗：3,455.21kb] [文件加载：70]
+[ info ] [ LANG ] /www/wwwroot/huahong.yongweisoft.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'huahong.yongweisoft.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '21',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://aiyihui.yongweisoft.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'http://aiyihui.yongweisoft.cn/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'socketlog' => 'SocketLog(tabid=2&client_id=123456)',
+)
+[ info ] [ PARAM ] array (
+  'limit' => '10',
+  'page' => '1',
+  'tag' => 'auth_group',
+  'op' => 'get',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000356s ] mysql:host=127.0.0.1;dbname=huahong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.000921s ]
+[ sql ] [ SQL ] SELECT `uid`,`group_id`,`title`,`rules` FROM `auth_group_access` `a` INNER JOIN `auth_group` `g` ON `g`.`id`=`a`.`group_id` WHERE  (  a.uid='1' and g.status='1' ) [ RunTime:0.000262s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_rule` [ RunTime:0.000706s ]
+[ sql ] [ SQL ] SELECT `condition`,`name` FROM `auth_rule` WHERE  `id` IN (4,5,6,7,9,10,11,14,3,2,1,8)  AND `type` = 1  AND `status` = 1 [ RunTime:0.000300s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_group` [ RunTime:0.000854s ]
+[ sql ] [ SQL ] SELECT * FROM `auth_group` [ RunTime:0.000254s ]
+[ sql ] [ SQL ] SELECT `title` FROM `auth_rule` WHERE  `id` IN (4,5,6,7,9,10,11,14,3,2,1,8) [ RunTime:0.000365s ]
+[ sql ] [ SQL ] SELECT `title` FROM `auth_rule` WHERE  `id` IN (1,2,3,4,6) [ RunTime:0.000291s ]
+[ sql ] [ SQL ] SELECT `title` FROM `auth_rule` WHERE  `id` IN (1,2,3,4) [ RunTime:0.000295s ]
+[ sql ] [ SQL ] SELECT `title` FROM `auth_rule` WHERE  `id` IN (1,2,3,4) [ RunTime:0.000209s ]
+[ sql ] [ SQL ] SELECT `title` FROM `auth_rule` WHERE  `id` IN (1,2,3,4,11,14) [ RunTime:0.000282s ]
+[ sql ] [ SQL ] SELECT `title` FROM `auth_rule` WHERE  `id` IN (3,11,8) [ RunTime:0.000287s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `auth_group` LIMIT 1 [ RunTime:0.000252s ]
+---------------------------------------------------------------
+[ 2018-09-18T09:20:11+08:00 ] 221.237.113.130 POST /admin/Systemsets/systemlog?limit=10&page=1
+[ info ] huahong.yongweisoft.cn/admin/Systemsets/systemlog?limit=10&page=1 [运行时间：0.035940s][吞吐率：27.82req/s] [内存消耗：2,966.00kb] [文件加载：63]
+[ info ] [ LANG ] /www/wwwroot/huahong.yongweisoft.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'huahong.yongweisoft.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://aiyihui.yongweisoft.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'http://aiyihui.yongweisoft.cn/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'socketlog' => 'SocketLog(tabid=2&client_id=123456)',
+)
+[ info ] [ PARAM ] array (
+  'limit' => '10',
+  'page' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000422s ] mysql:host=127.0.0.1;dbname=huahong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.000998s ]
+[ sql ] [ SQL ] SELECT `uid`,`group_id`,`title`,`rules` FROM `auth_group_access` `a` INNER JOIN `auth_group` `g` ON `g`.`id`=`a`.`group_id` WHERE  (  a.uid='1' and g.status='1' ) [ RunTime:0.000273s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_rule` [ RunTime:0.000816s ]
+[ sql ] [ SQL ] SELECT `condition`,`name` FROM `auth_rule` WHERE  `id` IN (4,5,6,7,9,10,11,14,3,2,1,8)  AND `type` = 1  AND `status` = 1 [ RunTime:0.000268s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000223s ] mysql:host=127.0.0.1;dbname=huahong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `systemlog` [ RunTime:0.000714s ]
+[ sql ] [ SQL ] SELECT * FROM `systemlog` INNER JOIN `user` ON `user`.`id`=`systemlog`.`uid` LIMIT 0,10 [ RunTime:0.000533s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `systemlog` INNER JOIN `user` ON `user`.`id`=`systemlog`.`uid` LIMIT 1 [ RunTime:0.000413s ]
+---------------------------------------------------------------
+[ 2018-09-18T09:20:16+08:00 ] 221.237.113.130 POST /admin/member/index?limit=10&page=1
+[ info ] huahong.yongweisoft.cn/admin/member/index?limit=10&page=1 [运行时间：0.225760s][吞吐率：4.43req/s] [内存消耗：3,656.99kb] [文件加载：70]
+[ info ] [ LANG ] /www/wwwroot/huahong.yongweisoft.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'huahong.yongweisoft.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '86',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://aiyihui.yongweisoft.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'http://aiyihui.yongweisoft.cn/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'socketlog' => 'SocketLog(tabid=2&client_id=123456)',
+)
+[ info ] [ PARAM ] array (
+  'limit' => '10',
+  'page' => '1',
+  'tag' => 'member',
+  'op' => 'getlist',
+  'condition' => 
+  array (
+    'type' => '1',
+    'name' => '',
+    'phone' => '',
+  ),
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000393s ] mysql:host=127.0.0.1;dbname=huahong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.000948s ]
+[ sql ] [ SQL ] SELECT `uid`,`group_id`,`title`,`rules` FROM `auth_group_access` `a` INNER JOIN `auth_group` `g` ON `g`.`id`=`a`.`group_id` WHERE  (  a.uid='1' and g.status='1' ) [ RunTime:0.000298s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_rule` [ RunTime:0.000758s ]
+[ sql ] [ SQL ] SELECT `condition`,`name` FROM `auth_rule` WHERE  `id` IN (4,5,6,7,9,10,11,14,3,2,1,8)  AND `type` = 1  AND `status` = 1 [ RunTime:0.000294s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000444s ] mysql:host=127.0.0.1;dbname=huahong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `member` [ RunTime:0.001405s ]
+[ sql ] [ SQL ] SELECT `id`,`openid`,`phone`,`avator`,`name`,`level`,`sex`,`create_time`,`level_imgurl`,`type`,`be_good_at`,`address`,`status`,`uname`,`shop_name`,`fatherid`,`shop_image`,`longitude`,`latitude`,`licence_imgurl`,`label`,`point`,`isclinic`,`region_city`,`region_province`,`region_district` FROM `member` WHERE  `type` = 1 GROUP BY `id` ORDER BY `id`  desc LIMIT 0,10 [ RunTime:0.000930s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `member_product` [ RunTime:0.001049s ]
+[ sql ] [ SQL ] SELECT pid as id FROM `member_product` WHERE  `mid` = 15 [ RunTime:0.000446s ]
+[ sql ] [ SQL ] SELECT pid as id FROM `member_product` WHERE  `mid` = 14 [ RunTime:0.000350s ]
+[ sql ] [ SQL ] SELECT pid as id FROM `member_product` WHERE  `mid` = 13 [ RunTime:0.000306s ]
+[ sql ] [ SQL ] SELECT pid as id FROM `member_product` WHERE  `mid` = 12 [ RunTime:0.000327s ]
+[ sql ] [ SQL ] SELECT pid as id FROM `member_product` WHERE  `mid` = 11 [ RunTime:0.000306s ]
+[ sql ] [ SQL ] SELECT pid as id FROM `member_product` WHERE  `mid` = 1 [ RunTime:0.000315s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `member` WHERE  `type` = 1 LIMIT 1 [ RunTime:0.000377s ]
+---------------------------------------------------------------
+[ 2018-09-18T09:20:20+08:00 ] 221.237.113.130 POST /admin/product/index?limit=10&page=1
+[ info ] huahong.yongweisoft.cn/admin/product/index?limit=10&page=1 [运行时间：0.094843s][吞吐率：10.54req/s] [内存消耗：3,404.30kb] [文件加载：70]
+[ info ] [ LANG ] /www/wwwroot/huahong.yongweisoft.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'huahong.yongweisoft.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '86',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://aiyihui.yongweisoft.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'http://aiyihui.yongweisoft.cn/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'socketlog' => 'SocketLog(tabid=2&client_id=123456)',
+)
+[ info ] [ PARAM ] array (
+  'limit' => '10',
+  'page' => '1',
+  'tag' => 'product',
+  'op' => 'getlist',
+  'condition' => 
+  array (
+    'name' => '',
+    'sn' => '',
+    'enddate' => '',
+  ),
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000449s ] mysql:host=127.0.0.1;dbname=huahong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.001088s ]
+[ sql ] [ SQL ] SELECT `uid`,`group_id`,`title`,`rules` FROM `auth_group_access` `a` INNER JOIN `auth_group` `g` ON `g`.`id`=`a`.`group_id` WHERE  (  a.uid='1' and g.status='1' ) [ RunTime:0.000282s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_rule` [ RunTime:0.000900s ]
+[ sql ] [ SQL ] SELECT `condition`,`name` FROM `auth_rule` WHERE  `id` IN (4,5,6,7,9,10,11,14,3,2,1,8)  AND `type` = 1  AND `status` = 1 [ RunTime:0.000368s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.001425s ]
+[ sql ] [ SQL ] SELECT * FROM `product` WHERE  `status` > 0 ORDER BY `id`  desc LIMIT 0,10 [ RunTime:0.000565s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `product` WHERE  `status` > 0 LIMIT 1 [ RunTime:0.000362s ]
+---------------------------------------------------------------
+[ 2018-09-18T09:20:26+08:00 ] 221.237.113.130 POST /admin/order/index?limit=10&page=1
+[ info ] huahong.yongweisoft.cn/admin/order/index?limit=10&page=1 [运行时间：0.064257s][吞吐率：15.56req/s] [内存消耗：3,449.59kb] [文件加载：70]
+[ info ] [ LANG ] /www/wwwroot/huahong.yongweisoft.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'huahong.yongweisoft.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '118',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://aiyihui.yongweisoft.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'http://aiyihui.yongweisoft.cn/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'socketlog' => 'SocketLog(tabid=2&client_id=123456)',
+)
+[ info ] [ PARAM ] array (
+  'limit' => '10',
+  'page' => '1',
+  'tag' => 'order',
+  'op' => 'getlist',
+  'condition' => 
+  array (
+    'order_id' => '',
+    'phone' => '',
+    'status' => '',
+    'create_date' => '',
+  ),
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000354s ] mysql:host=127.0.0.1;dbname=huahong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.000878s ]
+[ sql ] [ SQL ] SELECT `uid`,`group_id`,`title`,`rules` FROM `auth_group_access` `a` INNER JOIN `auth_group` `g` ON `g`.`id`=`a`.`group_id` WHERE  (  a.uid='1' and g.status='1' ) [ RunTime:0.000244s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_rule` [ RunTime:0.000756s ]
+[ sql ] [ SQL ] SELECT `condition`,`name` FROM `auth_rule` WHERE  `id` IN (4,5,6,7,9,10,11,14,3,2,1,8)  AND `type` = 1  AND `status` = 1 [ RunTime:0.000318s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.001011s ]
+[ sql ] [ SQL ] SELECT order.id as oid,`member_id`,`order`.`status`,`order`.`remark`,`invoiceurl`,`order`.`remarks`,`total_fee`,`create_date`,`to_id`,`order`.`type`,`order_id`,`m`.`phone`,`m`.`uname`,m1.phone as salephone,m1.uname as saleuname FROM `order` INNER JOIN `member` `m1` ON `m1`.`id`=`order`.`to_id` INNER JOIN `member` `m` ON `m`.`id`=`order`.`member_id` WHERE  `order`.`status` > '0' ORDER BY `order`.`id`  desc LIMIT 0,10 [ RunTime:0.000628s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `order` INNER JOIN `member` `m1` ON `m1`.`id`=`order`.`to_id` INNER JOIN `member` `m` ON `m`.`id`=`order`.`member_id` WHERE  `order`.`status` > '0' LIMIT 1 [ RunTime:0.000341s ]
+---------------------------------------------------------------
+[ 2018-09-18T09:23:08+08:00 ] 221.237.113.130 POST /admin/systemsets/banner_or_ad_set?limit=10&page=1
+[ info ] huahong.yongweisoft.cn/admin/systemsets/banner_or_ad_set?limit=10&page=1 [运行时间：0.033547s][吞吐率：29.81req/s] [内存消耗：3,426.38kb] [文件加载：70]
+[ info ] [ LANG ] /www/wwwroot/huahong.yongweisoft.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'huahong.yongweisoft.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '20',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://aiyihui.yongweisoft.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'http://aiyihui.yongweisoft.cn/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'limit' => '10',
+  'page' => '1',
+  'tag' => 'ad_config',
+  'op' => 'get',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000383s ] mysql:host=127.0.0.1;dbname=huahong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.000905s ]
+[ sql ] [ SQL ] SELECT `uid`,`group_id`,`title`,`rules` FROM `auth_group_access` `a` INNER JOIN `auth_group` `g` ON `g`.`id`=`a`.`group_id` WHERE  (  a.uid='1' and g.status='1' ) [ RunTime:0.000274s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_rule` [ RunTime:0.000696s ]
+[ sql ] [ SQL ] SELECT `condition`,`name` FROM `auth_rule` WHERE  `id` IN (4,5,6,7,9,10,11,14,3,2,1,8)  AND `type` = 1  AND `status` = 1 [ RunTime:0.000366s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ad_config` [ RunTime:0.001022s ]
+[ sql ] [ SQL ] SELECT * FROM `ad_config` WHERE  `state` > 0 [ RunTime:0.000373s ]
+---------------------------------------------------------------
+[ 2018-09-18T09:23:15+08:00 ] 221.237.113.130 GET /src/favicon.ico
+[ info ] aiyihui.yongweisoft.cn/src/favicon.ico [运行时间：0.047810s][吞吐率：20.92req/s] [内存消耗：1,361.00kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/huahong.yongweisoft.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'aiyihui.yongweisoft.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://aiyihui.yongweisoft.cn/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_dde6ba2851f3db0ddc415ce0f895822e=1535705330,1536628264; Hm_lpvt_dde6ba2851f3db0ddc415ce0f895822e=1537153456',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-18T09:23:15+08:00 ] 221.237.113.130 GET /src/favicon.ico
+[ info ] aiyihui.yongweisoft.cn/src/favicon.ico [运行时间：0.016194s][吞吐率：61.75req/s] [内存消耗：1,361.03kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/huahong.yongweisoft.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'aiyihui.yongweisoft.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://aiyihui.yongweisoft.cn/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_dde6ba2851f3db0ddc415ce0f895822e=1535705330,1536628264; Hm_lpvt_dde6ba2851f3db0ddc415ce0f895822e=1537153456',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-18T09:25:48+08:00 ] 221.237.113.130 POST /admin/systemsets/banner_or_ad_set?limit=10&page=1
+[ info ] huahong.yongweisoft.cn/admin/systemsets/banner_or_ad_set?limit=10&page=1 [运行时间：0.052703s][吞吐率：18.97req/s] [内存消耗：3,427.64kb] [文件加载：70]
+[ info ] [ LANG ] /www/wwwroot/huahong.yongweisoft.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'huahong.yongweisoft.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '24',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://aiyihui.yongweisoft.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'http://aiyihui.yongweisoft.cn/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'socketlog' => 'SocketLog(tabid=2&client_id=123456)',
+)
+[ info ] [ PARAM ] array (
+  'limit' => '10',
+  'page' => '1',
+  'tag' => 'banner_config',
+  'op' => 'get',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000460s ] mysql:host=127.0.0.1;dbname=huahong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.000997s ]
+[ sql ] [ SQL ] SELECT `uid`,`group_id`,`title`,`rules` FROM `auth_group_access` `a` INNER JOIN `auth_group` `g` ON `g`.`id`=`a`.`group_id` WHERE  (  a.uid='1' and g.status='1' ) [ RunTime:0.000321s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_rule` [ RunTime:0.000755s ]
+[ sql ] [ SQL ] SELECT `condition`,`name` FROM `auth_rule` WHERE  `id` IN (4,5,6,7,9,10,11,14,3,2,1,8)  AND `type` = 1  AND `status` = 1 [ RunTime:0.000397s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner_config` [ RunTime:0.001108s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_config` WHERE  `state` > 0 [ RunTime:0.014130s ]
+---------------------------------------------------------------
+[ 2018-09-18T09:25:54+08:00 ] 221.237.113.130 POST /admin/systemsets/banner_or_ad_set?limit=10&page=1
+[ info ] huahong.yongweisoft.cn/admin/systemsets/banner_or_ad_set?limit=10&page=1 [运行时间：0.032520s][吞吐率：30.75req/s] [内存消耗：3,426.55kb] [文件加载：70]
+[ info ] [ LANG ] /www/wwwroot/huahong.yongweisoft.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'huahong.yongweisoft.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '20',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://aiyihui.yongweisoft.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'http://aiyihui.yongweisoft.cn/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'socketlog' => 'SocketLog(tabid=2&client_id=123456)',
+)
+[ info ] [ PARAM ] array (
+  'limit' => '10',
+  'page' => '1',
+  'tag' => 'ad_config',
+  'op' => 'get',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000340s ] mysql:host=127.0.0.1;dbname=huahong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.000745s ]
+[ sql ] [ SQL ] SELECT `uid`,`group_id`,`title`,`rules` FROM `auth_group_access` `a` INNER JOIN `auth_group` `g` ON `g`.`id`=`a`.`group_id` WHERE  (  a.uid='1' and g.status='1' ) [ RunTime:0.000285s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_rule` [ RunTime:0.000679s ]
+[ sql ] [ SQL ] SELECT `condition`,`name` FROM `auth_rule` WHERE  `id` IN (4,5,6,7,9,10,11,14,3,2,1,8)  AND `type` = 1  AND `status` = 1 [ RunTime:0.000271s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ad_config` [ RunTime:0.000758s ]
+[ sql ] [ SQL ] SELECT * FROM `ad_config` WHERE  `state` > 0 [ RunTime:0.000251s ]
+---------------------------------------------------------------
+[ 2018-09-18T09:26:13+08:00 ] 221.237.113.130 POST /admin/systemsets/banner_or_ad_set
+[ info ] huahong.yongweisoft.cn/admin/systemsets/banner_or_ad_set [运行时间：0.031323s][吞吐率：31.93req/s] [内存消耗：3,426.84kb] [文件加载：70]
+[ info ] [ LANG ] /www/wwwroot/huahong.yongweisoft.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'huahong.yongweisoft.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '24',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://aiyihui.yongweisoft.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'http://aiyihui.yongweisoft.cn/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'socketlog' => 'SocketLog(tabid=2&client_id=123456)',
+)
+[ info ] [ PARAM ] array (
+  'tag' => 'banner_config',
+  'op' => 'get',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000413s ] mysql:host=127.0.0.1;dbname=huahong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.000744s ]
+[ sql ] [ SQL ] SELECT `uid`,`group_id`,`title`,`rules` FROM `auth_group_access` `a` INNER JOIN `auth_group` `g` ON `g`.`id`=`a`.`group_id` WHERE  (  a.uid='1' and g.status='1' ) [ RunTime:0.000238s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_rule` [ RunTime:0.000655s ]
+[ sql ] [ SQL ] SELECT `condition`,`name` FROM `auth_rule` WHERE  `id` IN (4,5,6,7,9,10,11,14,3,2,1,8)  AND `type` = 1  AND `status` = 1 [ RunTime:0.000305s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner_config` [ RunTime:0.000702s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_config` WHERE  `state` > 0 [ RunTime:0.000207s ]
+---------------------------------------------------------------
+[ 2018-09-18T09:26:28+08:00 ] 221.237.113.130 POST /admin/report_forms/statistics
+[ info ] huahong.yongweisoft.cn/admin/report_forms/statistics [运行时间：0.301000s][吞吐率：3.32req/s] [内存消耗：3,371.84kb] [文件加载：65]
+[ info ] [ LANG ] /www/wwwroot/huahong.yongweisoft.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'huahong.yongweisoft.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '32',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://aiyihui.yongweisoft.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'http://aiyihui.yongweisoft.cn/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'socketlog' => 'SocketLog(tabid=2&client_id=123456)',
+)
+[ info ] [ PARAM ] array (
+  'time_way' => 'day',
+  'date_time' => '2018-9-18',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000372s ] mysql:host=127.0.0.1;dbname=huahong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sign_count` [ RunTime:0.000846s ]
+[ sql ] [ SQL ] SELECT count(*) as sum,day(date) as times FROM `sign_count` WHERE  `date` >= '2018-9-18'  AND `date` < '2018-10-1' GROUP BY day(date) ORDER BY date asc [ RunTime:0.172707s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `share_count` [ RunTime:0.000954s ]
+[ sql ] [ SQL ] SELECT count(*) as sum,day(date) as times FROM `share_count` WHERE  `date` >= '2018-9-18'  AND `date` < '2018-10-1' GROUP BY day(date) ORDER BY date asc [ RunTime:0.000442s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `member_point_history` [ RunTime:0.000843s ]
+[ sql ] [ SQL ] SELECT sum(pointsum) as sum,day(date) as times FROM `member_point_history` WHERE  `type` = 3  AND `date` >= '2018-9-18'  AND `date` < '2018-10-1' GROUP BY day(date) ORDER BY date asc [ RunTime:0.000438s ]
+---------------------------------------------------------------
+[ 2018-09-18T09:27:10+08:00 ] 221.237.113.130 POST /admin/systemsets/system_set
+[ info ] huahong.yongweisoft.cn/admin/systemsets/system_set [运行时间：0.042589s][吞吐率：23.48req/s] [内存消耗：3,426.43kb] [文件加载：70]
+[ info ] [ LANG ] /www/wwwroot/huahong.yongweisoft.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'huahong.yongweisoft.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '27',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://aiyihui.yongweisoft.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'http://aiyihui.yongweisoft.cn/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'socketlog' => 'SocketLog(tabid=2&client_id=123456)',
+)
+[ info ] [ PARAM ] array (
+  'isUpdate' => '2',
+  'tag' => 'share_config',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000358s ] mysql:host=127.0.0.1;dbname=huahong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.000783s ]
+[ sql ] [ SQL ] SELECT `uid`,`group_id`,`title`,`rules` FROM `auth_group_access` `a` INNER JOIN `auth_group` `g` ON `g`.`id`=`a`.`group_id` WHERE  (  a.uid='1' and g.status='1' ) [ RunTime:0.000245s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_rule` [ RunTime:0.000697s ]
+[ sql ] [ SQL ] SELECT `condition`,`name` FROM `auth_rule` WHERE  `id` IN (4,5,6,7,9,10,11,14,3,2,1,8)  AND `type` = 1  AND `status` = 1 [ RunTime:0.000315s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `share_config` [ RunTime:0.000825s ]
+[ sql ] [ SQL ] SELECT * FROM `share_config` LIMIT 1 [ RunTime:0.007771s ]
+---------------------------------------------------------------
+[ 2018-09-18T09:27:15+08:00 ] 221.237.113.130 POST /admin/product/index?limit=10&page=1
+[ info ] huahong.yongweisoft.cn/admin/product/index?limit=10&page=1 [运行时间：0.031506s][吞吐率：31.74req/s] [内存消耗：3,404.30kb] [文件加载：70]
+[ info ] [ LANG ] /www/wwwroot/huahong.yongweisoft.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'huahong.yongweisoft.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '86',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://aiyihui.yongweisoft.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'http://aiyihui.yongweisoft.cn/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'socketlog' => 'SocketLog(tabid=2&client_id=123456)',
+)
+[ info ] [ PARAM ] array (
+  'limit' => '10',
+  'page' => '1',
+  'tag' => 'product',
+  'op' => 'getlist',
+  'condition' => 
+  array (
+    'name' => '',
+    'sn' => '',
+    'enddate' => '',
+  ),
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000412s ] mysql:host=127.0.0.1;dbname=huahong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.000734s ]
+[ sql ] [ SQL ] SELECT `uid`,`group_id`,`title`,`rules` FROM `auth_group_access` `a` INNER JOIN `auth_group` `g` ON `g`.`id`=`a`.`group_id` WHERE  (  a.uid='1' and g.status='1' ) [ RunTime:0.000236s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_rule` [ RunTime:0.000665s ]
+[ sql ] [ SQL ] SELECT `condition`,`name` FROM `auth_rule` WHERE  `id` IN (4,5,6,7,9,10,11,14,3,2,1,8)  AND `type` = 1  AND `status` = 1 [ RunTime:0.000255s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.000860s ]
+[ sql ] [ SQL ] SELECT * FROM `product` WHERE  `status` > 0 ORDER BY `id`  desc LIMIT 0,10 [ RunTime:0.000276s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `product` WHERE  `status` > 0 LIMIT 1 [ RunTime:0.000189s ]
+---------------------------------------------------------------
+[ 2018-09-18T09:30:07+08:00 ] 221.237.113.130 POST /admin/systemsets/system_set
+[ info ] huahong.yongweisoft.cn/admin/systemsets/system_set [运行时间：0.044856s][吞吐率：22.29req/s] [内存消耗：3,421.76kb] [文件加载：70]
+[ info ] [ LANG ] /www/wwwroot/huahong.yongweisoft.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'huahong.yongweisoft.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '32',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://aiyihui.yongweisoft.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'http://aiyihui.yongweisoft.cn/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'socketlog' => 'SocketLog(tabid=2&client_id=123456)',
+)
+[ info ] [ PARAM ] array (
+  'isUpdate' => '2',
+  'tag' => 'point_rule_config',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000361s ] mysql:host=127.0.0.1;dbname=huahong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.000856s ]
+[ sql ] [ SQL ] SELECT `uid`,`group_id`,`title`,`rules` FROM `auth_group_access` `a` INNER JOIN `auth_group` `g` ON `g`.`id`=`a`.`group_id` WHERE  (  a.uid='1' and g.status='1' ) [ RunTime:0.000263s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_rule` [ RunTime:0.000647s ]
+[ sql ] [ SQL ] SELECT `condition`,`name` FROM `auth_rule` WHERE  `id` IN (4,5,6,7,9,10,11,14,3,2,1,8)  AND `type` = 1  AND `status` = 1 [ RunTime:0.000317s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `point_rule_config` [ RunTime:0.000987s ]
+[ sql ] [ SQL ] SELECT * FROM `point_rule_config` LIMIT 1 [ RunTime:0.011922s ]
+---------------------------------------------------------------
+[ 2018-09-18T09:30:13+08:00 ] 221.237.113.130 POST /admin/systemsets/system_set
+[ info ] huahong.yongweisoft.cn/admin/systemsets/system_set [运行时间：0.034060s][吞吐率：29.36req/s] [内存消耗：3,424.15kb] [文件加载：70]
+[ info ] [ LANG ] /www/wwwroot/huahong.yongweisoft.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'huahong.yongweisoft.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '29',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://aiyihui.yongweisoft.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'http://aiyihui.yongweisoft.cn/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'socketlog' => 'SocketLog(tabid=2&client_id=123456)',
+)
+[ info ] [ PARAM ] array (
+  'isUpdate' => '2',
+  'tag' => 'aboutus_config',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000350s ] mysql:host=127.0.0.1;dbname=huahong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.000765s ]
+[ sql ] [ SQL ] SELECT `uid`,`group_id`,`title`,`rules` FROM `auth_group_access` `a` INNER JOIN `auth_group` `g` ON `g`.`id`=`a`.`group_id` WHERE  (  a.uid='1' and g.status='1' ) [ RunTime:0.000261s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_rule` [ RunTime:0.000695s ]
+[ sql ] [ SQL ] SELECT `condition`,`name` FROM `auth_rule` WHERE  `id` IN (4,5,6,7,9,10,11,14,3,2,1,8)  AND `type` = 1  AND `status` = 1 [ RunTime:0.000306s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `aboutus_config` [ RunTime:0.000957s ]
+[ sql ] [ SQL ] SELECT * FROM `aboutus_config` LIMIT 1 [ RunTime:0.000290s ]
+---------------------------------------------------------------
+[ 2018-09-18T09:30:19+08:00 ] 221.237.113.130 POST /admin/systemsets/system_set
+[ info ] huahong.yongweisoft.cn/admin/systemsets/system_set [运行时间：0.031926s][吞吐率：31.32req/s] [内存消耗：3,421.76kb] [文件加载：70]
+[ info ] [ LANG ] /www/wwwroot/huahong.yongweisoft.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'huahong.yongweisoft.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '32',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://aiyihui.yongweisoft.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'http://aiyihui.yongweisoft.cn/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'socketlog' => 'SocketLog(tabid=2&client_id=123456)',
+)
+[ info ] [ PARAM ] array (
+  'isUpdate' => '2',
+  'tag' => 'point_rule_config',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000393s ] mysql:host=127.0.0.1;dbname=huahong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.000769s ]
+[ sql ] [ SQL ] SELECT `uid`,`group_id`,`title`,`rules` FROM `auth_group_access` `a` INNER JOIN `auth_group` `g` ON `g`.`id`=`a`.`group_id` WHERE  (  a.uid='1' and g.status='1' ) [ RunTime:0.000248s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_rule` [ RunTime:0.000773s ]
+[ sql ] [ SQL ] SELECT `condition`,`name` FROM `auth_rule` WHERE  `id` IN (4,5,6,7,9,10,11,14,3,2,1,8)  AND `type` = 1  AND `status` = 1 [ RunTime:0.000321s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `point_rule_config` [ RunTime:0.000852s ]
+[ sql ] [ SQL ] SELECT * FROM `point_rule_config` LIMIT 1 [ RunTime:0.000191s ]
+---------------------------------------------------------------
+[ 2018-09-18T09:30:19+08:00 ] 221.237.113.130 POST /admin/product/index?limit=10&page=1
+[ info ] huahong.yongweisoft.cn/admin/product/index?limit=10&page=1 [运行时间：0.035064s][吞吐率：28.52req/s] [内存消耗：3,404.30kb] [文件加载：70]
+[ info ] [ LANG ] /www/wwwroot/huahong.yongweisoft.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'huahong.yongweisoft.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '86',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://aiyihui.yongweisoft.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'http://aiyihui.yongweisoft.cn/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'socketlog' => 'SocketLog(tabid=2&client_id=123456)',
+)
+[ info ] [ PARAM ] array (
+  'limit' => '10',
+  'page' => '1',
+  'tag' => 'product',
+  'op' => 'getlist',
+  'condition' => 
+  array (
+    'name' => '',
+    'sn' => '',
+    'enddate' => '',
+  ),
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000386s ] mysql:host=127.0.0.1;dbname=huahong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.000778s ]
+[ sql ] [ SQL ] SELECT `uid`,`group_id`,`title`,`rules` FROM `auth_group_access` `a` INNER JOIN `auth_group` `g` ON `g`.`id`=`a`.`group_id` WHERE  (  a.uid='1' and g.status='1' ) [ RunTime:0.000250s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_rule` [ RunTime:0.000800s ]
+[ sql ] [ SQL ] SELECT `condition`,`name` FROM `auth_rule` WHERE  `id` IN (4,5,6,7,9,10,11,14,3,2,1,8)  AND `type` = 1  AND `status` = 1 [ RunTime:0.000313s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.000881s ]
+[ sql ] [ SQL ] SELECT * FROM `product` WHERE  `status` > 0 ORDER BY `id`  desc LIMIT 0,10 [ RunTime:0.000286s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `product` WHERE  `status` > 0 LIMIT 1 [ RunTime:0.000190s ]
+---------------------------------------------------------------
+[ 2018-09-18T12:42:15+08:00 ] 127.0.0.1 GET /src/favicon.ico
+[ info ] 127.0.0.1/src/favicon.ico [运行时间：0.265015s][吞吐率：3.77req/s] [内存消耗：827.15kb] [文件加载：48]
+[ info ] [ LANG ] E:\PHPTutorial\WWW\read1\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'socketlog' => 'SocketLog(tabid=71&client_id=123456)',
+  'cookie' => 'PHPSESSID=1f29rok1bh79cn605e14785psh',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File

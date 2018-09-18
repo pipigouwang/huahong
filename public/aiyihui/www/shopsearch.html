@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<title>商品搜索</title>
+		<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+		<meta content="yes" name="apple-mobile-web-app-capable">
+		<meta content="black" name="apple-mobile-web-app-status-bar-style">
+		<meta content="telephone=no" name="format-detection">
+		<link rel="stylesheet" href="../css/weui.css">
+		<link rel="stylesheet" href="../css/jquery-weui.css">
+		<link rel="stylesheet" href="../font/iconfont.css">
+		<link rel="stylesheet" href="../css/base.css">
+		<link rel="stylesheet" href="../css/style.css">
+		<style>
+			.searchResult {
+				margin-top: 1rem;
+			}
+			
+			.searchItemBox {
+				width: 100%;
+				height: 1.44rem;
+				padding: 0 2%;
+				overflow: hidden;
+			}
+			
+			.searchHandle {
+				border-top: 1px solid #f5f5f5;
+				padding: 2% 0 0;
+				font-size: .24rem;
+			}
+			
+			.searchHandle div {
+				width: 100%;
+				text-align: center;
+				line-height: normal;
+			}
+			
+			.active {
+				-webkit-transition: height .8s ease-in-out;
+				transition: height .8s ease-in-out;
+			}
+			
+			.meifound img {
+				width: 60%;
+				height: auto;
+				margin: 20% 20% 0;
+			}
+		</style>
+	</head>
+
+	<body>
+		<!--搜索-->
+		<div class="weui-search-bar">
+			<form class="weui-search-bar__form" id="search" action="" onsubmit="return false;">
+				<div class="weui-search-bar__box">
+					<i class="weui-icon-search"></i>
+					<input type="search" class="weui-search-bar__input" id="searchInput" placeholder="请输入药品名称" autofocus="autofocus">
+					<a href="javascript:" class="weui-icon-clear" id="searchClear"></a>
+				</div>
+			</form>
+		</div>
+		<!--end搜索-->
+		<div class="searchResult">
+			<div class="meifound">
+				<img src='../img/noCon.png' alt='' title='' />
+			</div>
+			<script type="text/template" id="searchResult">
+				{{each list as value}}
+				<!--搜索结果-->
+				<div class="detailBox">
+					<div class="detailInfo df bs">
+						<div class="detailInfoImg bg" style="background-image: url({{href}}{{value.imgurl}})"></div>
+						<div class="detailInfoR">
+							<div class="detailShopName">{{value.productname}}</div>
+							<div class="detailShopPrice">
+								<span class="smallPrice">￥{{value.trueprice}}</span>
+								<span class="bigPrice">￥{{value.price}}</span>
+							</div>
+						</div>
+					</div>
+					<div class="detailTit">{{value.shopcount}}家药店有售</div>
+					<div class="searchItemBox bs" style="height: auto;">
+						{{each value.shoplist as res}}
+						<div class="shopItem df" data-idx="{{res.pid}}">
+							<span>{{res.shop_name}}</span>
+							<span>>{{res.dis / 1000}}km</span>
+						</div>
+						{{/each}}
+					</div>
+					{{if value.shopcount > 3}}
+					<div class="searchHandle">
+						<div class="showMore">查看更多
+							<i class="icon iconfont icon-xiangxia"></i>
+						</div>
+					</div>
+					{{/if}}
+				</div>
+				<!--end搜索结果-->
+				{{/each}}
+			</script>
+		</div>
+
+		<script src="../js/jquery.min.js"></script>
+		<script src="../js/jquery-weui.min.js"></script>
+		<script src="../js/redirct.js"></script>
+		<script src="../js/template.js"></script>
+		<script src="../js/rem.js"></script>
+		<script src="../js/weixin.js"></script>
+<!--		<script src="../js/vconsole.min.js"></script>-->
+	</body>
+	<script>
+//		var vConsole = new VConsole();
+		var lat = '',
+			lng = '';
+		(function($) {
+			$.getUrlParam = function(name) {
+				var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)");
+				var r = window.location.search.substr(1).match(reg);
+				if(r != null) return unescape(r[2]);
+				return null;
+			}
+		})(jQuery);
+		$(function() {
+			lat = $.getUrlParam('lat');
+			lng = $.getUrlParam('lng');
+			// 查看更多   向上收起
+			$('.searchHandle').on('click', function() {
+				var ii = $(this).attr('res');
+				if(!ii) {
+					$(this).attr('res', '1');
+					$(this).prev().css({
+						'height': '2.88rem'
+					}).addClass('active');
+					$(this).children().html('向上收起<i class="icon iconfont icon-xiangshang"></i>');
+				} else {
+					$(this).attr('res', '');
+					$(this).prev().css({
+						'height': '1.44rem'
+					}).addClass('active');
+					$(this).children().html('查看更多<i class="icon iconfont icon-xiangxia"></i>');
+				}
+			})
+			//搜索商品
+			$('#searchInput').bind('search', function() {
+				var search = $(this).val();
+				var da = {
+					"tag": "product",
+					"op": "getlist",
+					"condition": {
+						"lng2": lng,
+						"lat2": lat,
+						"name": search
+					}
+				}
+				$.ajax({
+					type: 'POST',
+					url: AJAXURL + '/index/search/product',
+					contentType: "application/x-www-form-urlencoded",
+					data: da,
+					dataType: 'json',
+					success: function(success) {
+						console.log('搜索数据' + JSON.stringify(success))
+						if(success.err > 0) {
+							$('.nofound').hide();
+							success.data.href = IMGURL;
+							$(".searchResult").html(template("searchResult", success.data));
+						} else if(success.err == '-100') {
+							window.location.href = 'login.html';
+						} else {
+							$('.nofound').show();
+						}
+					}
+				});
+			})
+		})
+		//商品详情
+		$('.searchResult').on('click', '.detailInfo', function() {
+			var idx = $(this).data('idx');
+			window.location.href = 'shopdetails.html?idx=' + idx + '&lat=' + lat + '&lng=' + lng;
+		})
+		//店铺详情
+		$('.searchResult').on('click', '.shopItem', function() {
+			var idx = $(this).data('idx');
+			window.location.href = 'storedetails.html?idx=' + idx;
+		})
+	</script>
+</html>

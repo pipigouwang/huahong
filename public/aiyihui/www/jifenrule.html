@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<title>积分规则</title>
+		<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+		<meta content="yes" name="apple-mobile-web-app-capable">
+		<meta content="black" name="apple-mobile-web-app-status-bar-style">
+		<meta content="telephone=no" name="format-detection">
+		<link rel="stylesheet" href="../css/weui.css">
+		<link rel="stylesheet" href="../css/jquery-weui.css">
+		<link rel="stylesheet" href="../css/base.css">
+		<link rel="stylesheet" href="../css/style.css">
+		<style>
+			.ruleBox {
+				width: 96%;
+				margin: 2%;
+				padding: 2%;
+				font-size: 14px;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div class="conBox ruleBox bs"></div>
+		<script src="../js/jquery.min.js"></script>
+		<script src="../js/jquery-weui.min.js"></script>
+		<script src="../js/redirct.js"></script>
+		<script src="../js/weixin.js"></script>
+<!--		<script src="../js/vconsole.min.js"></script>-->
+		<script>
+//			var vConsole = new VConsole();
+			var h = document.documentElement.clientHeight || document.body.clientHeight;
+			h = h - h * 0.02;
+			$('.ruleBox').css('min-height', h + 'px');
+			$(function() {
+				var da = {
+					"tag": "pointrule",
+					"op": "getone"
+				}
+				$.ajax({
+					type: 'POST',
+					url: AJAXURL + '/index/pointmall/rule',
+					contentType: "application/x-www-form-urlencoded",
+					data: da,
+					dataType: 'json',
+					success: function(success) {
+						console.log('积分规则' + JSON.stringify(success))
+						if(success.err > 0) {
+							$('.ruleBox').html(success.data.rule);
+						} else if(success.err == '-100') {
+							window.location.href = 'login.html';
+						} else {
+							$('.ruleBox').html("<div class='noData'><img src='../img/noCon.png' alt='' title='' /></div>");
+						}
+					}
+				});
+			})
+		</script>
+	</body>
+
+</html>

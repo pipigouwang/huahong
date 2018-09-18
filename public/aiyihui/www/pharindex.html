@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<title>药店/诊所</title>
+		<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+		<meta content="yes" name="apple-mobile-web-app-capable">
+		<meta content="black" name="apple-mobile-web-app-status-bar-style">
+		<meta content="telephone=no" name="format-detection">
+		<link rel="stylesheet" href="../css/weui.css">
+		<link rel="stylesheet" href="../css/jquery-weui.css">
+		<link rel="stylesheet" href="../font/iconfont.css">
+		<link rel="stylesheet" href="../css/base.css">
+		<link rel="stylesheet" href="../css/style.css">
+	</head>
+
+	<body>
+		<div class="weui-tab">
+			<div class="weui-tab__bd">
+				<div id="tab1" class="weui-tab__bd-item weui-tab__bd-item--active">
+					<div class="page">
+						<div class="yaodianItemBox">
+							<script type="text/template" id="yaodianItemBox">
+								{{each list as value key}}
+								<!--我的订单-->
+								<div class="scoreItem">
+									<div class="scoreTit bs">
+										<i class="icon iconfont icon-shijian-tianchong"></i>
+										<span>{{value.otime}}</span>
+									</div>
+									<div class="conBox yaodianCon">
+										<ul>
+											{{each value.content as res}}
+											<li class="{{if res.ststus == 2}}scoreli3_red{{/if}}" data-idx="{{res.order_id}}">
+												<div>
+													<span class="scoreli1">{{res.day}}日</span>
+													<span class="yaodianli2">订单号：{{res.order_id}}</span>
+												</div>
+												<div>
+													<span>{{res.ostatus}}</span>
+													<i class="icon iconfont icon-xiangyou"></i>
+												</div>
+											</li>
+											{{/each}}
+										</ul>
+									</div>
+								</div>
+								{{/each}}
+							</script>
+							<!-- end我的订单 -->
+						</div>
+					</div>
+					<!--广告框-->
+					<div class="weui-mask weui-mask-ad"></div>
+					<div class="weui-custom-pop weui-custom-ad">
+						<div class="weui-custom-hd weui-custom-hd-ad">
+							<div class="activeImg bg bs"></div>
+							<div class="activeIcon"><i class="icon iconfont icon-shanchuguanbicha"></i></div>
+						</div>
+					</div>
+					<!--end广告框-->
+				</div>
+				<div id="tab2" class="weui-tab__bd-item">
+					<div class="page agentpage agentYaopin">
+						<script type="text/template" id="agentYaopin">
+							{{each list as value key}}
+							<!--代理药品-->
+							<div class="detailBox yaopinBox bs">
+								<div class="detailInfo df bs">
+									<div class="detailInfoImg bg" style="background-image: url({{href}}{{value.imgurl}})"></div>
+									<div class="detailInfoR">
+										<div class="detailShopName">{{value.name}}</div>
+										<div class="yaopinkc">库存总数：{{value.stock}}件</div>
+									</div>
+								</div>
+								<div class="searchHandle yaopinHandle" data-idx="{{value.id}}">
+									<div class="showMore">
+										<span>查看详情</span>
+										<i class="icon iconfont icon-xiangxia"></i>
+									</div>
+								</div>
+								<div class="yaopinListBox agentDetail bs">
+									<div class="detailTit">进货记录</div>
+									<div class="yaopinCon{{value.id}}"></div>
+								</div>
+							</div>
+							<!--end代理药品-->
+							{{/each}}
+						</script>
+					</div>
+				</div>
+				<div id="tab3" class="weui-tab__bd-item">
+					<div class="page">
+						<div class="userTop bs">
+							<div class="userTopImg bs">
+								<img src="../img/bg.png" alt="" title="" />
+							</div>
+							<div class="userTopCon bs">
+								<div class="userphoto_dengji">
+									<div class="userTopPhoto indextouxiang bg"></div>
+									<span class="userTopdengji indexdengji"></span>
+									<div class="userTopPhone indexdianhua"></div>
+								</div>
+							</div>
+						</div>
+						<div class="mycenter">
+							<div class="mycenterBox bs">
+								<a href="news.html">
+									<div class="mycenterItem df bs">
+										<div class="mycenterItemL df">
+											<div class="mycenterItemImg">
+												<img src="../img/png06.png" alt="" title="" />
+											</div>
+											<span>消息中心</span>
+										</div>
+										<div class="mycenterItemR">
+											<span class="hint-val notreadnews"></span>
+											<i class="icon iconfont icon-xiangyou"></i>
+										</div>
+									</div>
+								</a>
+								<div class="mycenterItem storehref df bs">
+									<div class="mycenterItemL df">
+										<div class="mycenterItemImg">
+											<img src="../img/png07.png" alt="" title="" />
+										</div>
+										<span>店铺资料</span>
+									</div>
+									<div class="mycenterItemR">
+										<i class="icon iconfont icon-xiangyou"></i>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--底部导航-->
+			<div class="weui-tabbar tabbarBox">
+				<a href="#tab1" class="weui-tabbar__item weui-bar__item_on" data-index="0">
+					<span style="display: inline-block;position: relative;">
+					<i class="icon iconfont icon-dingdan weui-tabbar__icon"></i>
+				</span>
+					<p class="weui-tabbar__label">订单</p>
+				</a>
+				<a href="#tab2" class="weui-tabbar__item" data-index="1">
+					<i class="icon iconfont icon-dailishang weui-tabbar__icon"></i>
+					<p class="weui-tabbar__label">在售药品</p>
+				</a>
+				<a href="#tab3" class="weui-tabbar__item" data-index="2">
+					<span style="display: inline-block;position: relative;">
+					<i class="icon iconfont icon-wode weui-tabbar__icon"></i>
+				</span>
+					<p class="weui-tabbar__label">我的</p>
+				</a>
+			</div>
+		</div>
+		<!--end底部导航-->
+		<script src="../js/jquery.min.js"></script>
+		<script src="../js/jquery-weui.min.js"></script>
+		<script src="../js/redirct.js"></script>
+		<script src="../js/template.js"></script>
+		<script src="../js/weixin.js"></script>
+		<script src="../js/rem.js"></script>
+		<script src="../js/swiper.min.js"></script>
+<!--		<script src="../js/vconsole.min.js"></script>-->
+	</body>
+	<script>
+//		var vConsole = new VConsole();
+		(function($) {
+			$.getUrlParam = function(name) {
+				var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)");
+				var r = window.location.search.substr(1).match(reg);
+				if(r != null) return unescape(r[2]);
+				return null;
+			}
+		})(jQuery);
+		var aaa = sessionStorage.getItem('aaa');
+		var h = document.documentElement.clientHeight || document.body.clientHeight;
+		//超链接取值
+		$(function() {
+			if(!aaa) {
+				propAd(); //弹框广告
+			}
+			$('.notreadnews').hide();
+			$('.weui-tabbar__item').on('click', function() {
+				$(this).addClass('weui-bar__item_on').siblings('.weui-bar__item_on').removeClass('weui-bar__item_on');
+				var index = $(this).data('index');
+				if(index == 0) {
+					$(document).attr("title", "订单");
+				} else if(index == 1) {
+					$(document).attr("title", "在售药品");
+					agentYaopin();
+				} else if(index == 2) {
+					$(document).attr("title", "我的");
+					indexMy();
+				}
+			});
+			$('.agentYaopin').on('click', '.yaopinHandle', function() {
+				var ii = $(this).attr('res');
+				var idx = $(this).data('idx');
+				agentDetail(idx);
+				if(!ii) {
+					$(this).attr('res', '1');
+					$(this).next().show('slow');
+					$(this).children().html('向上收起<i class="icon iconfont icon-xiangshang"></i>');
+				} else {
+					$(this).attr('res', '');
+					$(this).next().hide('normal');
+					$(this).children().html('查看详情<i class="icon iconfont icon-xiangxia"></i>');
+				}
+			})
+			$('.yaodianItemBox').on('click', '.yaodianCon li', function() {
+				var idx = $(this).data('idx');
+				console.log(idx);
+				window.location.href = 'pharorderdetail.html?orderid=' + idx;
+			})
+			//订单
+			var da = {
+				"tag": "member",
+				"op": "orderlist"
+			}
+			$.ajax({
+				type: 'POST',
+				url: AJAXURL + '/index/member/index',
+				contentType: "application/x-www-form-urlencoded",
+				data: da,
+				dataType: 'json',
+				success: function(success) {
+					console.log('订单数据' + JSON.stringify(success))
+					if(success.err > 0) {
+						for(var i = 0; i < success.data.list.length; i++) {
+							var otime = success.data.list[i].time;
+							otime = otime.split('-');
+							otime = otime[0] + '年' + otime[1] + '月';
+							success.data.list[i].otime = otime;
+							for(var j = 0; j < success.data.list[i].content.length; j++) {
+								var ostatus = success.data.list[i].content[j].status;
+								if(ostatus == 0) {
+									ostatus = '已删除'
+								} else if(ostatus == 1) {
+									ostatus = '待发货'
+								} else if(ostatus == 2) {
+									ostatus = '待付款'
+								} else if(ostatus == 3) {
+									ostatus = '已付款'
+								} else if(ostatus == 4) {
+									ostatus = '已驳回'
+								} else if(ostatus == 5) {
+									ostatus = '挂单'
+								} else if(ostatus == 6) {
+									ostatus = '已发货'
+								} else {
+									ostatus = '已收货'
+								}
+								success.data.list[i].content[j].ostatus = ostatus;
+							}
+						}
+						success.data.href = IMGURL;
+						$(".yaodianItemBox").html(template("yaodianItemBox", success.data));
+					} else if(success.err == '-100') {
+						window.location.href = 'login.html';
+					} else {
+						$(".yaodianItemBox").html("<div class='noData'><img src='../img/noCon.png' alt='' title='' /></div>");
+					}
+				}
+			});
+			//end订单
+			//代理药品
+			function agentYaopin() {
+				var da = {
+					"tag": "member",
+					"op": "agent",
+				}
+				$.ajax({
+					type: 'POST',
+					url: AJAXURL + '/index/member/agent',
+					contentType: "application/x-www-form-urlencoded",
+					data: da,
+					dataType: 'json',
+					success: function(success) {
+						console.log('代理药品数据' + JSON.stringify(success))
+						if(success.err > 0) {
+							$(".agentYaopin").html(template("agentYaopin", success.data));
+						} else if(success.err == '-100') {
+							window.location.href = 'login.html';
+						} else {
+							$(".agentpage").html("<div class='noData'><img src='../img/noCon.png' alt='' title='' /></div>");
+						}
+					}
+				});
+			}
+			//end代理药品
+			//代理药品详情
+			function agentDetail(idx) {
+				var da = {
+					"tag": "member",
+					"op": "purchasehistory",
+					"condition": {
+						"pid": idx
+					}
+				}
+				$.ajax({
+					type: 'POST',
+					url: AJAXURL + '/index/member/purchasehistory',
+					contentType: "application/x-www-form-urlencoded",
+					data: da,
+					dataType: 'json',
+					success: function(success) {
+						console.log('代理药品详情数据' + JSON.stringify(success))
+						var html = '';
+						if(success.err > 0) {
+							for(var i = 0; i < success.data.list.length; i++) {
+								html += "<div class='yaopinList df bs'>" +
+									"<span>" + success.data.list[i].create_date + "</span>" +
+									"<span>批次号：" + success.data.list[i].sn + "</span>" +
+									"<span>数量：" + success.data.list[i].num + "</span>" +
+									"</div>";
+							}
+							$('.yaopinCon' + idx).html(html);
+						} else if(success.err == '-100') {
+							window.location.href = 'login.html';
+						} else {
+							$('.yaopinCon' + idx).html("<div class='yaopinList df bs'>暂无进货记录！</div>");
+						}
+					}
+				});
+			}
+			//end代理药品详情
+			//个人中心
+			function indexMy() {
+				var da = {
+					"tag": "member",
+					"op": "getone"
+				}
+				$.ajax({
+					type: 'POST',
+					url: AJAXURL + '/index/member/index',
+					contentType: "application/x-www-form-urlencoded",
+					data: da,
+					dataType: 'json',
+					success: function(success) {
+						console.log('个人中心数据' + JSON.stringify(success))
+						if(success.err > 0) {
+							$('.indextouxiang').css('background-image', 'url(' + success.data.avator + ')');
+							$('.indexdengji').text("等级" + success.data.level);
+							$('.indexdianhua').text(success.data.shop_name);
+							$('.storehref').attr('data-idx', success.data.id);
+							if(success.data.notreadmsg != 0) {
+								$('.notreadnews').text(success.data.notreadmsg);
+								$('.notreadnews').show();
+							}
+						} else if(success.err == '-100') {
+							window.location.href = 'login.html';
+						} else {
+							$.toast(success.message, "cancel");
+						}
+					}
+				});
+			}
+			//end个人中心
+		});
+		//广告弹框
+		function propAd() {
+			$.ajax({
+				type: 'POST',
+				url: AJAXURL + '/index/index/advertisement',
+				contentType: "application/x-www-form-urlencoded",
+				dataType: 'json',
+				success: function(success) {
+					console.log('弹框广告数据' + JSON.stringify(success))
+					if(success.err > 0) {
+						$('.weui-mask-ad').addClass('weui-mask--visible');
+						$('.weui-custom-ad').addClass('weui-dialog--visible');
+						$('.activeImg').css({
+							"background-image": 'url(' + success.data.img + ')',
+							'height': h / 2 + 'px'
+						}).attr('data-url', success.data.url);
+						//存入缓存
+						if(window.localStorage) {
+							sessionStorage.setItem('aaa', '1');
+						}
+					} else if(success.err == '-100') {
+						window.location.href = 'login.html?openid=' + success.data.openid;
+					} else {
+						$('.weui-mask-ad').removeClass('weui-mask--visible');
+						$('.weui-custom-ad').removeClass('weui-dialog--visible');
+					}
+				}
+			});
+		}
+		//end广告弹框
+		//广告框
+		$('.activeIcon').on('click', function() {
+			$('.weui-mask-ad').removeClass('weui-mask--visible');
+			$('.weui-custom-ad').removeClass('weui-dialog--visible');
+		})
+		//end广告框
+		$('.storehref').on('click', function() {
+			var idx = $(this).data('idx');
+			window.location.href = 'storedetails.html?idx=' + idx;
+		})
+	</script>
+
+</html>
